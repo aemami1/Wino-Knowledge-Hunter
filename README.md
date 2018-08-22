@@ -1,5 +1,5 @@
-#+TITLE: Winograd Schema Challenge Knowledge Hunting Module
-#+AUTHOR: Ali Emami
+# Winograd Schema Challenge Knowledge Hunting Module
+# AUTHOR: Ali Emami
 
 **Idea
 
