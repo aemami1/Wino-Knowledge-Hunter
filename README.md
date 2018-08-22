@@ -16,19 +16,12 @@ of  a  Winograd  question,  (ii)  acquiring  rele- vant  knowledge  using  Infor
 
 # Results:
 
+AGQ:
 Traditional Setting Performance, no class restrictions: 
 Number of Correct: 77
 Precision: 0.56
 Recall: 0.28
 F1: 0.38
-
-
-AGQ:
-Traditional Setting Performance, no class restrictions: 
-Number of Correct: 114
-Precision: 0.57
-Recall: 0.42
-F1: 0.48
 
 
 AGQS:
