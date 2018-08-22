@@ -10,6 +10,7 @@ of  a  Winograd  question,  (ii)  acquiring  rele- vant  knowledge  using  Infor
 
 (i) Query Generation Module -- `moduleQueryGenerator.py`. Must be run using flags indicating query generation method ("standard" or "synonym", as in, through the command prompt:
 Usage:
+
    `$ python moduleComponentExtractor.py {model}`
    
    where `model` is the the type of model, either =standard= or =synonym=. It produces the set C, the set Q, and the set containing the first entities for the 273 Winograd Sentences by using the parsed CoreNLP representation of the Winograd sentences and various linguistic rules.
