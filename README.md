@@ -8,7 +8,7 @@ of  a  Winograd  question,  (ii)  acquiring  rele- vant  knowledge  using  Infor
 
 # Procedure:
 
-(i) Query Generation Module -- =moduleQueryGenerator.py=. Must be run using flags indicating query generation method ("standard" or "synonym", as in, through the command prompt:
+(i) Query Generation Module -- 'moduleQueryGenerator.py'. Must be run using flags indicating query generation method ("standard" or "synonym", as in, through the command prompt:
 Usage:
    #+BEGIN_SRC shell
    $ python moduleComponentExtractor.py {model} 
