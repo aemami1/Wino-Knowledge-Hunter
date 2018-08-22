@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>lawyer</word>
+            <lemma>lawyer</lemma>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>asked</word>
+            <lemma>ask</lemma>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>witness</word>
+            <lemma>witness</lemma>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>question</word>
+            <lemma>question</lemma>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>but</word>
+            <lemma>but</lemma>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>he</word>
+            <lemma>he</lemma>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>was</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>reluctant</word>
+            <lemma>reluctant</lemma>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>repeat</word>
+            <lemma>repeat</lemma>
+            <CharacterOffsetBegin>65</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>it</word>
+            <lemma>it</lemma>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>74</CharacterOffsetBegin>
+            <CharacterOffsetEnd>75</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (NP (DT The) (NN lawyer)) (VP (VBD asked) (S (NP (DT the) (NN witness)) (NP (DT a) (NN question))))) (, ,) (CC but) (S (NP (PRP he)) (VP (VBD was) (ADJP (JJ reluctant) (S (VP (TO to) (VP (VB repeat) (NP (PRP it)))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">asked</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">lawyer</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">asked</governor>
+            <dependent idx="2">lawyer</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">witness</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">question</governor>
+            <dependent idx="5">witness</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">question</governor>
+            <dependent idx="6">a</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="3">asked</governor>
+            <dependent idx="7">question</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">asked</governor>
+            <dependent idx="8">,</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="3">asked</governor>
+            <dependent idx="9">but</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">reluctant</governor>
+            <dependent idx="10">he</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="12">reluctant</governor>
+            <dependent idx="11">was</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="3">asked</governor>
+            <dependent idx="12">reluctant</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="14">repeat</governor>
+            <dependent idx="13">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="12">reluctant</governor>
+            <dependent idx="14">repeat</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="14">repeat</governor>
+            <dependent idx="15">it</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">asked</governor>
+            <dependent idx="16">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">asked</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">lawyer</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">asked</governor>
+            <dependent idx="2">lawyer</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">witness</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">question</governor>
+            <dependent idx="5">witness</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">question</governor>
+            <dependent idx="6">a</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="3">asked</governor>
+            <dependent idx="7">question</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">asked</governor>
+            <dependent idx="8">,</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="3">asked</governor>
+            <dependent idx="9">but</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">reluctant</governor>
+            <dependent idx="10">he</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="12">reluctant</governor>
+            <dependent idx="11">was</dependent>
+          </dep>
+          <dep type="conj:but">
+            <governor idx="3">asked</governor>
+            <dependent idx="12">reluctant</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="14">repeat</governor>
+            <dependent idx="13">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="12">reluctant</governor>
+            <dependent idx="14">repeat</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="14">repeat</governor>
+            <dependent idx="15">it</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">asked</governor>
+            <dependent idx="16">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">asked</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">lawyer</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">asked</governor>
+            <dependent idx="2">lawyer</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">witness</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">question</governor>
+            <dependent idx="5">witness</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">question</governor>
+            <dependent idx="6">a</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="3">asked</governor>
+            <dependent idx="7">question</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">asked</governor>
+            <dependent idx="8">,</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="3">asked</governor>
+            <dependent idx="9">but</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">reluctant</governor>
+            <dependent idx="10">he</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="12">reluctant</governor>
+            <dependent idx="11">was</dependent>
+          </dep>
+          <dep type="conj:but">
+            <governor idx="3">asked</governor>
+            <dependent idx="12">reluctant</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="14">repeat</governor>
+            <dependent idx="13">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="12">reluctant</governor>
+            <dependent idx="14">repeat</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="14">repeat</governor>
+            <dependent idx="15">it</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">asked</governor>
+            <dependent idx="16">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">asked</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">lawyer</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">asked</governor>
+            <dependent idx="2">lawyer</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">witness</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">question</governor>
+            <dependent idx="5">witness</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">question</governor>
+            <dependent idx="6">a</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="3">asked</governor>
+            <dependent idx="7">question</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">asked</governor>
+            <dependent idx="8">,</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="3">asked</governor>
+            <dependent idx="9">but</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">reluctant</governor>
+            <dependent idx="10">he</dependent>
+          </dep>
+          <dep type="nsubj:xsubj" extra="true">
+            <governor idx="14">repeat</governor>
+            <dependent idx="10">he</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="12">reluctant</governor>
+            <dependent idx="11">was</dependent>
+          </dep>
+          <dep type="conj:but">
+            <governor idx="3">asked</governor>
+            <dependent idx="12">reluctant</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="14">repeat</governor>
+            <dependent idx="13">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="12">reluctant</governor>
+            <dependent idx="14">repeat</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="14">repeat</governor>
+            <dependent idx="15">it</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">asked</governor>
+            <dependent idx="16">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">asked</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">lawyer</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">asked</governor>
+            <dependent idx="2">lawyer</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">witness</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">question</governor>
+            <dependent idx="5">witness</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">question</governor>
+            <dependent idx="6">a</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="3">asked</governor>
+            <dependent idx="7">question</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">asked</governor>
+            <dependent idx="8">,</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="3">asked</governor>
+            <dependent idx="9">but</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">reluctant</governor>
+            <dependent idx="10">he</dependent>
+          </dep>
+          <dep type="nsubj:xsubj" extra="true">
+            <governor idx="14">repeat</governor>
+            <dependent idx="10">he</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="12">reluctant</governor>
+            <dependent idx="11">was</dependent>
+          </dep>
+          <dep type="conj:but">
+            <governor idx="3">asked</governor>
+            <dependent idx="12">reluctant</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="14">repeat</governor>
+            <dependent idx="13">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="12">reluctant</governor>
+            <dependent idx="14">repeat</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="14">repeat</governor>
+            <dependent idx="15">it</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">asked</governor>
+            <dependent idx="16">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>1</start>
+          <end>3</end>
+          <head>2</head>
+          <text>The lawyer</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>10</start>
+          <end>11</end>
+          <head>10</head>
+          <text>he</text>
+        </mention>
+      </coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>6</start>
+          <end>8</end>
+          <head>7</head>
+          <text>a question</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>15</start>
+          <end>16</end>
+          <head>15</head>
+          <text>it</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>large</word>
+            <lemma>large</lemma>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>ball</word>
+            <lemma>ball</lemma>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>crashed</word>
+            <lemma>crash</lemma>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>right</word>
+            <lemma>right</lemma>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>through</word>
+            <lemma>through</lemma>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>table</word>
+            <lemma>table</lemma>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>because</word>
+            <lemma>because</lemma>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>it</word>
+            <lemma>it</lemma>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>was</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>made</word>
+            <lemma>make</lemma>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>styrofoam</word>
+            <lemma>styrofoam</lemma>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>79</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (DT The) (JJ large) (NN ball)) (VP (VBD crashed) (ADVP (RB right) (PP (IN through) (NP (DT the) (NN table)))) (SBAR (IN because) (S (NP (PRP it)) (VP (VBD was) (VP (VBN made) (PP (IN of) (NP (NN styrofoam)))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">crashed</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">ball</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">ball</governor>
+            <dependent idx="2">large</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">crashed</governor>
+            <dependent idx="3">ball</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">crashed</governor>
+            <dependent idx="5">right</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">table</governor>
+            <dependent idx="6">through</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">table</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="5">right</governor>
+            <dependent idx="8">table</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="12">made</governor>
+            <dependent idx="9">because</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="12">made</governor>
+            <dependent idx="10">it</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="12">made</governor>
+            <dependent idx="11">was</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="4">crashed</governor>
+            <dependent idx="12">made</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">styrofoam</governor>
+            <dependent idx="13">of</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="12">made</governor>
+            <dependent idx="14">styrofoam</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">crashed</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">crashed</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">ball</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">ball</governor>
+            <dependent idx="2">large</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">crashed</governor>
+            <dependent idx="3">ball</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">crashed</governor>
+            <dependent idx="5">right</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">table</governor>
+            <dependent idx="6">through</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">table</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="nmod:through">
+            <governor idx="5">right</governor>
+            <dependent idx="8">table</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="12">made</governor>
+            <dependent idx="9">because</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="12">made</governor>
+            <dependent idx="10">it</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="12">made</governor>
+            <dependent idx="11">was</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="4">crashed</governor>
+            <dependent idx="12">made</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">styrofoam</governor>
+            <dependent idx="13">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="12">made</governor>
+            <dependent idx="14">styrofoam</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">crashed</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">crashed</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">ball</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">ball</governor>
+            <dependent idx="2">large</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">crashed</governor>
+            <dependent idx="3">ball</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">crashed</governor>
+            <dependent idx="5">right</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">table</governor>
+            <dependent idx="6">through</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">table</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="nmod:through">
+            <governor idx="5">right</governor>
+            <dependent idx="8">table</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="12">made</governor>
+            <dependent idx="9">because</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="12">made</governor>
+            <dependent idx="10">it</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="12">made</governor>
+            <dependent idx="11">was</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="4">crashed</governor>
+            <dependent idx="12">made</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">styrofoam</governor>
+            <dependent idx="13">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="12">made</governor>
+            <dependent idx="14">styrofoam</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">crashed</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">crashed</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">ball</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">ball</governor>
+            <dependent idx="2">large</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">crashed</governor>
+            <dependent idx="3">ball</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">crashed</governor>
+            <dependent idx="5">right</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">table</governor>
+            <dependent idx="6">through</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">table</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="nmod:through">
+            <governor idx="5">right</governor>
+            <dependent idx="8">table</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="12">made</governor>
+            <dependent idx="9">because</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="12">made</governor>
+            <dependent idx="10">it</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="12">made</governor>
+            <dependent idx="11">was</dependent>
+          </dep>
+          <dep type="advcl:because">
+            <governor idx="4">crashed</governor>
+            <dependent idx="12">made</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">styrofoam</governor>
+            <dependent idx="13">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="12">made</governor>
+            <dependent idx="14">styrofoam</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">crashed</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">crashed</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">ball</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="3">ball</governor>
+            <dependent idx="2">large</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">crashed</governor>
+            <dependent idx="3">ball</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">crashed</governor>
+            <dependent idx="5">right</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">table</governor>
+            <dependent idx="6">through</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">table</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="nmod:through">
+            <governor idx="5">right</governor>
+            <dependent idx="8">table</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="12">made</governor>
+            <dependent idx="9">because</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="12">made</governor>
+            <dependent idx="10">it</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="12">made</governor>
+            <dependent idx="11">was</dependent>
+          </dep>
+          <dep type="advcl:because">
+            <governor idx="4">crashed</governor>
+            <dependent idx="12">made</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">styrofoam</governor>
+            <dependent idx="13">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="12">made</governor>
+            <dependent idx="14">styrofoam</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">crashed</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>1</start>
+          <end>4</end>
+          <head>3</head>
+          <text>The large ball</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>10</start>
+          <end>11</end>
+          <head>10</head>
+          <text>it</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

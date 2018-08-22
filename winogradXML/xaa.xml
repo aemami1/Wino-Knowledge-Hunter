@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>city</word>
+            <lemma>city</lemma>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>councilmen</word>
+            <lemma>councilmen</lemma>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>refused</word>
+            <lemma>refuse</lemma>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>demonstrators</word>
+            <lemma>demonstrator</lemma>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>permit</word>
+            <lemma>permit</lemma>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>because</word>
+            <lemma>because</lemma>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>they</word>
+            <lemma>they</lemma>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>feared</word>
+            <lemma>fear</lemma>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>violence</word>
+            <lemma>violence</lemma>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>84</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (DT The) (NN city) (NN councilmen)) (VP (VBD refused) (NP (DT the) (NNS demonstrators)) (SBAR (NP (DT a) (NN permit)) (IN because) (S (NP (PRP they)) (VP (VBD feared) (NP (NN violence)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">refused</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">councilmen</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">councilmen</governor>
+            <dependent idx="2">city</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">refused</governor>
+            <dependent idx="3">councilmen</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">demonstrators</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">refused</governor>
+            <dependent idx="6">demonstrators</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">permit</governor>
+            <dependent idx="7">a</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="11">feared</governor>
+            <dependent idx="8">permit</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="11">feared</governor>
+            <dependent idx="9">because</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">feared</governor>
+            <dependent idx="10">they</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="4">refused</governor>
+            <dependent idx="11">feared</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">feared</governor>
+            <dependent idx="12">violence</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">refused</governor>
+            <dependent idx="13">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">refused</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">councilmen</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">councilmen</governor>
+            <dependent idx="2">city</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">refused</governor>
+            <dependent idx="3">councilmen</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">demonstrators</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">refused</governor>
+            <dependent idx="6">demonstrators</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">permit</governor>
+            <dependent idx="7">a</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="11">feared</governor>
+            <dependent idx="8">permit</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="11">feared</governor>
+            <dependent idx="9">because</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">feared</governor>
+            <dependent idx="10">they</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="4">refused</governor>
+            <dependent idx="11">feared</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">feared</governor>
+            <dependent idx="12">violence</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">refused</governor>
+            <dependent idx="13">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">refused</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">councilmen</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">councilmen</governor>
+            <dependent idx="2">city</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">refused</governor>
+            <dependent idx="3">councilmen</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">demonstrators</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">refused</governor>
+            <dependent idx="6">demonstrators</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">permit</governor>
+            <dependent idx="7">a</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="11">feared</governor>
+            <dependent idx="8">permit</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="11">feared</governor>
+            <dependent idx="9">because</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">feared</governor>
+            <dependent idx="10">they</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="4">refused</governor>
+            <dependent idx="11">feared</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">feared</governor>
+            <dependent idx="12">violence</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">refused</governor>
+            <dependent idx="13">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">refused</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">councilmen</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">councilmen</governor>
+            <dependent idx="2">city</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">refused</governor>
+            <dependent idx="3">councilmen</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">demonstrators</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">refused</governor>
+            <dependent idx="6">demonstrators</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">permit</governor>
+            <dependent idx="7">a</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="11">feared</governor>
+            <dependent idx="8">permit</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="11">feared</governor>
+            <dependent idx="9">because</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">feared</governor>
+            <dependent idx="10">they</dependent>
+          </dep>
+          <dep type="advcl:because">
+            <governor idx="4">refused</governor>
+            <dependent idx="11">feared</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">feared</governor>
+            <dependent idx="12">violence</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">refused</governor>
+            <dependent idx="13">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">refused</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="3">councilmen</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="3">councilmen</governor>
+            <dependent idx="2">city</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">refused</governor>
+            <dependent idx="3">councilmen</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">demonstrators</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">refused</governor>
+            <dependent idx="6">demonstrators</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">permit</governor>
+            <dependent idx="7">a</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="11">feared</governor>
+            <dependent idx="8">permit</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="11">feared</governor>
+            <dependent idx="9">because</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">feared</governor>
+            <dependent idx="10">they</dependent>
+          </dep>
+          <dep type="advcl:because">
+            <governor idx="4">refused</governor>
+            <dependent idx="11">feared</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">feared</governor>
+            <dependent idx="12">violence</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">refused</governor>
+            <dependent idx="13">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>5</start>
+          <end>7</end>
+          <head>6</head>
+          <text>the demonstrators</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>10</start>
+          <end>11</end>
+          <head>10</head>
+          <text>they</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

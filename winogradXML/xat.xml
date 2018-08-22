@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>John</word>
+            <lemma>John</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>could</word>
+            <lemma>could</lemma>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>MD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>n't</word>
+            <lemma>not</lemma>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>see</word>
+            <lemma>see</lemma>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>stage</word>
+            <lemma>stage</lemma>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>with</word>
+            <lemma>with</lemma>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>Billy</word>
+            <lemma>Billy</lemma>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>front</word>
+            <lemma>front</lemma>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>him</word>
+            <lemma>he</lemma>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>because</word>
+            <lemma>because</lemma>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>he</word>
+            <lemma>he</lemma>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>is</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>so</word>
+            <lemma>so</lemma>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>tall</word>
+            <lemma>tall</lemma>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>76</CharacterOffsetBegin>
+            <CharacterOffsetEnd>77</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP John)) (VP (MD could) (RB n't) (VP (VB see) (NP (NP (DT the) (NN stage)) (PP (IN with) (NP (NNP Billy)))) (PP (IN in) (NP (NP (NN front)) (PP (IN of) (NP (PRP him))))) (SBAR (IN because) (S (NP (PRP he)) (VP (VBZ is) (ADJP (RB so) (JJ tall))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">see</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">see</governor>
+            <dependent idx="1">John</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">see</governor>
+            <dependent idx="2">could</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="4">see</governor>
+            <dependent idx="3">n't</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">stage</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">see</governor>
+            <dependent idx="6">stage</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">Billy</governor>
+            <dependent idx="7">with</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="6">stage</governor>
+            <dependent idx="8">Billy</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">front</governor>
+            <dependent idx="9">in</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="4">see</governor>
+            <dependent idx="10">front</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">him</governor>
+            <dependent idx="11">of</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="10">front</governor>
+            <dependent idx="12">him</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="17">tall</governor>
+            <dependent idx="13">because</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="17">tall</governor>
+            <dependent idx="14">he</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="17">tall</governor>
+            <dependent idx="15">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="17">tall</governor>
+            <dependent idx="16">so</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="4">see</governor>
+            <dependent idx="17">tall</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">see</governor>
+            <dependent idx="18">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">see</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">see</governor>
+            <dependent idx="1">John</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">see</governor>
+            <dependent idx="2">could</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="4">see</governor>
+            <dependent idx="3">n't</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">stage</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">see</governor>
+            <dependent idx="6">stage</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">Billy</governor>
+            <dependent idx="7">with</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="6">stage</governor>
+            <dependent idx="8">Billy</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">him</governor>
+            <dependent idx="9">in</dependent>
+          </dep>
+          <dep type="mwe">
+            <governor idx="9">in</governor>
+            <dependent idx="10">front</dependent>
+          </dep>
+          <dep type="mwe">
+            <governor idx="9">in</governor>
+            <dependent idx="11">of</dependent>
+          </dep>
+          <dep type="nmod:in_front_of">
+            <governor idx="4">see</governor>
+            <dependent idx="12">him</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="17">tall</governor>
+            <dependent idx="13">because</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="17">tall</governor>
+            <dependent idx="14">he</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="17">tall</governor>
+            <dependent idx="15">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="17">tall</governor>
+            <dependent idx="16">so</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="4">see</governor>
+            <dependent idx="17">tall</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">see</governor>
+            <dependent idx="18">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">see</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">see</governor>
+            <dependent idx="1">John</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">see</governor>
+            <dependent idx="2">could</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="4">see</governor>
+            <dependent idx="3">n't</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">stage</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">see</governor>
+            <dependent idx="6">stage</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">Billy</governor>
+            <dependent idx="7">with</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="6">stage</governor>
+            <dependent idx="8">Billy</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">him</governor>
+            <dependent idx="9">in</dependent>
+          </dep>
+          <dep type="mwe">
+            <governor idx="9">in</governor>
+            <dependent idx="10">front</dependent>
+          </dep>
+          <dep type="mwe">
+            <governor idx="9">in</governor>
+            <dependent idx="11">of</dependent>
+          </dep>
+          <dep type="nmod:in_front_of">
+            <governor idx="4">see</governor>
+            <dependent idx="12">him</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="17">tall</governor>
+            <dependent idx="13">because</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="17">tall</governor>
+            <dependent idx="14">he</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="17">tall</governor>
+            <dependent idx="15">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="17">tall</governor>
+            <dependent idx="16">so</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="4">see</governor>
+            <dependent idx="17">tall</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">see</governor>
+            <dependent idx="18">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">see</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">see</governor>
+            <dependent idx="1">John</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">see</governor>
+            <dependent idx="2">could</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="4">see</governor>
+            <dependent idx="3">n't</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">stage</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">see</governor>
+            <dependent idx="6">stage</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">Billy</governor>
+            <dependent idx="7">with</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="6">stage</governor>
+            <dependent idx="8">Billy</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">front</governor>
+            <dependent idx="9">in</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="4">see</governor>
+            <dependent idx="10">front</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">him</governor>
+            <dependent idx="11">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="10">front</governor>
+            <dependent idx="12">him</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="17">tall</governor>
+            <dependent idx="13">because</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="17">tall</governor>
+            <dependent idx="14">he</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="17">tall</governor>
+            <dependent idx="15">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="17">tall</governor>
+            <dependent idx="16">so</dependent>
+          </dep>
+          <dep type="advcl:because">
+            <governor idx="4">see</governor>
+            <dependent idx="17">tall</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">see</governor>
+            <dependent idx="18">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">see</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">see</governor>
+            <dependent idx="1">John</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">see</governor>
+            <dependent idx="2">could</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="4">see</governor>
+            <dependent idx="3">n't</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">stage</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">see</governor>
+            <dependent idx="6">stage</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">Billy</governor>
+            <dependent idx="7">with</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="6">stage</governor>
+            <dependent idx="8">Billy</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">him</governor>
+            <dependent idx="9">in</dependent>
+          </dep>
+          <dep type="mwe">
+            <governor idx="9">in</governor>
+            <dependent idx="10">front</dependent>
+          </dep>
+          <dep type="mwe">
+            <governor idx="9">in</governor>
+            <dependent idx="11">of</dependent>
+          </dep>
+          <dep type="nmod:in_front_of">
+            <governor idx="4">see</governor>
+            <dependent idx="12">him</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="17">tall</governor>
+            <dependent idx="13">because</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="17">tall</governor>
+            <dependent idx="14">he</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="17">tall</governor>
+            <dependent idx="15">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="17">tall</governor>
+            <dependent idx="16">so</dependent>
+          </dep>
+          <dep type="advcl:because">
+            <governor idx="4">see</governor>
+            <dependent idx="17">tall</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">see</governor>
+            <dependent idx="18">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>1</start>
+          <end>2</end>
+          <head>1</head>
+          <text>John</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>12</start>
+          <end>13</end>
+          <head>12</head>
+          <text>him</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>14</start>
+          <end>15</end>
+          <head>14</head>
+          <text>he</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

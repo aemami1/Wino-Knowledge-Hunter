@@ -1,0 +1,780 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>sun</word>
+            <lemma>sun</lemma>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>was</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>covered</word>
+            <lemma>cover</lemma>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>by</word>
+            <lemma>by</lemma>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>thick</word>
+            <lemma>thick</lemma>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>cloud</word>
+            <lemma>cloud</lemma>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>all</word>
+            <lemma>all</lemma>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>morning</word>
+            <lemma>morning</lemma>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>TIME</NER>
+            <NormalizedNER>TMO</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="TIME">TMO</Timex>
+          </token>
+          <token id="11">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>but</word>
+            <lemma>but</lemma>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>luckily</word>
+            <lemma>luckily</lemma>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>by</word>
+            <lemma>by</lemma>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>time</word>
+            <lemma>time</lemma>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="19">
+            <word>picnic</word>
+            <lemma>picnic</lemma>
+            <CharacterOffsetBegin>79</CharacterOffsetBegin>
+            <CharacterOffsetEnd>85</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="20">
+            <word>started</word>
+            <lemma>start</lemma>
+            <CharacterOffsetBegin>86</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="21">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="22">
+            <word>it</word>
+            <lemma>it</lemma>
+            <CharacterOffsetBegin>95</CharacterOffsetBegin>
+            <CharacterOffsetEnd>97</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="23">
+            <word>was</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>98</CharacterOffsetBegin>
+            <CharacterOffsetEnd>101</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="24">
+            <word>gone</word>
+            <lemma>go</lemma>
+            <CharacterOffsetBegin>102</CharacterOffsetBegin>
+            <CharacterOffsetEnd>106</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="25">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>106</CharacterOffsetBegin>
+            <CharacterOffsetEnd>107</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (NP (DT The) (NN sun)) (VP (VBD was) (VP (VBN covered) (PP (IN by) (NP (DT a) (JJ thick) (NN cloud))) (NP-TMP (DT all) (NN morning)) (, ,) (CC but) (ADVP (RB luckily)) (, ,) (PP (IN by) (NP (NP (DT the) (NN time)) (SBAR (S (NP (DT the) (NN picnic)) (VP (VBD started))))))))) (, ,) (NP (PRP it)) (VP (VBD was) (VP (VBN gone))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="24">gone</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">sun</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="4">covered</governor>
+            <dependent idx="2">sun</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="4">covered</governor>
+            <dependent idx="3">was</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="24">gone</governor>
+            <dependent idx="4">covered</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">cloud</governor>
+            <dependent idx="5">by</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">cloud</governor>
+            <dependent idx="6">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">cloud</governor>
+            <dependent idx="7">thick</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="4">covered</governor>
+            <dependent idx="8">cloud</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">morning</governor>
+            <dependent idx="9">all</dependent>
+          </dep>
+          <dep type="nmod:tmod">
+            <governor idx="4">covered</governor>
+            <dependent idx="10">morning</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">covered</governor>
+            <dependent idx="11">,</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">covered</governor>
+            <dependent idx="12">but</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">covered</governor>
+            <dependent idx="13">luckily</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">covered</governor>
+            <dependent idx="14">,</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="17">time</governor>
+            <dependent idx="15">by</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">time</governor>
+            <dependent idx="16">the</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="4">covered</governor>
+            <dependent idx="17">time</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="19">picnic</governor>
+            <dependent idx="18">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="20">started</governor>
+            <dependent idx="19">picnic</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="17">time</governor>
+            <dependent idx="20">started</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="24">gone</governor>
+            <dependent idx="21">,</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="24">gone</governor>
+            <dependent idx="22">it</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="24">gone</governor>
+            <dependent idx="23">was</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="24">gone</governor>
+            <dependent idx="25">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="24">gone</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">sun</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="4">covered</governor>
+            <dependent idx="2">sun</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="4">covered</governor>
+            <dependent idx="3">was</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="24">gone</governor>
+            <dependent idx="4">covered</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">cloud</governor>
+            <dependent idx="5">by</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">cloud</governor>
+            <dependent idx="6">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">cloud</governor>
+            <dependent idx="7">thick</dependent>
+          </dep>
+          <dep type="nmod:agent">
+            <governor idx="4">covered</governor>
+            <dependent idx="8">cloud</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">morning</governor>
+            <dependent idx="9">all</dependent>
+          </dep>
+          <dep type="nmod:tmod">
+            <governor idx="4">covered</governor>
+            <dependent idx="10">morning</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">covered</governor>
+            <dependent idx="11">,</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">covered</governor>
+            <dependent idx="12">but</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">covered</governor>
+            <dependent idx="13">luckily</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">covered</governor>
+            <dependent idx="14">,</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="17">time</governor>
+            <dependent idx="15">by</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">time</governor>
+            <dependent idx="16">the</dependent>
+          </dep>
+          <dep type="conj:but">
+            <governor idx="4">covered</governor>
+            <dependent idx="17">time</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="19">picnic</governor>
+            <dependent idx="18">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="20">started</governor>
+            <dependent idx="19">picnic</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="17">time</governor>
+            <dependent idx="20">started</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="24">gone</governor>
+            <dependent idx="21">,</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="24">gone</governor>
+            <dependent idx="22">it</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="24">gone</governor>
+            <dependent idx="23">was</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="24">gone</governor>
+            <dependent idx="25">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="24">gone</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">sun</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="4">covered</governor>
+            <dependent idx="2">sun</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="4">covered</governor>
+            <dependent idx="3">was</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="24">gone</governor>
+            <dependent idx="4">covered</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">cloud</governor>
+            <dependent idx="5">by</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">cloud</governor>
+            <dependent idx="6">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">cloud</governor>
+            <dependent idx="7">thick</dependent>
+          </dep>
+          <dep type="nmod:agent">
+            <governor idx="4">covered</governor>
+            <dependent idx="8">cloud</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">morning</governor>
+            <dependent idx="9">all</dependent>
+          </dep>
+          <dep type="nmod:tmod">
+            <governor idx="4">covered</governor>
+            <dependent idx="10">morning</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">covered</governor>
+            <dependent idx="11">,</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">covered</governor>
+            <dependent idx="12">but</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">covered</governor>
+            <dependent idx="13">luckily</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">covered</governor>
+            <dependent idx="14">,</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="17">time</governor>
+            <dependent idx="15">by</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">time</governor>
+            <dependent idx="16">the</dependent>
+          </dep>
+          <dep type="conj:but">
+            <governor idx="4">covered</governor>
+            <dependent idx="17">time</dependent>
+          </dep>
+          <dep type="ccomp" extra="true">
+            <governor idx="24">gone</governor>
+            <dependent idx="17">time</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="19">picnic</governor>
+            <dependent idx="18">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="20">started</governor>
+            <dependent idx="19">picnic</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="17">time</governor>
+            <dependent idx="20">started</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="24">gone</governor>
+            <dependent idx="21">,</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="24">gone</governor>
+            <dependent idx="22">it</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="24">gone</governor>
+            <dependent idx="23">was</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="24">gone</governor>
+            <dependent idx="25">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="24">gone</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">sun</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="4">covered</governor>
+            <dependent idx="2">sun</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="4">covered</governor>
+            <dependent idx="3">was</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="24">gone</governor>
+            <dependent idx="4">covered</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">cloud</governor>
+            <dependent idx="5">by</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">cloud</governor>
+            <dependent idx="6">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">cloud</governor>
+            <dependent idx="7">thick</dependent>
+          </dep>
+          <dep type="nmod:agent">
+            <governor idx="4">covered</governor>
+            <dependent idx="8">cloud</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">morning</governor>
+            <dependent idx="9">all</dependent>
+          </dep>
+          <dep type="nmod:tmod">
+            <governor idx="4">covered</governor>
+            <dependent idx="10">morning</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">covered</governor>
+            <dependent idx="11">,</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">covered</governor>
+            <dependent idx="12">but</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">covered</governor>
+            <dependent idx="13">luckily</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">covered</governor>
+            <dependent idx="14">,</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="17">time</governor>
+            <dependent idx="15">by</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">time</governor>
+            <dependent idx="16">the</dependent>
+          </dep>
+          <dep type="conj:but">
+            <governor idx="4">covered</governor>
+            <dependent idx="17">time</dependent>
+          </dep>
+          <dep type="ccomp" extra="true">
+            <governor idx="24">gone</governor>
+            <dependent idx="17">time</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="19">picnic</governor>
+            <dependent idx="18">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="20">started</governor>
+            <dependent idx="19">picnic</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="17">time</governor>
+            <dependent idx="20">started</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="24">gone</governor>
+            <dependent idx="21">,</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="24">gone</governor>
+            <dependent idx="22">it</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="24">gone</governor>
+            <dependent idx="23">was</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="24">gone</governor>
+            <dependent idx="25">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="24">gone</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">sun</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="4">covered</governor>
+            <dependent idx="2">sun</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="4">covered</governor>
+            <dependent idx="3">was</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="24">gone</governor>
+            <dependent idx="4">covered</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">cloud</governor>
+            <dependent idx="5">by</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">cloud</governor>
+            <dependent idx="6">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="8">cloud</governor>
+            <dependent idx="7">thick</dependent>
+          </dep>
+          <dep type="nmod:agent">
+            <governor idx="4">covered</governor>
+            <dependent idx="8">cloud</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">morning</governor>
+            <dependent idx="9">all</dependent>
+          </dep>
+          <dep type="nmod:tmod">
+            <governor idx="4">covered</governor>
+            <dependent idx="10">morning</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">covered</governor>
+            <dependent idx="11">,</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">covered</governor>
+            <dependent idx="12">but</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">covered</governor>
+            <dependent idx="13">luckily</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">covered</governor>
+            <dependent idx="14">,</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="17">time</governor>
+            <dependent idx="15">by</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">time</governor>
+            <dependent idx="16">the</dependent>
+          </dep>
+          <dep type="conj:but">
+            <governor idx="4">covered</governor>
+            <dependent idx="17">time</dependent>
+          </dep>
+          <dep type="ccomp" extra="true">
+            <governor idx="24">gone</governor>
+            <dependent idx="17">time</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="19">picnic</governor>
+            <dependent idx="18">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="20">started</governor>
+            <dependent idx="19">picnic</dependent>
+          </dep>
+          <dep type="acl:relcl">
+            <governor idx="17">time</governor>
+            <dependent idx="20">started</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="24">gone</governor>
+            <dependent idx="21">,</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="24">gone</governor>
+            <dependent idx="22">it</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="24">gone</governor>
+            <dependent idx="23">was</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="24">gone</governor>
+            <dependent idx="25">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>1</start>
+          <end>3</end>
+          <head>2</head>
+          <text>The sun</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>22</start>
+          <end>23</end>
+          <head>22</head>
+          <text>it</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

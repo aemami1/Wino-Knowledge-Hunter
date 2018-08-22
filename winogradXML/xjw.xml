@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Jane</word>
+            <lemma>Jane</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>gave</word>
+            <lemma>give</lemma>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>Joan</word>
+            <lemma>Joan</lemma>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>candy</word>
+            <lemma>candy</lemma>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>because</word>
+            <lemma>because</lemma>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>she</word>
+            <lemma>she</lemma>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>was</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>hungry</word>
+            <lemma>hungry</lemma>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Jane)) (VP (VBD gave) (NP (NNP Joan) (NN candy)) (SBAR (IN because) (S (NP (PRP she)) (VP (VBD was) (ADJP (JJ hungry)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">gave</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">gave</governor>
+            <dependent idx="1">Jane</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">candy</governor>
+            <dependent idx="3">Joan</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">gave</governor>
+            <dependent idx="4">candy</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="8">hungry</governor>
+            <dependent idx="5">because</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">hungry</governor>
+            <dependent idx="6">she</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="8">hungry</governor>
+            <dependent idx="7">was</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="2">gave</governor>
+            <dependent idx="8">hungry</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">gave</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">gave</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">gave</governor>
+            <dependent idx="1">Jane</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">candy</governor>
+            <dependent idx="3">Joan</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">gave</governor>
+            <dependent idx="4">candy</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="8">hungry</governor>
+            <dependent idx="5">because</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">hungry</governor>
+            <dependent idx="6">she</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="8">hungry</governor>
+            <dependent idx="7">was</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="2">gave</governor>
+            <dependent idx="8">hungry</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">gave</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">gave</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">gave</governor>
+            <dependent idx="1">Jane</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">candy</governor>
+            <dependent idx="3">Joan</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">gave</governor>
+            <dependent idx="4">candy</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="8">hungry</governor>
+            <dependent idx="5">because</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">hungry</governor>
+            <dependent idx="6">she</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="8">hungry</governor>
+            <dependent idx="7">was</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="2">gave</governor>
+            <dependent idx="8">hungry</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">gave</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">gave</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">gave</governor>
+            <dependent idx="1">Jane</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">candy</governor>
+            <dependent idx="3">Joan</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">gave</governor>
+            <dependent idx="4">candy</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="8">hungry</governor>
+            <dependent idx="5">because</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">hungry</governor>
+            <dependent idx="6">she</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="8">hungry</governor>
+            <dependent idx="7">was</dependent>
+          </dep>
+          <dep type="advcl:because">
+            <governor idx="2">gave</governor>
+            <dependent idx="8">hungry</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">gave</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">gave</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">gave</governor>
+            <dependent idx="1">Jane</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="4">candy</governor>
+            <dependent idx="3">Joan</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">gave</governor>
+            <dependent idx="4">candy</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="8">hungry</governor>
+            <dependent idx="5">because</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">hungry</governor>
+            <dependent idx="6">she</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="8">hungry</governor>
+            <dependent idx="7">was</dependent>
+          </dep>
+          <dep type="advcl:because">
+            <governor idx="2">gave</governor>
+            <dependent idx="8">hungry</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">gave</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>1</start>
+          <end>2</end>
+          <head>1</head>
+          <text>Jane</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>6</start>
+          <end>7</end>
+          <head>6</head>
+          <text>she</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

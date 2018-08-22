@@ -1,0 +1,839 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Everyone</word>
+            <lemma>everyone</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>really</word>
+            <lemma>really</lemma>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>loved</word>
+            <lemma>love</lemma>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>oatmeal</word>
+            <lemma>oatmeal</lemma>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>cookies</word>
+            <lemma>cookie</lemma>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>;</word>
+            <lemma>;</lemma>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>only</word>
+            <lemma>only</lemma>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>few</word>
+            <lemma>few</lemma>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>people</word>
+            <lemma>people</lemma>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>liked</word>
+            <lemma>like</lemma>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>chocolate</word>
+            <lemma>chocolate</lemma>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>chip</word>
+            <lemma>chip</lemma>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>85</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>cookies</word>
+            <lemma>cookie</lemma>
+            <CharacterOffsetBegin>86</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (NP (NN Everyone)) (ADVP (RB really)) (VP (VBD loved) (NP (DT the) (NN oatmeal) (NNS cookies)))) (: ;) (S (NP (RB only) (DT a) (JJ few) (NNS people)) (VP (VBD liked) (NP (DT the) (NN chocolate) (NN chip) (NNS cookies)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">loved</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">loved</governor>
+            <dependent idx="1">Everyone</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">loved</governor>
+            <dependent idx="2">really</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">cookies</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">cookies</governor>
+            <dependent idx="5">oatmeal</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">loved</governor>
+            <dependent idx="6">cookies</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">loved</governor>
+            <dependent idx="7">;</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="11">people</governor>
+            <dependent idx="8">only</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">people</governor>
+            <dependent idx="9">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">people</governor>
+            <dependent idx="10">few</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">liked</governor>
+            <dependent idx="11">people</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="3">loved</governor>
+            <dependent idx="12">liked</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">cookies</governor>
+            <dependent idx="13">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">cookies</governor>
+            <dependent idx="14">chocolate</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">cookies</governor>
+            <dependent idx="15">chip</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="12">liked</governor>
+            <dependent idx="16">cookies</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">loved</governor>
+            <dependent idx="17">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">loved</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">loved</governor>
+            <dependent idx="1">Everyone</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">loved</governor>
+            <dependent idx="2">really</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">cookies</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">cookies</governor>
+            <dependent idx="5">oatmeal</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">loved</governor>
+            <dependent idx="6">cookies</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">loved</governor>
+            <dependent idx="7">;</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="11">people</governor>
+            <dependent idx="8">only</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">people</governor>
+            <dependent idx="9">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">people</governor>
+            <dependent idx="10">few</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">liked</governor>
+            <dependent idx="11">people</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="3">loved</governor>
+            <dependent idx="12">liked</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">cookies</governor>
+            <dependent idx="13">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">cookies</governor>
+            <dependent idx="14">chocolate</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">cookies</governor>
+            <dependent idx="15">chip</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="12">liked</governor>
+            <dependent idx="16">cookies</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">loved</governor>
+            <dependent idx="17">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">loved</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">loved</governor>
+            <dependent idx="1">Everyone</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">loved</governor>
+            <dependent idx="2">really</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">cookies</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">cookies</governor>
+            <dependent idx="5">oatmeal</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">loved</governor>
+            <dependent idx="6">cookies</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">loved</governor>
+            <dependent idx="7">;</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="11">people</governor>
+            <dependent idx="8">only</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">people</governor>
+            <dependent idx="9">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">people</governor>
+            <dependent idx="10">few</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">liked</governor>
+            <dependent idx="11">people</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="3">loved</governor>
+            <dependent idx="12">liked</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">cookies</governor>
+            <dependent idx="13">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">cookies</governor>
+            <dependent idx="14">chocolate</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">cookies</governor>
+            <dependent idx="15">chip</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="12">liked</governor>
+            <dependent idx="16">cookies</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">loved</governor>
+            <dependent idx="17">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">loved</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">loved</governor>
+            <dependent idx="1">Everyone</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">loved</governor>
+            <dependent idx="2">really</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">cookies</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">cookies</governor>
+            <dependent idx="5">oatmeal</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">loved</governor>
+            <dependent idx="6">cookies</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">loved</governor>
+            <dependent idx="7">;</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="11">people</governor>
+            <dependent idx="8">only</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">people</governor>
+            <dependent idx="9">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">people</governor>
+            <dependent idx="10">few</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">liked</governor>
+            <dependent idx="11">people</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="3">loved</governor>
+            <dependent idx="12">liked</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">cookies</governor>
+            <dependent idx="13">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">cookies</governor>
+            <dependent idx="14">chocolate</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">cookies</governor>
+            <dependent idx="15">chip</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="12">liked</governor>
+            <dependent idx="16">cookies</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">loved</governor>
+            <dependent idx="17">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">loved</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">loved</governor>
+            <dependent idx="1">Everyone</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">loved</governor>
+            <dependent idx="2">really</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">cookies</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">cookies</governor>
+            <dependent idx="5">oatmeal</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">loved</governor>
+            <dependent idx="6">cookies</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">loved</governor>
+            <dependent idx="7">;</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="11">people</governor>
+            <dependent idx="8">only</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">people</governor>
+            <dependent idx="9">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="11">people</governor>
+            <dependent idx="10">few</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">liked</governor>
+            <dependent idx="11">people</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="3">loved</governor>
+            <dependent idx="12">liked</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">cookies</governor>
+            <dependent idx="13">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">cookies</governor>
+            <dependent idx="14">chocolate</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">cookies</governor>
+            <dependent idx="15">chip</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="12">liked</governor>
+            <dependent idx="16">cookies</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">loved</governor>
+            <dependent idx="17">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>Next</word>
+            <lemma>next</lemma>
+            <CharacterOffsetBegin>95</CharacterOffsetBegin>
+            <CharacterOffsetEnd>99</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>time</word>
+            <lemma>time</lemma>
+            <CharacterOffsetBegin>100</CharacterOffsetBegin>
+            <CharacterOffsetEnd>104</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>105</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>we</word>
+            <lemma>we</lemma>
+            <CharacterOffsetBegin>106</CharacterOffsetBegin>
+            <CharacterOffsetEnd>108</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>should</word>
+            <lemma>should</lemma>
+            <CharacterOffsetBegin>109</CharacterOffsetBegin>
+            <CharacterOffsetEnd>115</CharacterOffsetEnd>
+            <POS>MD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>make</word>
+            <lemma>make</lemma>
+            <CharacterOffsetBegin>116</CharacterOffsetBegin>
+            <CharacterOffsetEnd>120</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>fewer</word>
+            <lemma>fewer</lemma>
+            <CharacterOffsetBegin>121</CharacterOffsetBegin>
+            <CharacterOffsetEnd>126</CharacterOffsetEnd>
+            <POS>JJR</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>127</CharacterOffsetBegin>
+            <CharacterOffsetEnd>129</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>them</word>
+            <lemma>they</lemma>
+            <CharacterOffsetBegin>130</CharacterOffsetBegin>
+            <CharacterOffsetEnd>134</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>134</CharacterOffsetBegin>
+            <CharacterOffsetEnd>135</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP-TMP (JJ Next) (NN time)) (, ,) (NP (PRP we)) (VP (MD should) (VP (VB make) (NP (NP (JJR fewer)) (PP (IN of) (NP (PRP them)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">make</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">time</governor>
+            <dependent idx="1">Next</dependent>
+          </dep>
+          <dep type="nmod:tmod">
+            <governor idx="6">make</governor>
+            <dependent idx="2">time</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">make</governor>
+            <dependent idx="3">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">make</governor>
+            <dependent idx="4">we</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">make</governor>
+            <dependent idx="5">should</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">make</governor>
+            <dependent idx="7">fewer</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">them</governor>
+            <dependent idx="8">of</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="7">fewer</governor>
+            <dependent idx="9">them</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">make</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">make</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">time</governor>
+            <dependent idx="1">Next</dependent>
+          </dep>
+          <dep type="nmod:tmod">
+            <governor idx="6">make</governor>
+            <dependent idx="2">time</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">make</governor>
+            <dependent idx="3">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">make</governor>
+            <dependent idx="4">we</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">make</governor>
+            <dependent idx="5">should</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">make</governor>
+            <dependent idx="7">fewer</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">them</governor>
+            <dependent idx="8">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="7">fewer</governor>
+            <dependent idx="9">them</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">make</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">make</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">time</governor>
+            <dependent idx="1">Next</dependent>
+          </dep>
+          <dep type="nmod:tmod">
+            <governor idx="6">make</governor>
+            <dependent idx="2">time</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">make</governor>
+            <dependent idx="3">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">make</governor>
+            <dependent idx="4">we</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">make</governor>
+            <dependent idx="5">should</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">make</governor>
+            <dependent idx="7">fewer</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">them</governor>
+            <dependent idx="8">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="7">fewer</governor>
+            <dependent idx="9">them</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">make</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">make</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">time</governor>
+            <dependent idx="1">Next</dependent>
+          </dep>
+          <dep type="nmod:tmod">
+            <governor idx="6">make</governor>
+            <dependent idx="2">time</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">make</governor>
+            <dependent idx="3">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">make</governor>
+            <dependent idx="4">we</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">make</governor>
+            <dependent idx="5">should</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">make</governor>
+            <dependent idx="7">fewer</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">them</governor>
+            <dependent idx="8">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="7">fewer</governor>
+            <dependent idx="9">them</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">make</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">make</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="2">time</governor>
+            <dependent idx="1">Next</dependent>
+          </dep>
+          <dep type="nmod:tmod">
+            <governor idx="6">make</governor>
+            <dependent idx="2">time</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">make</governor>
+            <dependent idx="3">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">make</governor>
+            <dependent idx="4">we</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">make</governor>
+            <dependent idx="5">should</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">make</governor>
+            <dependent idx="7">fewer</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">them</governor>
+            <dependent idx="8">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="7">fewer</governor>
+            <dependent idx="9">them</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">make</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>8</start>
+          <end>12</end>
+          <head>11</head>
+          <text>only a few people</text>
+        </mention>
+        <mention>
+          <sentence>2</sentence>
+          <start>9</start>
+          <end>10</end>
+          <head>9</head>
+          <text>them</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

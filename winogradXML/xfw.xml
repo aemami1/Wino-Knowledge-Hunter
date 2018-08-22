@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>I</word>
+            <lemma>I</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>ca</word>
+            <lemma>can</lemma>
+            <CharacterOffsetBegin>2</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>MD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>n't</word>
+            <lemma>not</lemma>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>cut</word>
+            <lemma>cut</lemma>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>that</word>
+            <lemma>that</lemma>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>tree</word>
+            <lemma>tree</lemma>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>down</word>
+            <lemma>down</lemma>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>RP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>with</word>
+            <lemma>with</lemma>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>that</word>
+            <lemma>that</lemma>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>axe</word>
+            <lemma>axe</lemma>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>;</word>
+            <lemma>;</lemma>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>:</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>it</word>
+            <lemma>it</lemma>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>is</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>too</word>
+            <lemma>too</lemma>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>thick</word>
+            <lemma>thick</lemma>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (NP (PRP I)) (VP (MD ca) (RB n't) (VP (VB cut) (NP (DT that) (NN tree)) (PRT (RP down)) (PP (IN with) (NP (DT that) (NN axe)))))) (: ;) (S (NP (PRP it)) (VP (VBZ is) (ADJP (RB too) (JJ thick)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">cut</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">cut</governor>
+            <dependent idx="1">I</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">cut</governor>
+            <dependent idx="2">ca</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="4">cut</governor>
+            <dependent idx="3">n't</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">tree</governor>
+            <dependent idx="5">that</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">cut</governor>
+            <dependent idx="6">tree</dependent>
+          </dep>
+          <dep type="compound:prt">
+            <governor idx="4">cut</governor>
+            <dependent idx="7">down</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">axe</governor>
+            <dependent idx="8">with</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">axe</governor>
+            <dependent idx="9">that</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="4">cut</governor>
+            <dependent idx="10">axe</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">cut</governor>
+            <dependent idx="11">;</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="15">thick</governor>
+            <dependent idx="12">it</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="15">thick</governor>
+            <dependent idx="13">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="15">thick</governor>
+            <dependent idx="14">too</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="4">cut</governor>
+            <dependent idx="15">thick</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">cut</governor>
+            <dependent idx="16">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">cut</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">cut</governor>
+            <dependent idx="1">I</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">cut</governor>
+            <dependent idx="2">ca</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="4">cut</governor>
+            <dependent idx="3">n't</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">tree</governor>
+            <dependent idx="5">that</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">cut</governor>
+            <dependent idx="6">tree</dependent>
+          </dep>
+          <dep type="compound:prt">
+            <governor idx="4">cut</governor>
+            <dependent idx="7">down</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">axe</governor>
+            <dependent idx="8">with</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">axe</governor>
+            <dependent idx="9">that</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="4">cut</governor>
+            <dependent idx="10">axe</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">cut</governor>
+            <dependent idx="11">;</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="15">thick</governor>
+            <dependent idx="12">it</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="15">thick</governor>
+            <dependent idx="13">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="15">thick</governor>
+            <dependent idx="14">too</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="4">cut</governor>
+            <dependent idx="15">thick</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">cut</governor>
+            <dependent idx="16">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">cut</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">cut</governor>
+            <dependent idx="1">I</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">cut</governor>
+            <dependent idx="2">ca</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="4">cut</governor>
+            <dependent idx="3">n't</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">tree</governor>
+            <dependent idx="5">that</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">cut</governor>
+            <dependent idx="6">tree</dependent>
+          </dep>
+          <dep type="compound:prt">
+            <governor idx="4">cut</governor>
+            <dependent idx="7">down</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">axe</governor>
+            <dependent idx="8">with</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">axe</governor>
+            <dependent idx="9">that</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="4">cut</governor>
+            <dependent idx="10">axe</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">cut</governor>
+            <dependent idx="11">;</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="15">thick</governor>
+            <dependent idx="12">it</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="15">thick</governor>
+            <dependent idx="13">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="15">thick</governor>
+            <dependent idx="14">too</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="4">cut</governor>
+            <dependent idx="15">thick</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">cut</governor>
+            <dependent idx="16">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">cut</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">cut</governor>
+            <dependent idx="1">I</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">cut</governor>
+            <dependent idx="2">ca</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="4">cut</governor>
+            <dependent idx="3">n't</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">tree</governor>
+            <dependent idx="5">that</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">cut</governor>
+            <dependent idx="6">tree</dependent>
+          </dep>
+          <dep type="compound:prt">
+            <governor idx="4">cut</governor>
+            <dependent idx="7">down</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">axe</governor>
+            <dependent idx="8">with</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">axe</governor>
+            <dependent idx="9">that</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="4">cut</governor>
+            <dependent idx="10">axe</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">cut</governor>
+            <dependent idx="11">;</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="15">thick</governor>
+            <dependent idx="12">it</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="15">thick</governor>
+            <dependent idx="13">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="15">thick</governor>
+            <dependent idx="14">too</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="4">cut</governor>
+            <dependent idx="15">thick</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">cut</governor>
+            <dependent idx="16">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">cut</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">cut</governor>
+            <dependent idx="1">I</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">cut</governor>
+            <dependent idx="2">ca</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="4">cut</governor>
+            <dependent idx="3">n't</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">tree</governor>
+            <dependent idx="5">that</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">cut</governor>
+            <dependent idx="6">tree</dependent>
+          </dep>
+          <dep type="compound:prt">
+            <governor idx="4">cut</governor>
+            <dependent idx="7">down</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">axe</governor>
+            <dependent idx="8">with</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">axe</governor>
+            <dependent idx="9">that</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="4">cut</governor>
+            <dependent idx="10">axe</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">cut</governor>
+            <dependent idx="11">;</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="15">thick</governor>
+            <dependent idx="12">it</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="15">thick</governor>
+            <dependent idx="13">is</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="15">thick</governor>
+            <dependent idx="14">too</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="4">cut</governor>
+            <dependent idx="15">thick</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">cut</governor>
+            <dependent idx="16">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>5</start>
+          <end>7</end>
+          <head>6</head>
+          <text>that tree</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>12</start>
+          <end>13</end>
+          <head>12</head>
+          <text>it</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

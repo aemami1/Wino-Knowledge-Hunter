@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Carol</word>
+            <lemma>Carol</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>believed</word>
+            <lemma>believe</lemma>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>that</word>
+            <lemma>that</lemma>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>Rebecca</word>
+            <lemma>Rebecca</lemma>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>suspected</word>
+            <lemma>suspect</lemma>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>that</word>
+            <lemma>that</lemma>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>she</word>
+            <lemma>she</lemma>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>had</word>
+            <lemma>have</lemma>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>stolen</word>
+            <lemma>steal</lemma>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>watch</word>
+            <lemma>watch</lemma>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Carol)) (VP (VBD believed) (SBAR (IN that) (S (NP (NNP Rebecca)) (VP (VBD suspected) (SBAR (IN that) (S (NP (PRP she)) (VP (VBD had) (VP (VBN stolen) (NP (DT the) (NN watch)))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">believed</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">believed</governor>
+            <dependent idx="1">Carol</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="5">suspected</governor>
+            <dependent idx="3">that</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">suspected</governor>
+            <dependent idx="4">Rebecca</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">believed</governor>
+            <dependent idx="5">suspected</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="9">stolen</governor>
+            <dependent idx="6">that</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">stolen</governor>
+            <dependent idx="7">she</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="9">stolen</governor>
+            <dependent idx="8">had</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="5">suspected</governor>
+            <dependent idx="9">stolen</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">watch</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">stolen</governor>
+            <dependent idx="11">watch</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">believed</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">believed</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">believed</governor>
+            <dependent idx="1">Carol</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="5">suspected</governor>
+            <dependent idx="3">that</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">suspected</governor>
+            <dependent idx="4">Rebecca</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">believed</governor>
+            <dependent idx="5">suspected</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="9">stolen</governor>
+            <dependent idx="6">that</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">stolen</governor>
+            <dependent idx="7">she</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="9">stolen</governor>
+            <dependent idx="8">had</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="5">suspected</governor>
+            <dependent idx="9">stolen</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">watch</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">stolen</governor>
+            <dependent idx="11">watch</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">believed</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">believed</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">believed</governor>
+            <dependent idx="1">Carol</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="5">suspected</governor>
+            <dependent idx="3">that</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">suspected</governor>
+            <dependent idx="4">Rebecca</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">believed</governor>
+            <dependent idx="5">suspected</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="9">stolen</governor>
+            <dependent idx="6">that</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">stolen</governor>
+            <dependent idx="7">she</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="9">stolen</governor>
+            <dependent idx="8">had</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="5">suspected</governor>
+            <dependent idx="9">stolen</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">watch</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">stolen</governor>
+            <dependent idx="11">watch</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">believed</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">believed</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">believed</governor>
+            <dependent idx="1">Carol</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="5">suspected</governor>
+            <dependent idx="3">that</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">suspected</governor>
+            <dependent idx="4">Rebecca</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">believed</governor>
+            <dependent idx="5">suspected</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="9">stolen</governor>
+            <dependent idx="6">that</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">stolen</governor>
+            <dependent idx="7">she</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="9">stolen</governor>
+            <dependent idx="8">had</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="5">suspected</governor>
+            <dependent idx="9">stolen</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">watch</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">stolen</governor>
+            <dependent idx="11">watch</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">believed</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">believed</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">believed</governor>
+            <dependent idx="1">Carol</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="5">suspected</governor>
+            <dependent idx="3">that</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">suspected</governor>
+            <dependent idx="4">Rebecca</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="2">believed</governor>
+            <dependent idx="5">suspected</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="9">stolen</governor>
+            <dependent idx="6">that</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">stolen</governor>
+            <dependent idx="7">she</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="9">stolen</governor>
+            <dependent idx="8">had</dependent>
+          </dep>
+          <dep type="ccomp">
+            <governor idx="5">suspected</governor>
+            <dependent idx="9">stolen</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">watch</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="9">stolen</governor>
+            <dependent idx="11">watch</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">believed</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>4</start>
+          <end>5</end>
+          <head>4</head>
+          <text>Rebecca</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>7</start>
+          <end>8</end>
+          <head>7</head>
+          <text>she</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

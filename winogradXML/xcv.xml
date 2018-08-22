@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>I</word>
+            <lemma>I</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>could</word>
+            <lemma>could</lemma>
+            <CharacterOffsetBegin>2</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>MD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>n't</word>
+            <lemma>not</lemma>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>put</word>
+            <lemma>put</lemma>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>pot</word>
+            <lemma>pot</lemma>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>on</word>
+            <lemma>on</lemma>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>shelf</word>
+            <lemma>shelf</lemma>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>because</word>
+            <lemma>because</lemma>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>it</word>
+            <lemma>it</lemma>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>was</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>too</word>
+            <lemma>too</lemma>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>high</word>
+            <lemma>high</lemma>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PRP I)) (VP (MD could) (RB n't) (VP (VB put) (NP (DT the) (NN pot)) (PP (IN on) (NP (DT the) (NN shelf))) (SBAR (IN because) (S (NP (PRP it)) (VP (VBD was) (ADJP (RB too) (JJ high))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">put</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">put</governor>
+            <dependent idx="1">I</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">put</governor>
+            <dependent idx="2">could</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="4">put</governor>
+            <dependent idx="3">n't</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">pot</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">put</governor>
+            <dependent idx="6">pot</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">shelf</governor>
+            <dependent idx="7">on</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">shelf</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="4">put</governor>
+            <dependent idx="9">shelf</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="14">high</governor>
+            <dependent idx="10">because</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">high</governor>
+            <dependent idx="11">it</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="14">high</governor>
+            <dependent idx="12">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="14">high</governor>
+            <dependent idx="13">too</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="4">put</governor>
+            <dependent idx="14">high</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">put</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">put</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">put</governor>
+            <dependent idx="1">I</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">put</governor>
+            <dependent idx="2">could</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="4">put</governor>
+            <dependent idx="3">n't</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">pot</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">put</governor>
+            <dependent idx="6">pot</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">shelf</governor>
+            <dependent idx="7">on</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">shelf</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="4">put</governor>
+            <dependent idx="9">shelf</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="14">high</governor>
+            <dependent idx="10">because</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">high</governor>
+            <dependent idx="11">it</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="14">high</governor>
+            <dependent idx="12">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="14">high</governor>
+            <dependent idx="13">too</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="4">put</governor>
+            <dependent idx="14">high</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">put</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">put</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">put</governor>
+            <dependent idx="1">I</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">put</governor>
+            <dependent idx="2">could</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="4">put</governor>
+            <dependent idx="3">n't</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">pot</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">put</governor>
+            <dependent idx="6">pot</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">shelf</governor>
+            <dependent idx="7">on</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">shelf</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="4">put</governor>
+            <dependent idx="9">shelf</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="14">high</governor>
+            <dependent idx="10">because</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">high</governor>
+            <dependent idx="11">it</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="14">high</governor>
+            <dependent idx="12">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="14">high</governor>
+            <dependent idx="13">too</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="4">put</governor>
+            <dependent idx="14">high</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">put</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">put</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">put</governor>
+            <dependent idx="1">I</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">put</governor>
+            <dependent idx="2">could</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="4">put</governor>
+            <dependent idx="3">n't</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">pot</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">put</governor>
+            <dependent idx="6">pot</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">shelf</governor>
+            <dependent idx="7">on</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">shelf</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="4">put</governor>
+            <dependent idx="9">shelf</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="14">high</governor>
+            <dependent idx="10">because</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">high</governor>
+            <dependent idx="11">it</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="14">high</governor>
+            <dependent idx="12">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="14">high</governor>
+            <dependent idx="13">too</dependent>
+          </dep>
+          <dep type="advcl:because">
+            <governor idx="4">put</governor>
+            <dependent idx="14">high</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">put</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">put</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">put</governor>
+            <dependent idx="1">I</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">put</governor>
+            <dependent idx="2">could</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="4">put</governor>
+            <dependent idx="3">n't</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">pot</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">put</governor>
+            <dependent idx="6">pot</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">shelf</governor>
+            <dependent idx="7">on</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">shelf</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="4">put</governor>
+            <dependent idx="9">shelf</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="14">high</governor>
+            <dependent idx="10">because</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">high</governor>
+            <dependent idx="11">it</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="14">high</governor>
+            <dependent idx="12">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="14">high</governor>
+            <dependent idx="13">too</dependent>
+          </dep>
+          <dep type="advcl:because">
+            <governor idx="4">put</governor>
+            <dependent idx="14">high</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">put</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>5</start>
+          <end>7</end>
+          <head>6</head>
+          <text>the pot</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>11</start>
+          <end>12</end>
+          <head>11</head>
+          <text>it</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Kirilov</word>
+            <lemma>Kirilov</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>ceded</word>
+            <lemma>cede</lemma>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>presidency</word>
+            <lemma>presidency</lemma>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>Shatov</word>
+            <lemma>shatov</lemma>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>FW</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>because</word>
+            <lemma>because</lemma>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>he</word>
+            <lemma>he</lemma>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>was</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>more</word>
+            <lemma>more</lemma>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>RBR</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>popular</word>
+            <lemma>popular</lemma>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Kirilov)) (VP (VBD ceded) (NP (DT the) (NN presidency)) (PP (TO to) (NP (FW Shatov))) (SBAR (IN because) (S (NP (PRP he)) (VP (VBD was) (ADJP (RBR more) (JJ popular)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">ceded</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">ceded</governor>
+            <dependent idx="1">Kirilov</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">presidency</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">ceded</governor>
+            <dependent idx="4">presidency</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Shatov</governor>
+            <dependent idx="5">to</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="2">ceded</governor>
+            <dependent idx="6">Shatov</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="11">popular</governor>
+            <dependent idx="7">because</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">popular</governor>
+            <dependent idx="8">he</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="11">popular</governor>
+            <dependent idx="9">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="11">popular</governor>
+            <dependent idx="10">more</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="2">ceded</governor>
+            <dependent idx="11">popular</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">ceded</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">ceded</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">ceded</governor>
+            <dependent idx="1">Kirilov</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">presidency</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">ceded</governor>
+            <dependent idx="4">presidency</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Shatov</governor>
+            <dependent idx="5">to</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="2">ceded</governor>
+            <dependent idx="6">Shatov</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="11">popular</governor>
+            <dependent idx="7">because</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">popular</governor>
+            <dependent idx="8">he</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="11">popular</governor>
+            <dependent idx="9">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="11">popular</governor>
+            <dependent idx="10">more</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="2">ceded</governor>
+            <dependent idx="11">popular</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">ceded</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">ceded</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">ceded</governor>
+            <dependent idx="1">Kirilov</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">presidency</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">ceded</governor>
+            <dependent idx="4">presidency</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Shatov</governor>
+            <dependent idx="5">to</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="2">ceded</governor>
+            <dependent idx="6">Shatov</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="11">popular</governor>
+            <dependent idx="7">because</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">popular</governor>
+            <dependent idx="8">he</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="11">popular</governor>
+            <dependent idx="9">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="11">popular</governor>
+            <dependent idx="10">more</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="2">ceded</governor>
+            <dependent idx="11">popular</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">ceded</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">ceded</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">ceded</governor>
+            <dependent idx="1">Kirilov</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">presidency</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">ceded</governor>
+            <dependent idx="4">presidency</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Shatov</governor>
+            <dependent idx="5">to</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="2">ceded</governor>
+            <dependent idx="6">Shatov</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="11">popular</governor>
+            <dependent idx="7">because</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">popular</governor>
+            <dependent idx="8">he</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="11">popular</governor>
+            <dependent idx="9">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="11">popular</governor>
+            <dependent idx="10">more</dependent>
+          </dep>
+          <dep type="advcl:because">
+            <governor idx="2">ceded</governor>
+            <dependent idx="11">popular</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">ceded</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">ceded</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">ceded</governor>
+            <dependent idx="1">Kirilov</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">presidency</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">ceded</governor>
+            <dependent idx="4">presidency</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Shatov</governor>
+            <dependent idx="5">to</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="2">ceded</governor>
+            <dependent idx="6">Shatov</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="11">popular</governor>
+            <dependent idx="7">because</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">popular</governor>
+            <dependent idx="8">he</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="11">popular</governor>
+            <dependent idx="9">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="11">popular</governor>
+            <dependent idx="10">more</dependent>
+          </dep>
+          <dep type="advcl:because">
+            <governor idx="2">ceded</governor>
+            <dependent idx="11">popular</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">ceded</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>1</start>
+          <end>2</end>
+          <head>1</head>
+          <text>Kirilov</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>8</start>
+          <end>9</end>
+          <head>8</head>
+          <text>he</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

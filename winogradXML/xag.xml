@@ -1,0 +1,484 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Paul</word>
+            <lemma>Paul</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>tried</word>
+            <lemma>try</lemma>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>call</word>
+            <lemma>call</lemma>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>George</word>
+            <lemma>George</lemma>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>on</word>
+            <lemma>on</lemma>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>phone</word>
+            <lemma>phone</lemma>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>but</word>
+            <lemma>but</lemma>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>he</word>
+            <lemma>he</lemma>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>was</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>n't</word>
+            <lemma>not</lemma>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>successful</word>
+            <lemma>successful</lemma>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (NP (NNP Paul)) (VP (VBD tried) (S (VP (TO to) (VP (VB call) (NP (NP (NNP George)) (PP (IN on) (NP (DT the) (NN phone))))))))) (, ,) (CC but) (S (NP (PRP he)) (VP (VBD was) (RB n't) (ADJP (JJ successful)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">tried</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">tried</governor>
+            <dependent idx="1">Paul</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="4">call</governor>
+            <dependent idx="3">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="2">tried</governor>
+            <dependent idx="4">call</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">call</governor>
+            <dependent idx="5">George</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">phone</governor>
+            <dependent idx="6">on</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">phone</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="5">George</governor>
+            <dependent idx="8">phone</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">tried</governor>
+            <dependent idx="9">,</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="2">tried</governor>
+            <dependent idx="10">but</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">successful</governor>
+            <dependent idx="11">he</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="14">successful</governor>
+            <dependent idx="12">was</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="14">successful</governor>
+            <dependent idx="13">n't</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="2">tried</governor>
+            <dependent idx="14">successful</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">tried</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">tried</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">tried</governor>
+            <dependent idx="1">Paul</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="4">call</governor>
+            <dependent idx="3">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="2">tried</governor>
+            <dependent idx="4">call</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">call</governor>
+            <dependent idx="5">George</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">phone</governor>
+            <dependent idx="6">on</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">phone</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="5">George</governor>
+            <dependent idx="8">phone</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">tried</governor>
+            <dependent idx="9">,</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="2">tried</governor>
+            <dependent idx="10">but</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">successful</governor>
+            <dependent idx="11">he</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="14">successful</governor>
+            <dependent idx="12">was</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="14">successful</governor>
+            <dependent idx="13">n't</dependent>
+          </dep>
+          <dep type="conj:but">
+            <governor idx="2">tried</governor>
+            <dependent idx="14">successful</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">tried</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">tried</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">tried</governor>
+            <dependent idx="1">Paul</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="4">call</governor>
+            <dependent idx="3">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="2">tried</governor>
+            <dependent idx="4">call</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">call</governor>
+            <dependent idx="5">George</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">phone</governor>
+            <dependent idx="6">on</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">phone</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="5">George</governor>
+            <dependent idx="8">phone</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">tried</governor>
+            <dependent idx="9">,</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="2">tried</governor>
+            <dependent idx="10">but</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">successful</governor>
+            <dependent idx="11">he</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="14">successful</governor>
+            <dependent idx="12">was</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="14">successful</governor>
+            <dependent idx="13">n't</dependent>
+          </dep>
+          <dep type="conj:but">
+            <governor idx="2">tried</governor>
+            <dependent idx="14">successful</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">tried</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">tried</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">tried</governor>
+            <dependent idx="1">Paul</dependent>
+          </dep>
+          <dep type="nsubj:xsubj" extra="true">
+            <governor idx="4">call</governor>
+            <dependent idx="1">Paul</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="4">call</governor>
+            <dependent idx="3">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="2">tried</governor>
+            <dependent idx="4">call</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">call</governor>
+            <dependent idx="5">George</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">phone</governor>
+            <dependent idx="6">on</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">phone</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="5">George</governor>
+            <dependent idx="8">phone</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">tried</governor>
+            <dependent idx="9">,</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="2">tried</governor>
+            <dependent idx="10">but</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">successful</governor>
+            <dependent idx="11">he</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="14">successful</governor>
+            <dependent idx="12">was</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="14">successful</governor>
+            <dependent idx="13">n't</dependent>
+          </dep>
+          <dep type="conj:but">
+            <governor idx="2">tried</governor>
+            <dependent idx="14">successful</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">tried</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">tried</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">tried</governor>
+            <dependent idx="1">Paul</dependent>
+          </dep>
+          <dep type="nsubj:xsubj" extra="true">
+            <governor idx="4">call</governor>
+            <dependent idx="1">Paul</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="4">call</governor>
+            <dependent idx="3">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="2">tried</governor>
+            <dependent idx="4">call</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="4">call</governor>
+            <dependent idx="5">George</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">phone</governor>
+            <dependent idx="6">on</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">phone</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="5">George</governor>
+            <dependent idx="8">phone</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">tried</governor>
+            <dependent idx="9">,</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="2">tried</governor>
+            <dependent idx="10">but</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="14">successful</governor>
+            <dependent idx="11">he</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="14">successful</governor>
+            <dependent idx="12">was</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="14">successful</governor>
+            <dependent idx="13">n't</dependent>
+          </dep>
+          <dep type="conj:but">
+            <governor idx="2">tried</governor>
+            <dependent idx="14">successful</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">tried</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>1</start>
+          <end>2</end>
+          <head>1</head>
+          <text>Paul</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>11</start>
+          <end>12</end>
+          <head>11</head>
+          <text>he</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

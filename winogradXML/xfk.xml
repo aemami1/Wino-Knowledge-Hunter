@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>We</word>
+            <lemma>we</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>went</word>
+            <lemma>go</lemma>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>lake</word>
+            <lemma>lake</lemma>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>because</word>
+            <lemma>because</lemma>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>shark</word>
+            <lemma>shark</lemma>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>had</word>
+            <lemma>have</lemma>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>been</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>seen</word>
+            <lemma>see</lemma>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>at</word>
+            <lemma>at</lemma>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>ocean</word>
+            <lemma>ocean</lemma>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>beach</word>
+            <lemma>beach</lemma>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>so</word>
+            <lemma>so</lemma>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="19">
+            <word>it</word>
+            <lemma>it</lemma>
+            <CharacterOffsetBegin>74</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="20">
+            <word>was</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="21">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>81</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="22">
+            <word>safer</word>
+            <lemma>safer</lemma>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>88</CharacterOffsetEnd>
+            <POS>JJR</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="23">
+            <word>place</word>
+            <lemma>place</lemma>
+            <CharacterOffsetBegin>89</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="24">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>95</CharacterOffsetBegin>
+            <CharacterOffsetEnd>97</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="25">
+            <word>swim</word>
+            <lemma>swim</lemma>
+            <CharacterOffsetBegin>98</CharacterOffsetBegin>
+            <CharacterOffsetEnd>102</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="26">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>102</CharacterOffsetBegin>
+            <CharacterOffsetEnd>103</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (NP (PRP We)) (VP (VBD went) (PP (TO to) (NP (DT the) (NN lake))) (, ,) (SBAR (IN because) (S (NP (DT a) (NN shark)) (VP (VBD had) (VP (VBN been) (VP (VBN seen) (PP (IN at) (NP (DT the) (NN ocean) (NN beach)))))))))) (, ,) (IN so) (S (NP (PRP it)) (VP (VBD was) (NP (DT a) (JJR safer) (NN place) (S (VP (TO to) (VP (VB swim))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">went</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">went</governor>
+            <dependent idx="1">We</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">lake</governor>
+            <dependent idx="3">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">lake</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="2">went</governor>
+            <dependent idx="5">lake</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">went</governor>
+            <dependent idx="6">,</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="12">seen</governor>
+            <dependent idx="7">because</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">shark</governor>
+            <dependent idx="8">a</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="12">seen</governor>
+            <dependent idx="9">shark</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="12">seen</governor>
+            <dependent idx="10">had</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="12">seen</governor>
+            <dependent idx="11">been</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="2">went</governor>
+            <dependent idx="12">seen</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="16">beach</governor>
+            <dependent idx="13">at</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">beach</governor>
+            <dependent idx="14">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">beach</governor>
+            <dependent idx="15">ocean</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="12">seen</governor>
+            <dependent idx="16">beach</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">went</governor>
+            <dependent idx="17">,</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">went</governor>
+            <dependent idx="18">so</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="23">place</governor>
+            <dependent idx="19">it</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="23">place</governor>
+            <dependent idx="20">was</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="23">place</governor>
+            <dependent idx="21">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="23">place</governor>
+            <dependent idx="22">safer</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="2">went</governor>
+            <dependent idx="23">place</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="25">swim</governor>
+            <dependent idx="24">to</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="23">place</governor>
+            <dependent idx="25">swim</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">went</governor>
+            <dependent idx="26">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">went</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">went</governor>
+            <dependent idx="1">We</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">lake</governor>
+            <dependent idx="3">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">lake</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="2">went</governor>
+            <dependent idx="5">lake</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">went</governor>
+            <dependent idx="6">,</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="12">seen</governor>
+            <dependent idx="7">because</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">shark</governor>
+            <dependent idx="8">a</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="12">seen</governor>
+            <dependent idx="9">shark</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="12">seen</governor>
+            <dependent idx="10">had</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="12">seen</governor>
+            <dependent idx="11">been</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="2">went</governor>
+            <dependent idx="12">seen</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="16">beach</governor>
+            <dependent idx="13">at</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">beach</governor>
+            <dependent idx="14">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">beach</governor>
+            <dependent idx="15">ocean</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="12">seen</governor>
+            <dependent idx="16">beach</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">went</governor>
+            <dependent idx="17">,</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">went</governor>
+            <dependent idx="18">so</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="23">place</governor>
+            <dependent idx="19">it</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="23">place</governor>
+            <dependent idx="20">was</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="23">place</governor>
+            <dependent idx="21">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="23">place</governor>
+            <dependent idx="22">safer</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="2">went</governor>
+            <dependent idx="23">place</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="25">swim</governor>
+            <dependent idx="24">to</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="23">place</governor>
+            <dependent idx="25">swim</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">went</governor>
+            <dependent idx="26">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">went</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">went</governor>
+            <dependent idx="1">We</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">lake</governor>
+            <dependent idx="3">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">lake</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="2">went</governor>
+            <dependent idx="5">lake</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">went</governor>
+            <dependent idx="6">,</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="12">seen</governor>
+            <dependent idx="7">because</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">shark</governor>
+            <dependent idx="8">a</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="12">seen</governor>
+            <dependent idx="9">shark</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="12">seen</governor>
+            <dependent idx="10">had</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="12">seen</governor>
+            <dependent idx="11">been</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="2">went</governor>
+            <dependent idx="12">seen</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="16">beach</governor>
+            <dependent idx="13">at</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">beach</governor>
+            <dependent idx="14">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">beach</governor>
+            <dependent idx="15">ocean</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="12">seen</governor>
+            <dependent idx="16">beach</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">went</governor>
+            <dependent idx="17">,</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">went</governor>
+            <dependent idx="18">so</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="23">place</governor>
+            <dependent idx="19">it</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="23">place</governor>
+            <dependent idx="20">was</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="23">place</governor>
+            <dependent idx="21">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="23">place</governor>
+            <dependent idx="22">safer</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="2">went</governor>
+            <dependent idx="23">place</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="25">swim</governor>
+            <dependent idx="24">to</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="23">place</governor>
+            <dependent idx="25">swim</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">went</governor>
+            <dependent idx="26">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">went</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">went</governor>
+            <dependent idx="1">We</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">lake</governor>
+            <dependent idx="3">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">lake</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="2">went</governor>
+            <dependent idx="5">lake</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">went</governor>
+            <dependent idx="6">,</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="12">seen</governor>
+            <dependent idx="7">because</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">shark</governor>
+            <dependent idx="8">a</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="12">seen</governor>
+            <dependent idx="9">shark</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="12">seen</governor>
+            <dependent idx="10">had</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="12">seen</governor>
+            <dependent idx="11">been</dependent>
+          </dep>
+          <dep type="advcl:because">
+            <governor idx="2">went</governor>
+            <dependent idx="12">seen</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="16">beach</governor>
+            <dependent idx="13">at</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">beach</governor>
+            <dependent idx="14">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">beach</governor>
+            <dependent idx="15">ocean</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="12">seen</governor>
+            <dependent idx="16">beach</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">went</governor>
+            <dependent idx="17">,</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">went</governor>
+            <dependent idx="18">so</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="23">place</governor>
+            <dependent idx="19">it</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="23">place</governor>
+            <dependent idx="20">was</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="23">place</governor>
+            <dependent idx="21">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="23">place</governor>
+            <dependent idx="22">safer</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="2">went</governor>
+            <dependent idx="23">place</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="25">swim</governor>
+            <dependent idx="24">to</dependent>
+          </dep>
+          <dep type="acl:to">
+            <governor idx="23">place</governor>
+            <dependent idx="25">swim</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">went</governor>
+            <dependent idx="26">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">went</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">went</governor>
+            <dependent idx="1">We</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">lake</governor>
+            <dependent idx="3">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">lake</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="2">went</governor>
+            <dependent idx="5">lake</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">went</governor>
+            <dependent idx="6">,</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="12">seen</governor>
+            <dependent idx="7">because</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">shark</governor>
+            <dependent idx="8">a</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="12">seen</governor>
+            <dependent idx="9">shark</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="12">seen</governor>
+            <dependent idx="10">had</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="12">seen</governor>
+            <dependent idx="11">been</dependent>
+          </dep>
+          <dep type="advcl:because">
+            <governor idx="2">went</governor>
+            <dependent idx="12">seen</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="16">beach</governor>
+            <dependent idx="13">at</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">beach</governor>
+            <dependent idx="14">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">beach</governor>
+            <dependent idx="15">ocean</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="12">seen</governor>
+            <dependent idx="16">beach</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">went</governor>
+            <dependent idx="17">,</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="2">went</governor>
+            <dependent idx="18">so</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="23">place</governor>
+            <dependent idx="19">it</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="23">place</governor>
+            <dependent idx="20">was</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="23">place</governor>
+            <dependent idx="21">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="23">place</governor>
+            <dependent idx="22">safer</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="2">went</governor>
+            <dependent idx="23">place</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="25">swim</governor>
+            <dependent idx="24">to</dependent>
+          </dep>
+          <dep type="acl:to">
+            <governor idx="23">place</governor>
+            <dependent idx="25">swim</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">went</governor>
+            <dependent idx="26">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>
