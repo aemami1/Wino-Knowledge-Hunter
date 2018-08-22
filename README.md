@@ -1,12 +1,12 @@
 # Winograd Schema Challenge Knowledge Hunting Module
 # AUTHOR: Ali Emami
 
-**Idea
+# Idea: 
 
 Our  method  works  by  (i)  generating  queries  from  a  parsed  representation
 of  a  Winograd  question,  (ii)  acquiring  rele- vant  knowledge  using  Information  Retrieval, and (iii) reasoning on the gathered knowledge.
 
-**Procedure
+# Procedure:
 
 1. (i) Query Generation Module -- moduleQueryGenerator.py. Must be run using flags indicating query generation method ("standard" or "synonym", as in, through the command prompt: "python moduleComponentExtractor.py standard". It produces the set C, the set Q, and the set containing the first entities for the 273 Winograd Sentences by using the parsed CoreNLP representation of the Winograd sentences and various linguistic rules.
 
