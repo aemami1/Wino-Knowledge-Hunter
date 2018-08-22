@@ -1,5 +1,5 @@
 # Winograd Schema Challenge Knowledge Hunting Module
-# AUTHOR: Ali Emami
+# AUTHOR: Ali Emami, Noelia De la Cruz, Adam Trischler, Kaheer Suleman, Jackie Cheung
 
 # Idea: 
 
