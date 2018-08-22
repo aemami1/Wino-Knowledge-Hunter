@@ -130,8 +130,6 @@ def main():
 
 	info2=copy.deepcopy(info)
 	info3=copy.deepcopy(infoGoogle)
-	info4=copy.deepcopy(info2)
-	#info5=copy.deepcopy(infoGoogle2)
 
 	#Calculate Evidence Strengths and update decision matrix, decision2
 
