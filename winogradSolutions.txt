@@ -1,0 +1,2729 @@
+    The city councilmen refused the demonstrators a permit because they feared violence.
+
+    Snippet: they feared violence
+
+        The city councilmen
+        The demonstrators 
+
+    Correct Answer: A
+    Source: (Winograd 1972)
+
+    The city councilmen refused the demonstrators a permit because they advocated violence.
+
+    Snippet: they advocated violence
+
+        The city councilmen
+        The demonstrators 
+
+    Correct Answer: B
+    Source: (Winograd 1972)
+
+    The trophy doesn't fit into the brown suitcase because it is too large.
+
+    Snippet: it is too large
+
+        the trophy
+        the brown suitcase 
+
+    Correct Answer: A
+    Source: Hector Levesque
+
+    The trophy doesn't fit into the brown suitcase because it is too small.
+
+    Snippet: it is too small
+
+        the trophy
+        the brown suitcase 
+
+    Correct Answer: B
+    Source: Hector Levesque
+
+    Joan made sure to thank Susan for all the help she had recieved.
+
+    Snippet: she had received
+
+        Joan
+        Susan 
+
+    Correct Answer: A
+    Source: Hector Levesque
+
+    Joan made sure to thank Susan for all the help she had given.
+
+    Snippet: she had given
+
+        Joan
+        Susan 
+
+    Correct Answer: B
+    Source: Hector Levesque
+
+    Paul tried to call George on the phone, but he wasn't successful.
+
+    Snippet: he wasn't successful.
+
+        Paul
+        George 
+
+    Correct Answer: A
+    Source: Hector Levesque
+
+    Paul tried to call George on the phone, but he wasn't available.
+
+    Snippet: he wasn't available.
+
+        Paul
+        George 
+
+    Correct Answer: B
+    Source: Hector Levesque
+
+    The lawyer asked the witness a question, but he was reluctant to repeat it.
+
+    Snippet: he was reluctant
+
+        the lawyer
+        the witness 
+
+    Correct Answer: A
+    Source: Hector Levesque
+
+    The lawyer asked the witness a question, but he was reluctant to answer it.
+
+    Snippet: he was reluctant
+
+        the lawyer
+        the witness 
+
+    Correct Answer: B
+    Source: Hector Levesque
+
+    The delivery truck zoomed by the school bus because it was going so fast.
+
+    Snippet: it was going so fast.
+
+        the delivery truck
+        the school bus 
+
+    Correct Answer: A
+    Source: Hector Levesque
+
+    The delivery truck zoomed by the school bus because it was going so slow.
+
+    Snippet: it was going so slow.
+
+        the delivery truck
+        the school bus 
+
+    Correct Answer: B
+    Source: Hector Levesque
+
+    Frank felt vindicated when his longtime rival Bill revealed that he was the winner of the competition.
+
+    Snippet: he was the winner
+
+        Frank
+        Bill 
+
+    Correct Answer: A
+    Source: Hector Levesque
+
+    Frank felt crushed when his longtime rival Bill revealed that he was the winner of the competition.
+
+    Snippet: he was the winner
+
+        Frank
+        Bill 
+
+    Correct Answer: B
+    Source: Hector Levesque
+
+    The man couldn't lift his son because he was so weak.
+
+    Snippet: he was so weak.
+
+        The man
+        his son 
+
+    Correct Answer: A
+    Source: Hector Levesque
+
+    The man couldn't lift his son because he was so heavy.
+
+    Snippet: he was so heavy.
+
+        The man
+        his son 
+
+    Correct Answer: B
+    Source: Hector Levesque
+
+    The large ball crashed right through the table because it was made of steel.
+
+    Snippet: it was made of steel.
+
+        The large ball
+        The table 
+
+    Correct Answer: A
+    Source: Hector Levesque
+
+    The large ball crashed right through the table because it was made of styrofoam.
+
+    Snippet: it was made of styrofoam.
+
+        The large ball
+        The table 
+
+    Correct Answer: B
+    Source: Hector Levesque
+
+    John couldn't see the stage with Billy in front of him because he is so short.
+
+    Snippet: he is so short.
+
+        John
+        Billy 
+
+    Correct Answer: A
+    Source: Hector Levesque
+
+    John couldn't see the stage with Billy in front of him because he is so tall.
+
+    Snippet: he is so tall.
+
+        John
+        Billy 
+
+    Correct Answer: B
+    Source: Hector Levesque
+
+    Tom threw his schoolbag down to Ray after he reached the top of the stairs.
+
+    Snippet: he reached the top of the stairs.
+
+        Tom
+        Ray 
+
+    Correct Answer: A
+    Source: Hector Levesque
+
+    Tom threw his schoolbag down to Ray after he reached the bottom of the stairs.
+
+    Snippet: he reached the bottom of the stairs.
+
+        Tom
+        Ray 
+
+    Correct Answer: B
+    Source: Hector Levesque
+
+    Although they ran at about the same speed, Sue beat Sally because she had such a good start.
+
+    Snippet: she had such a good start.
+
+        Sue
+        Sally 
+
+    Correct Answer: A
+    Source: Hector Levesque
+
+    Although they ran at about the same speed, Sue beat Sally because she had such a bad start.
+
+    Snippet: she had such a bad start.
+
+        Sue
+        Sally 
+
+    Correct Answer: B
+    Source: Hector Levesque
+
+    The sculpture rolled off the shelf because it wasn't anchored.
+
+    Snippet: it wasn't anchored.
+
+        The sculpture
+        The shelf 
+
+    Correct Answer: A
+    Source: Hector Levesque
+
+    The sculpture rolled off the shelf because it wasn't level.
+
+    Snippet: it wasn't level.
+
+        The sculpture
+        The shelf 
+
+    Correct Answer: B
+    Source: Hector Levesque
+
+    Sam's drawing was hung just above Tina's and it did look much better with another one below it.
+
+    Snippet: it did look much better
+
+        Sam's drawing
+        Tina's drawing 
+
+    Correct Answer: A
+    Source: Hector Levesque
+
+    Sam's drawing was hung just above Tina's and it did look much better with another one above it.
+
+    Snippet: it did look much better
+
+        Sam's drawing
+        Tina's drawing 
+
+    Correct Answer: B
+    Source: Hector Levesque
+
+    Anna did a lot better than her good friend Lucy on the test because she had studied so hard.
+
+    Snippet: she had studied so hard.
+
+        Anna
+        Lucy 
+
+    Correct Answer: A
+    Source: Hector Levesque
+
+    Anna did a lot worse than her good friend Lucy on the test because she had studied so hard.
+
+    Snippet: she had studied so hard.
+
+        Anna
+        Lucy 
+
+    Correct Answer: B
+    Source: Hector Levesque
+
+    The firemen arrived after the police because they were coming from so far away.
+
+    Snippet: they were coming from so far away.
+
+        The firemen
+        The police 
+
+    Correct Answer: A
+    Source: Hector Levesque
+
+    The firemen arrived before the police because they were coming from so far away.
+
+    Snippet: they were coming from so far away.
+
+        The firemen
+        The police 
+
+    Correct Answer: B
+    Source: Hector Levesque
+
+    Frank was upset with Tom because the toaster he had bought from him didn't work.
+
+    Snippet: he had bought
+
+        Frank
+        Tom 
+
+    Correct Answer: A
+    Source: Hector Levesque
+
+    Frank was upset with Tom because the toaster he had sold him didn't work.
+
+    Snippet: he had sold
+
+        Frank
+        Tom 
+
+    Correct Answer: B
+    Source: Hector Levesque
+
+    Jim yelled at Kevin because he was so upset.
+
+    Snippet: he was so upset.
+
+        Jim
+        Kevin 
+
+    Correct Answer: A
+    Source: Hector Levesque
+
+    Jim comforted Kevin because he was so upset.
+
+    Snippet: he was so upset.
+
+        Jim
+        Kevin 
+
+    Correct Answer: B
+    Source: Hector Levesque
+
+    The sack of potatoes had been placed above the bag of flour, so it had to be moved first.
+
+    Snippet: it had to be moved first.
+
+        The sack of potatoes
+        The bag of flour 
+
+    Correct Answer: A
+    Source: Hector Levesque
+
+    The sack of potatoes had been placed below the bag of flour, so it had to be moved first.
+
+    Snippet: it had to be moved first.
+
+        The sack of potatoes
+        The bag of flour 
+
+    Correct Answer: B
+    Source: Hector Levesque
+
+    Pete envies Martin although he is very successful.
+
+    Snippet: he is very successful.
+
+        Pete
+        Martin 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    Pete envies Martin because he is very successful.
+
+    Snippet: he is very successful.
+
+        Pete
+        Martin 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    The older students were bullying the younger ones, so they were punished.
+
+    Snippet: they were punished
+
+        The older students
+        The younger students 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    The older students were bullying the younger ones, so they were rescued.
+
+    Snippet: they were rescued
+
+        The older students
+        The younger students 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    I poured water from the bottle into the cup until it was empty.
+
+    Snippet: it was empty
+
+        the bottle
+        the cup 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    I poured water from the bottle into the cup until it was full.
+
+    Snippet: it was full
+
+        the bottle
+        the cup 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    Susan knows all about Ann's personal problems because she is nosy.
+
+    Snippet: she is nosy
+
+        Susan
+        Ann 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    Susan knows all about Ann's personal problems because she is indiscreet.
+
+    Snippet: she is indiscreet
+
+        Susan
+        Ann 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    Sid explained his theory to Mark but he couldn't convince him.
+
+    Snippet: he couldn't convince him.
+
+        Sid
+        Mark 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    Sid explained his theory to Mark but he couldn't understand him.
+
+    Snippet: he couldn't understand him.
+
+        Sid
+        Mark 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    Susan knew that Ann's son had been in a car accident, so she told her about it.
+
+    Snippet: she told
+
+        Susan
+        Ann 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    Susan knew that Ann's son had been in a car accident, because she told her about it.
+
+    Snippet: she told
+
+        Susan
+        Ann 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    Joe's uncle can still beat him at tennis, even though he is 30 years younger.
+
+    Snippet: he is 30 years younger.
+
+        Joe
+        Joe's uncle 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    Joe's uncle can still beat him at tennis, even though he is 30 years older.
+
+    Snippet: he is 30 years older.
+
+        Joe
+        Joe's uncle 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    The painting in Mark's living room shows an oak tree. It is to the right of the bookcase.
+
+    Snippet: it is to the right
+
+        The painting
+        The oak tree 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    The painting in Mark's living room shows an oak tree. It is to the right of a house.
+
+    Snippet: it is to the right
+
+        The painting
+        The oak tree 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    There is a gap in the wall. You can see the garden through it.
+
+    Snippet: it reveals the garden
+
+        The gap
+        The wall 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    There is a gap in the wall. You can see the garden behind it.
+
+    Snippet: it covers the garden
+
+        The gap
+        The wall 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    The drain is clogged with hair. It has to be cleaned.
+
+    Snippet: It has to be cleaned.
+
+        The drain
+        The hair 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    The drain is clogged with hair. It has to be removed.
+
+    Snippet: It has to be removed.
+
+        The drain
+        The hair 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    My meeting started at 4:00 and I needed to catch the train at 4:30, so there wasn't much time. Luckily, it was short, so it worked out.
+
+    Snippet: it was short
+
+        The meeting
+        The train 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    My meeting started at 4:00 and I needed to catch the train at 4:30, so there wasn't much time. Luckily, it was delayed, so it worked out.
+
+    Snippet: it was delayed
+
+        The meeting
+        The train 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    There is a pillar between me and the stage, and I can't see around it.
+
+    Snippet: see around it
+
+        The pillar
+        The stage 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    There is a pillar between me and the stage, and I can't see it.
+
+    Snippet: see it
+
+        The pillar
+        The stage 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    They broadcast an announcement, but a subway came into the station and I couldn't hear it.
+
+    Snippet: hear it
+
+        The announcement
+        The subway 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    They broadcast an announcement, but a subway came into the station and I couldn't hear over it.
+
+    Snippet: hear over it
+
+        The announcement
+        The subway 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    In the middle of the outdoor concert, the rain started falling, but it continued until 10.
+
+    Snippet: it continued
+
+        The concert
+        The rain 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    In the middle of the outdoor concert, the rain started falling, and it continued until 10.
+
+    Snippet: it continued
+
+        The concert
+        The rain 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    I used an old rag to clean the knife, and then I put it in the trash.
+
+    Snippet: put it in the trash.
+
+        The rag
+        The knife 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    I used an old rag to clean the knife, and then I put it in the drawer.
+
+    Snippet: put it in the drawer.
+
+        The rag
+        The knife 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    Ann asked Mary what time the library closes, because she had forgotten.
+
+    Snippet: she had forgotten.
+
+        Ann
+        Mary 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    Ann asked Mary what time the library closes, but she had forgotten.
+
+    Snippet: she had forgotten.
+
+        Ann
+        Mary 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    I took the water bottle out of the backpack so that it would be handy.
+
+    Snippet: it would be handy
+
+        The water bottle
+        The backpack 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    I took the water bottle out of the backpack so that it would be lighter.
+
+    Snippet: it would be lighter
+
+        The water bottle
+        The backpack 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    I couldn't put the pot on the shelf because it was too tall.
+
+    Snippet: it was too tall.
+
+        The pot
+        The shelf 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    I couldn't put the pot on the shelf because it was too high.
+
+    Snippet: it was too high.
+
+        The pot
+        The shelf 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    I'm sure that my map will show this building; it is very good.
+
+    Snippet: it is very good
+
+        The map
+        The building 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    I'm sure that my map will show this building; it is very famous.
+
+    Snippet: it is very famous
+
+        The map
+        The building 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    Bob paid for Charlie's college education. He is very generous.
+
+    Snippet: He is very generous.
+
+        Bob
+        Charlie 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    Bob paid for Charlie's college education. He is very grateful.
+
+    Snippet: He is very grateful.
+
+        Bob
+        Charlie 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    Bob paid for Charlie's college education, but now Charlie acts as though it never happened. He is very hurt.
+
+    Snippet: He is very hurt.
+
+        Bob
+        Charlie 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    Bob paid for Charlie's college education, but now Charlie acts as though it never happened. He is very ungrateful.
+
+    Snippet: He is very ungrateful.
+
+        Bob
+        Charlie 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    Bob was playing cards with Adam and was way ahead. If Adam hadn't had a sudden run of good luck, he would have won.
+
+    Snippet: he would have won.
+
+        Bob
+        Adam 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    Bob was playing cards with Adam and was way ahead. If Adam hadn't had a sudden run of good luck, he would have lost.
+
+    Snippet: he would have lost.
+
+        Bob
+        Adam 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    Adam can't leave work here until Bob arrives to replace him. If Bob had left home for work on time, he would be gone by this time.
+
+    Snippet: he would be gone
+
+        Adam
+        Bob 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    Adam can't leave work here until Bob arrives to replace him. If Bob had left home for work on time, he would be here by this time.
+
+    Snippet: he would be here
+
+        Adam
+        Bob 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    If the con artist has succeeded in fooling Sam, he would have gotten a lot of money.
+
+    Snippet: he would have gotten a lot of money.
+
+        The con artist
+        Sam 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    If the con artist has succeeded in fooling Sam, he would have lost a lot of money.
+
+    Snippet: he would have lost a lot of money.
+
+        The con artist
+        Sam 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    It was a summer afternoon, and the dog was sitting in the middle of the lawn. After a while, it got up and moved to a spot under the tree, because it was hot.
+
+    Snippet: it was hot
+
+        The dog
+        The spot under the tree 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    It was a summer afternoon, and the dog was sitting in the middle of the lawn. After a while, it got up and moved to a spot under the tree, because it was cooler.
+
+    Snippet: it was cooler
+
+        The dog
+        The spot under the tree 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    The cat was lying by the mouse hole waiting for the mouse, but it was too impatient.
+
+    Snippet: it was too impatient.
+
+        The cat
+        The mouse 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    The cat was lying by the mouse hole waiting for the mouse, but it was too cautious.
+
+    Snippet: it was too cautious.
+
+        The cat
+        The mouse 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    Anne gave birth to a daughter last month. She is a very charming woman.
+
+    Snippet: She is a very charming woman.
+
+        Anne
+        Anne's daughter 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    Anne gave birth to a daughter last month. She is a very charming baby.
+
+    Snippet: She is a very charming baby.
+
+        Anne
+        Anne's daughter 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    Alice tried frantically to stop her daughter from chatting at the party, leaving us to wonder why she was behaving so strangely.
+
+    Snippet: she was behaving so strangely.
+
+        Alice
+        Alice's daughter 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    Alice tried frantically to stop her daughter from barking at the party, leaving us to wonder why she was behaving so strangely.
+
+    Snippet: she was behaving so strangely.
+
+        Alice
+        Alice's daughter 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    I saw Jim yelling at some guy in a military uniform with a huge red beard. I don't know why he was, but he looked very unhappy.
+
+    Snippet: why he was
+
+        Jim
+        the guy in uniform 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    I saw Jim yelling at some guy in a military uniform with a huge red beard. I don't know who he was, but he looked very unhappy.
+
+    Snippet: who he was
+
+        Jim
+        the guy in uniform 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    The fish ate the worm. It was hungry.
+
+    Snippet: It was hungry.
+
+        The fish
+        The worm 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    The fish ate the worm. It was tasty.
+
+    Snippet: It was tasty.
+
+        The fish
+        The worm 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    I was trying to open the lock with the key, but someone had filled the keyhole with chewing gum, and I couldn't get it in.
+
+    Snippet: I couldn't get it in.
+
+        The key
+        The chewing gum 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    I was trying to open the lock with the key, but someone had filled the keyhole with chewing gum, and I couldn't get it out.
+
+    Snippet: I couldn't get it out.
+
+        The key
+        The chewing gum 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    The dog chased the cat, which ran up a tree. It waited at the bottom.
+
+    Snippet: It waited
+
+        The dog
+        The cat 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    The dog chased the cat, which ran up a tree. It waited at the top.
+
+    Snippet: It waited
+
+        The dog
+        The cat 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    In the storm, the tree fell down and crashed through the roof of my house. Now, I have to get it removed.
+
+    Snippet: get it removed.
+
+        The tree
+        The roof 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    In the storm, the tree fell down and crashed through the roof of my house. Now, I have to get it repaired.
+
+    Snippet: get it repaired.
+
+        The tree
+        The roof 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    The customer walked into the bank and stabbed one of the tellers. He was immediately taken to the police station.
+
+    Snippet: He was immediately taken
+
+        The customer
+        The teller 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    The customer walked into the bank and stabbed one of the tellers. He was immediately taken to the hospital.
+
+    Snippet: He was immediately taken
+
+        The customer
+        The teller 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    John was doing research in the library when he heard a man humming and whistling. He was very annoyed.
+
+    Snippet: He was very annoyed.
+
+        John
+        The man 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    John was doing research in the library when he heard a man humming and whistling. He was very annoying.
+
+    Snippet: He was very annoying.
+
+        John
+        The man 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    John was jogging through the park when he saw a man juggling watermelons. He was very impressed.
+
+    Snippet: He was very impressed.
+
+        John
+        The juggler 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    John was jogging through the park when he saw a man juggling watermelons. He was very impressive.
+
+    Snippet: He was very impressive.
+
+        John
+        The juggler 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    Bob collapsed on the sidewalk. Soon he saw Carl coming to help. He was very ill.
+
+    Snippet: He was very ill
+
+        Bob
+        Carl 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    Bob collapsed on the sidewalk. Soon he saw Carl coming to help. He was very concerned.
+
+    Snippet: He was very concerned
+
+        Bob
+        Carl 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    Sam and Amy are passionately in love, but Amy's parents are unhappy about it, because they are fifteen.
+
+    Snippet: they are fifteen.
+
+        Sam and Amy
+        Amy's parents 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    Sam and Amy are passionately in love, but Amy's parents are unhappy about it, because they are snobs.
+
+    Snippet: they are snobs.
+
+        Sam and Amy
+        Amy's parents 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    Mark told Pete many lies about himself, which Pete included in his book. He should have been more truthful.
+
+    Snippet: He should have been more truthful.
+
+        Mark
+        Pete 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    Mark told Pete many lies about himself, which Pete included in his book. He should have been more skeptical.
+
+    Snippet: He should have been more skeptical.
+
+        Mark
+        Pete 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    Joe has sold his house and bought a new one a few miles away. He will be moving out of it on Thursday.
+
+    Snippet: moving out of it
+
+        The old house
+        The new house 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    Joe has sold his house and bought a new one a few miles away. He will be moving into it on Thursday.
+
+    Snippet: moving into it
+
+        The old house
+        The new house 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    Many people start to read Paul's books and can't put them down. They are gripped because Paul writes so well.
+
+    Snippet: They are gripped
+
+        People
+        Paul's books 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    Many people start to read Paul's books and can't put them down. They are popular because Paul writes so well.
+
+    Snippet: They are popular
+
+        People
+        Paul's books 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    Mary took out her flute and played one of her favorite pieces. She has had it since she was a child.
+
+    Snippet: She has had it
+
+        The flute
+        The piece 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    Mary took out her flute and played one of her favorite pieces. She has loved it since she was a child.
+
+    Snippet: She has loved it
+
+        The flute
+        The piece 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    Sam pulled up a chair to the piano, but it was broken, so he had to stand instead.
+
+    Snippet: it was broken
+
+        The chair
+        The piano 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    Sam pulled up a chair to the piano, but it was broken, so he had to sing instead.
+
+    Snippet: it was broken
+
+        The chair
+        The piano 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    Since it was raining, I carried the newspaper in my backpack to keep it dry.
+
+    Snippet: keep it dry
+
+        The newspaper
+        The backpack 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    Since it was raining, I carried the newspaper over my backpack to keep it dry.
+
+    Snippet: keep it dry
+
+        The newspaper
+        The backpack 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    Sara borrowed the book from the library because she needs it for an article she is working on. She reads it when she gets home from work.
+
+    Snippet: She reads it
+
+        The book
+        The article 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    Sara borrowed the book from the library because she needs it for an article she is working on. She writes it when she gets home from work.
+
+    Snippet: She writes it
+
+        The book
+        The article 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    This morning, Joey built a sand castle on the beach, and put a toy flag in the highest tower, but this afternoon the tide knocked it down.
+
+    Snippet: knocked it down
+
+        The sand castle
+        The flag 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    This morning, Joey built a sand castle on the beach, and put a toy flag in the highest tower, but this afternoon the wind knocked it down.
+
+    Snippet: knocked it down
+
+        The sand castle
+        The flag 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    Jane knocked on Susan's door, but there was no answer. She was disappointed.
+
+    Snippet: She was disappointed.
+
+        Jane
+        Susan 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    Jane knocked on Susan's door, but there was no answer. She was out.
+
+    Snippet: She was out.
+
+        Jane
+        Susan 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    Jane knocked on the door, and Susan answered it. She invited her to come out.
+
+    Snippet: She invited
+
+        Jane
+        Susan 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    Jane knocked on the door, and Susan answered it. She invited her to come in.
+
+    Snippet: She invited
+
+        Jane
+        Susan 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    Sam took French classes from Adam, because he was eager to speak it fluently.
+
+    Snippet: he was eager
+
+        Sam
+        Adam 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    Sam took French classes from Adam, because he was known to speak it fluently.
+
+    Snippet: he was known to speak it
+
+        Sam
+        Adam 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    The path to the lake was blocked, so we couldn't use it.
+
+    Snippet: use it
+
+        The path
+        The lake 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    The path to the lake was blocked, so we couldn't reach it.
+
+    Snippet: reach it
+
+        The path
+        The lake 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    The sun was covered by a thick cloud all morning, but luckily, by the time the picnic started, it was out.
+
+    Snippet: it was out
+
+        The sun
+        The cloud 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    The sun was covered by a thick cloud all morning, but luckily, by the time the picnic started, it was gone.
+
+    Snippet: it was gone
+
+        The sun
+        The cloud 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    We went to the lake, because a shark had been seen at the ocean beach, so it was a safer place to swim.
+
+    Snippet: it was a safer place
+
+        The lake
+        The ocean beach 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    We went to the lake, because a shark had been seen at the ocean beach, so it was a dangerous place to swim.
+
+    Snippet: it was a dangerous place
+
+        The lake
+        The ocean beach 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    Sam tried to paint a picture of shepherds with sheep, but they ended up looking more like golfers.
+
+    Snippet: they ended up looking more like golfers.
+
+        The shepherds
+        The sheep 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    Sam tried to paint a picture of shepherds with sheep, but they ended up looking more like dogs.
+
+    Snippet: they ended up looking more like dogs.
+
+        The shepherds
+        The sheep 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    Mary tucked her daughter Anne into bed, so that she could work.
+
+    Snippet: she could work
+
+        Mary
+        Mary's daughter 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    Mary tucked her daughter Anne into bed, so that she could sleep.
+
+    Snippet: she could sleep.
+
+        Mary
+        Mary's daughter 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    Fred and Alice had very warm down coats, but they were not prepared for the cold in Alaska.
+
+    Snippet: they were not prepared
+
+        Fred and Alice
+        coats 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    Fred and Alice had very warm down coats, but they were not enough for the cold in Alaska.
+
+    Snippet: they were not enough
+
+        Fred and Alice
+        coats 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    Thomson visited Cooper's grave in 1765. At that date he had been travelling for five years.
+
+    Snippet: he had been travelling
+
+        Thomson
+        Cooper 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    Thomson visited Cooper's grave in 1765. At that date he had been dead for five years.
+
+    Snippet: he had been dead
+
+        Thomson
+        Cooper 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    Jackson was greatly influenced by Arnold, though he lived two centuries later.
+
+    Snippet: he lived two centuries later.
+
+        Jackson
+        Arnold 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    Jackson was greatly influenced by Arnold, though he lived two centuries earlier.
+
+    Snippet: he lived two centuries earlier.
+
+        Jackson
+        Arnold 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    I can't cut that tree down with that axe; it is too thick.
+
+    Snippet: it is too thick.
+
+        The tree
+        The axe 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    I can't cut that tree down with that axe; it is too small.
+
+    Snippet: it is too small.
+
+        The tree
+        The axe 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    The foxes are getting in at night and attacking the chickens. I shall have to kill them.
+
+    Snippet: to kill them
+
+        The foxes
+        The chickens 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    The foxes are getting in at night and attacking the chickens. I shall have to guard them.
+
+    Snippet: to guard them
+
+        The foxes
+        The chickens 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    The foxes are getting in at night and attacking the chickens. They have gotten very bold.
+
+    Snippet: They have gotten very bold.
+
+        The foxes
+        The chickens 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    The foxes are getting in at night and attacking the chickens. They have gotten very nervous.
+
+    Snippet: They have gotten very nervous.
+
+        The foxes
+        The chickens 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    Fred covered his eyes with his hands, because the wind was blowing sand around. He opened them when the wind stopped.
+
+    Snippet: opened them
+
+        His eyes
+        His hands 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    Fred covered his eyes with his hands, because the wind was blowing sand around. He lowered them when the wind stopped.
+
+    Snippet: lowered them
+
+        His eyes
+        His hands 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    The actress used to be named Terpsichore, but she changed it to Tina a few years ago, because she figured it was too hard to pronounce.
+
+    Snippet: it was too hard
+
+        Terpsichore
+        Tina 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    The actress used to be named Terpsichore, but she changed it to Tina a few years ago, because she figured it was easier to pronounce.
+
+    Snippet: it was easier
+
+        Terpsichore
+        Tina 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    Fred watched TV while George went out to buy groceries. After an hour he got up.
+
+    Snippet: he got up.
+
+        Fred
+        George 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    Fred watched TV while George went out to buy groceries. After an hour he got back.
+
+    Snippet: he got back.
+
+        Fred
+        George 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    Fred was supposed to run the dishwasher, but he put it off, because he wanted to watch TV. But the show turned out to be boring, so he changed his mind and turned it on.
+
+    Snippet: turned it on
+
+        The dishwasher
+        The TV 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    Fred was supposed to run the dishwasher, but he put it off, because he wanted to watch TV. But the show turned out to be boring, so he changed his mind and turned it off.
+
+    Snippet: turned it off
+
+        The dishwasher
+        The TV 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    Fred is the only man still alive who remembers my great-grandfather. He is a remarkable man.
+
+    Snippet: He is a remarkable man.
+
+        Fred
+        My great-grandfather 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    Fred is the only man still alive who remembers my great-grandfather. He was a remarkable man.
+
+    Snippet: He was a remarkable man.
+
+        Fred
+        My great-grandfather 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    Fred is the only man alive who still remembers my father as an infant. When Fred first saw my father, he was twelve years old.
+
+    Snippet: he was twelve years old.
+
+        Fred
+        My father 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    Fred is the only man alive who still remembers my father as an infant. When Fred first saw my father, he was twelve months old.
+
+    Snippet: he was twelve months old.
+
+        Fred
+        My father 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    In July, Kamtchatka declared war on Yakutsk. Since Yakutsk's army was much better equipped and ten times larger, they were defeated within weeks.
+
+    Snippet: they were defeated
+
+        Kamchatka
+        Yakutsk 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    In July, Kamtchatka declared war on Yakutsk. Since Yakutsk's army was much better equipped and ten times larger, they were victorious within weeks.
+
+    Snippet: they were victorious
+
+        Kamchatka
+        Yakutsk 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    Look! There is a minnow swimming right below that duck! It had better get away to safety fast!
+
+    Snippet: It had better get away
+
+        The minnow
+        The duck 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    Look! There is a shark swimming right below that duck! It had better get away to safety fast!
+
+    Snippet: It had better get away
+
+        The shark
+        The duck 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    Archaeologists have concluded that humans lived in Laputa 20,000 years ago. They hunted for evidence on the river banks.
+
+    Snippet: They hunted for evidence
+
+        Archaeologists
+        Prehistoric humans 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    Archaeologists have concluded that humans lived in Laputa 20,000 years ago. They hunted for deer on the river banks.
+
+    Snippet: They hunted for deer
+
+        Archaeologists
+        Prehistoric humans 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    The scientists are studying three species of fish that have recently been found living in the Indian Ocean. They began two years ago.
+
+    Snippet: They began two years ago.
+
+        The scientists
+        The fish 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    The scientists are studying three species of fish that have recently been found living in the Indian Ocean. They appeared two years ago.
+
+    Snippet: They appeared two years ago.
+
+        The scientists
+        The fish 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    The journalists interviewed the stars of the new movie. They were very persistent, so the interview lasted for a long time.
+
+    Snippet: They were very persistent
+
+        The journalists
+        The stars 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    The journalists interviewed the stars of the new movie. They were very cooperative, so the interview lasted for a long time.
+
+    Snippet: They were very cooperative
+
+        The journalists
+        The stars 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    The police arrested all of the gang members. They were trying to stop the drug trade in the neighborhood.
+
+    Snippet: They were trying to stop the drug trade.
+
+        The police
+        The gang members 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    The police arrested all of the gang members. They were trying to run the drug trade in the neighborhood.
+
+    Snippet: They were trying to run the drug trade.
+
+        The police
+        The gang members 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    I put the cake away in the refrigerator. It has a lot of butter in it.
+
+    Snippet: It has a lot of butter
+
+        The cake
+        The refrigerator 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    I put the cake away in the refrigerator. It has a lot of leftovers in it.
+
+    Snippet: It has a lot of leftovers
+
+        The cake
+        The refrigerator 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    Sam broke both his ankles and he's walking with crutches. But a month or so from now they should be better.
+
+    Snippet: they should be better
+
+        The ankles
+        The crutches 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    Sam broke both his ankles and he's walking with crutches. But a month or so from now they should be unnecessary.
+
+    Snippet: they should be unnecessary
+
+        The ankles
+        The crutches 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    When the sponsors of the bill got to the town hall, they were surprised to find that the room was full of opponents. They were very much in the minority.
+
+    Snippet: They were very much in the minority.
+
+        The sponsors
+        The opponents 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    When the sponsors of the bill got to the town hall, they were surprised to find that the room was full of opponents. They were very much in the majority.
+
+    Snippet: They were very much in the majority.
+
+        The sponsors
+        The opponents 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    Everyone really loved the oatmeal cookies; only a few people liked the chocolate chip cookies. Next time, we should make more of them.
+
+    Snippet: more of them
+
+        The oatmeal cookies
+        The chocolate chip cookies 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    Everyone really loved the oatmeal cookies; only a few people liked the chocolate chip cookies. Next time, we should make fewer of them.
+
+    Snippet: fewer of them
+
+        The oatmeal cookies
+        The chocolate chip cookies 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    We had hoped to place copies of our newsletter on all the chairs in the auditorium, but there were simply not enough of them.
+
+    Snippet: not enough of them
+
+        copies of the newsletter
+        chairs 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    We had hoped to place copies of our newsletter on all the chairs in the auditorium, but there were simply too many of them.
+
+    Snippet: too many of them
+
+        copies of the newsletter
+        chairs 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    I stuck a pin through a carrot. When I pulled the pin out, it left a hole.
+
+    Snippet: it left a hole
+
+        The pin
+        The carrot 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    I stuck a pin through a carrot. When I pulled the pin out, it had a hole.
+
+    Snippet: it had a hole
+
+        The pin
+        The carrot 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    I couldn't find a spoon, so I tried using a pen to stir my coffee. But that turned out to be a bad idea, because it got full of coffee.
+
+    Snippet: it got full of coffee.
+
+        The pen
+        The coffee 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    I couldn't find a spoon, so I tried using a pen to stir my coffee. But that turned out to be a bad idea, because it got full of ink.
+
+    Snippet: it got full of ink.
+
+        The pen
+        The coffee 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    Steve follows Fred's example in everything. He admires him hugely.
+
+    Snippet: He admires him hugely.
+
+        Steve
+        Fred 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    Steve follows Fred's example in everything. He influences him hugely.
+
+    Snippet: He influences him hugely.
+
+        Steve
+        Fred 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    The table won't fit through the doorway because it is too wide.
+
+    Snippet: it is too wide.
+
+        The table
+        The doorway 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    The table won't fit through the doorway because it is too narrow.
+
+    Snippet: it is too narrow.
+
+        The table
+        The doorway 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    Grace was happy to trade me her sweater for my jacket. She thinks it looks dowdy on her.
+
+    Snippet: it looks dowdy on her.
+
+        The sweater
+        The jacket 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    Grace was happy to trade me her sweater for my jacket. She thinks it looks great on her.
+
+    Snippet: it looks great on her.
+
+        The sweater
+        The jacket 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    John hired Bill to take care of him.
+
+    Snippet: take care of him
+
+        John
+        Bill 
+
+    Correct Answer: A
+    Source: Ray Jackendoff
+
+    John hired himself out to Bill to take care of him.
+
+    Snippet: take care of him
+
+        John
+        Bill 
+
+    Correct Answer: B
+    Source: Ray Jackendoff
+
+    John promised Bill to leave, so an hour later he left.
+
+    Snippet: he left
+
+        John
+        Bill 
+
+    Correct Answer: A
+    Source: Ray Jackendoff
+
+    John ordered Bill to leave, so an hour later he left.
+
+    Snippet: he left
+
+        John
+        Bill 
+
+    Correct Answer: B
+    Source: Ray Jackendoff
+
+    Sam Goodman's biography of the Spartan general Xenophanes conveys a vivid sense of the difficulties he faced in his research.
+
+    Snippet: difficulties he faced
+
+        Goodman
+        Xenophanes 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    Sam Goodman's biography of the Spartan general Xenophanes conveys a vivid sense of the difficulties he faced in his childhood.
+
+    Snippet: difficulties he faced
+
+        Goodman
+        Xenophanes 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    Emma's mother had died long ago, and her education had been managed by an excellent woman as governess.
+
+    Snippet: her education
+
+        Emma
+        Emma's mother 
+
+    Correct Answer: A
+    Source: Ernest Davis, adapted from Emma by Jane Austen
+
+    Emma's mother had died long ago, and her place had been taken by an excellent woman as governess.
+
+    Snippet: her place
+
+        Emma
+        Emma's mother 
+
+    Correct Answer: B
+    Source: Ernest Davis, adapted from Emma by Jane Austen
+
+    Jane knocked on Susan's door but she did not get an answer.
+
+    Snippet: she did not get an answer.
+
+        Jane
+        Susan 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    Jane knocked on Susan's door but she did not answer.
+
+    Snippet: she did not answer.
+
+        Jane
+        Susan 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    Joe paid the detective after he received the final report on the case.
+
+    Snippet: he received the final report
+
+        Joe
+        the detective 
+
+    Correct Answer: A
+    Source: David Bender
+
+    Joe paid the detective after he delivered the final report on the case.
+
+    Snippet: he delivered the final report
+
+        Joe
+        the detective 
+
+    Correct Answer: B
+    Source: David Bender
+
+    Beth didn't get angry with Sally, who had cut her off, because she stopped and counted to ten.
+
+    Snippet: she stopped
+
+        Beth
+        Sally 
+
+    Correct Answer: A
+    Source: David Bender
+
+    Beth didn't get angry with Sally, who had cut her off, because she stopped and apologized.
+
+    Snippet: she stopped
+
+        Beth
+        Sally 
+
+    Correct Answer: B
+    Source: David Bender
+
+    Jim signaled the barman and gestured toward his empty glass
+
+    Snippet: his empty glass
+
+        Jim
+        The barman 
+
+    Correct Answer: A
+    Source: David Bender
+
+    Jim signaled the barman and gestured toward his bathroom key.
+
+    Snippet: his bathroom key
+
+        Jim
+        The barman 
+
+    Correct Answer: B
+    Source: David Bender
+
+    Dan took the rear seat while Bill claimed the front because his "Dibs!" was slow.
+
+    Snippet: his "Dibs!"
+
+        Dan
+        Bill 
+
+    Correct Answer: A
+    Source: David Bender
+
+    Dan took the rear seat while Bill claimed the front because his "Dibs!" was quicker.
+
+    Snippet: his "Dibs!"
+
+        Dan
+        Bill 
+
+    Correct Answer: B
+    Source: David Bender
+
+    Tom said "Check" to Ralph as he moved his bishop.
+
+    Snippet: his bishop
+
+        Tom
+        Ralph 
+
+    Correct Answer: A
+    Source: David Bender
+
+    Tom said "Check" to Ralph as he took his bishop.
+
+    Snippet: his bishop
+
+        Tom
+        Ralph 
+
+    Correct Answer: B
+    Source: David Bender
+
+    As Andrea in the crop duster passed over Susan, she could see the landing strip.
+
+    Snippet: she could see
+
+        Andrea
+        Susan 
+
+    Correct Answer: A
+    Source: David Bender
+
+    As Andrea in the crop duster passed over Susan, she could see the landing gear.
+
+    Snippet: she could see
+
+        Andrea
+        Susan 
+
+    Correct Answer: B
+    Source: David Bender
+
+    Tom gave Ralph a lift to school so he wouldn't have to drive alone.
+
+    Snippet: he wouldn't have to drive alone.
+
+        Tom
+        Ralph 
+
+    Correct Answer: A
+    Source: David Bender
+
+    Tom gave Ralph a lift to school so he wouldn't have to walk.
+
+    Snippet: he wouldn't have to walk.
+
+        Tom
+        Ralph 
+
+    Correct Answer: B
+    Source: David Bender
+
+    Bill passed the half-empty plate to John because he was full.
+
+    Snippet: he was full.
+
+        Bill
+        John 
+
+    Correct Answer: A
+    Source: David Bender
+
+    Bill passed the half-empty plate to John because he was hungry.
+
+    Snippet: he was hungry
+
+        Bill
+        John 
+
+    Correct Answer: B
+    Source: David Bender
+
+    Bill passed the gameboy to John because his turn was over.
+
+    Snippet: his turn
+
+        Bill
+        John 
+
+    Correct Answer: A
+    Source: David Bender
+
+    Bill passed the gameboy to John because his turn was next.
+
+    Snippet: his turn
+
+        Bill
+        John 
+
+    Correct Answer: B
+    Source: David Bender
+
+    The man lifted the boy onto his shoulders.
+
+    Snippet: his shoulders
+
+        The man
+        The boy 
+
+    Correct Answer: A
+    Source: David Bender
+
+    The man lifted the boy onto his bunk bed.
+
+    Snippet: his bunk bed.
+
+        The man
+        The boy 
+
+    Correct Answer: B
+    Source: David Bender
+
+    Stretching her back, the woman smiled at the girl.
+
+    Snippet: her back
+
+        The woman
+        The girl 
+
+    Correct Answer: A
+    Source: David Bender
+
+    Patting her back, the woman smiled at the girl.
+
+    Snippet: her back
+
+        The woman
+        The girl 
+
+    Correct Answer: B
+    Source: David Bender
+
+    Billy cried because Toby wouldn't accept his toy.
+
+    Snippet: his toy
+
+        Billy
+        Toby 
+
+    Correct Answer: A
+    Source: David Bender
+
+    Billy cried because Toby wouldn't share his toy.
+
+    Snippet: his toy
+
+        Billy
+        Toby 
+
+    Correct Answer: B
+    Source: David Bender
+
+    Lily spoke to Donna, breaking her silence.
+
+    Snippet: her silence.
+
+        Lily
+        Donna 
+
+    Correct Answer: A
+    Source: David Bender
+
+    Lily spoke to Donna, breaking her concentration.
+
+    Snippet: her concentration.
+
+        Lily
+        Donna 
+
+    Correct Answer: B
+    Source: David Bender
+
+    When Tommy dropped his ice cream, Timmy giggled, so father gave him a sympathetic look.
+
+    Snippet: gave him
+
+        Tommy
+        Timmy 
+
+    Correct Answer: A
+    Source: David Bender
+
+    When Tommy dropped his ice cream, Timmy giggled, so father gave him a stern look.
+
+    Snippet: gave him
+
+        Tommy
+        Timmy 
+
+    Correct Answer: B
+    Source: David Bender
+
+    As Ollie carried Tommy up the long winding steps, his legs ached.
+
+    Snippet: his legs ached.
+
+        Ollie
+        Tommy 
+
+    Correct Answer: A
+    Source: David Bender
+
+    As Ollie carried Tommy up the long winding steps, his legs dangled.
+
+    Snippet: his legs dangled.
+
+        Ollie
+        Tommy 
+
+    Correct Answer: B
+    Source: David Bender
+
+    The father carried the sleeping boy in his arms
+
+    Snippet: his arms
+
+        The father
+        The boy 
+
+    Correct Answer: A
+    Source: David Bender
+
+    The father carried the sleeping boy in his bassinet.
+
+    Snippet: his bassinet.
+
+        The father
+        The boy 
+
+    Correct Answer: B
+    Source: David Bender
+
+    The woman held the girl against her chest
+
+    Snippet: her chest.
+
+        The woman
+        The girl 
+
+    Correct Answer: A
+    Source: David Bender
+
+    The woman held the girl against her will.
+
+    Snippet: her will
+
+        The woman
+        The girl 
+
+    Correct Answer: B
+    Source: David Bender
+
+    Pam's parents came home and found her having sex with her boyfriend, Paul. They were furious about it.
+
+    Snippet: They were furious
+
+        Pam's parents
+        Pam and Paul 
+
+    Correct Answer: A
+    Source: David Bender
+
+    Pam's parents came home and found her having sex with her boyfriend, Paul. They were embarrassed about it.
+
+    Snippet: They were embarrassed
+
+        Pam's parents
+        Pam and Paul 
+
+    Correct Answer: B
+    Source: David Bender
+
+    Dr. Adams informed Kate that she had retired and presented several options for future treatment.
+
+    Snippet: she had retired
+
+        Dr. Adams
+        Kate 
+
+    Correct Answer: A
+    Source: David Bender
+
+    Dr. Adams informed Kate that she had cancer and presented several options for future treatment.
+
+    Snippet: she had cancer
+
+        Dr. Adams
+        Kate 
+
+    Correct Answer: B
+    Source: David Bender
+
+    Dan had to stop Bill from toying with the injured bird. He is very compassionate.
+
+    Snippet: He is very compassionate.
+
+        Dan
+        Bill 
+
+    Correct Answer: A
+    Source: David Bender
+
+    Dan had to stop Bill from toying with the injured bird. He is very cruel.
+
+    Snippet: He is very cruel.
+
+        Dan
+        Bill 
+
+    Correct Answer: B
+    Source: David Bender
+
+    George got free tickets to the play, but he gave them to Eric, even though he was particularly eager to see it.
+
+    Snippet: he was particularly eager
+
+        George
+        Eric 
+
+    Correct Answer: A
+    Source: David Bender
+
+    George got free tickets to the play, but he gave them to Eric, because he was particularly eager to see it.
+
+    Snippet: he was particularly eager
+
+        George
+        Eric 
+
+    Correct Answer: B
+    Source: David Bender
+
+    George got free tickets to the play, but he gave them to Eric, because he was not particularly eager to see it.
+
+    Snippet: he was not particularly eager
+
+        George
+        Eric 
+
+    Correct Answer: A
+    Source: David Bender
+
+    Jane gave Joan candy because she wasn't hungry.
+
+    Snippet: she wasn't hungry.
+
+        Jane
+        Joan 
+
+    Correct Answer: A
+    Source: "Linguistic Problems and Complexities" http://www.csi.uottawa.ca/tanka/files/complexities.html
+
+    Jane gave Joan candy because she was hungry.
+
+    Snippet: she was hungry.
+
+        Jane
+        Joan 
+
+    Correct Answer: B
+    Source: "Linguistic Problems and Complexities" http://www.csi.uottawa.ca/tanka/files/complexities.html
+
+    I tried to paint a picture of an orchard, with lemons in the lemon trees, but they came out looking more like light bulbs.
+
+    Snippet: they came out
+
+        lemons
+        lemon trees 
+
+    Correct Answer: A
+    Source: Ernest Davis
+
+    I tried to paint a picture of an orchard, with lemons in the lemon trees, but they came out looking more like telephone poles.
+
+    Snippet: they came out
+
+        lemons
+        lemon trees 
+
+    Correct Answer: B
+    Source: Ernest Davis
+
+    James asked Robert for a favor but he was refused.
+
+    Snippet: he was refused.
+
+        James
+        Robert 
+
+    Correct Answer: A
+    Source: From (Rahman and Ng 2012)
+
+    James asked Robert for a favor but he refused.
+
+    Snippet: he refused.
+
+        James
+        Robert 
+
+    Correct Answer: B
+    Source: From (Rahman and Ng 2012)
+
+    Kirilov ceded the presidency to Shatov because he was less popular.
+
+    Snippet: he was less popular.
+
+        Kirilov
+        Shatov 
+
+    Correct Answer: A
+    Source: Modified from (Rahman and Ng 2012)
+
+    Kirilov ceded the presidency to Shatov because he was more popular.
+
+    Snippet: he was more popular.
+
+        Kirilov
+        Shatov 
+
+    Correct Answer: B
+    Source: Modified from (Rahman and Ng 2012)
+
+    Emma did not pass the ball to Janie although she saw that she was open.
+
+    Snippet: she saw
+
+        Emma
+        Janie 
+
+    Correct Answer: A
+    Source: Modified from (Rahman and Ng 2012)
+
+    Emma did not pass the ball to Janie although she was open.
+
+    Snippet: she was open
+
+        Emma
+        Janie 
+
+    Correct Answer: B
+    Source: Modified from (Rahman and Ng 2012)
+
+    I put the butterfly wing on the table and it broke.
+
+    Snippet: it broke.
+
+        The butterfly wing
+        The table 
+
+    Correct Answer: A
+    Source: (Winograd 1971)
+
+    I put the heavy book on the table and it broke.
+
+    Snippet: it broke.
+
+        The heavy book
+        The table 
+
+    Correct Answer: B
+    Source: (Winograd 1971)
+
+    Madonna fired her trainer because she couldn't stand her boyfriend.
+
+    Snippet: she couldn't stand
+
+        Madonna
+        The trainer 
+
+    Correct Answer: A
+    Source: Modified from a headline in People Magazine http://www.people.com/article/madonna-fired-trainer-slept-with-boyfriend-manila-tour-stop
+
+    Madonna fired her trainer because she slept with her boyfriend.
+
+    Snippet: she slept
+
+        Madonna
+        The trainer 
+
+    Correct Answer: B
+    Source: Modified from a headline in People Magazine http://www.people.com/article/madonna-fired-trainer-slept-with-boyfriend-manila-tour-stop
+
+    Madonna fired her trainer because she slept with her boyfriend.
+
+    Snippet: her boyfriend
+
+        Madonna
+        The trainer 
+
+    Correct Answer: A
+    Source: Modified from a headline in People Magazine http://www.people.com/article/madonna-fired-trainer-slept-with-boyfriend-manila-tour-stop
+
+    Madonna fired her trainer because she couldn't stand her boyfriend.
+
+    Snippet: her boyfriend
+
+        Madonna
+        The trainer 
+
+    Correct Answer: B
+    Source: Modified from a headline in People Magazine http://www.people.com/article/madonna-fired-trainer-slept-with-boyfriend-manila-tour-stop
+
+    Carol believed that Rebecca suspected that she had stolen the watch.
+
+    Snippet: she had stolen the watch.
+
+        Carol
+        Rebecca 
+
+    Correct Answer: A
+    Source: Leora Morgenstern
+
+    Carol believed that Rebecca regretted that she had stolen the watch.
+
+    Snippet: she had stolen the watch.
+
+        Carol
+        Rebecca 
+
+    Correct Answer: B
+    Source: Leora Morgenstern 
