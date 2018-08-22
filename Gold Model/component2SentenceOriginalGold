@@ -1,0 +1,1440 @@
+(lp0
+(lp1
+S'feared'
+p2
+aS'feared violence'
+p3
+aa(lp4
+S'advocated violence'
+p5
+aS'advocated'
+p6
+aa(lp7
+S'is too large'
+p8
+aS'too large'
+p9
+aS'large'
+p10
+aa(lp11
+S'is too small'
+p12
+aS'too small'
+p13
+aS'small'
+p14
+aa(lp15
+S'had received'
+p16
+aS'received'
+p17
+aa(lp18
+S'had given'
+p19
+aS'given'
+p20
+aa(lp21
+S"wasn't successful"
+p22
+aS'successful'
+p23
+aa(lp24
+S"wasn't available"
+p25
+aS'available'
+p26
+aa(lp27
+S'reluctant to repeat it'
+p28
+aS'repeat it'
+p29
+aS'repeat'
+p30
+aa(lp31
+S'reluctant to answer it'
+p32
+aS'answer it'
+p33
+aS'answer'
+p34
+aa(lp35
+S'going so fast'
+p36
+aS'so fast'
+p37
+aS'fast'
+p38
+aa(lp39
+S'going so slow'
+p40
+aS'so slow'
+p41
+aS'slow'
+p42
+aa(lp43
+S'was the winner of the competition'
+p44
+aS'was the winner'
+p45
+aS'winner'
+p46
+aa(lp47
+g44
+ag45
+ag46
+aa(lp48
+S'was so weak'
+p49
+aS'so weak'
+p50
+aS'weak'
+p51
+aa(lp52
+S'was so heavy'
+p53
+aS'so heavy'
+p54
+aS'heavy'
+p55
+aa(lp56
+S'was made of steel'
+p57
+aS'made of steel'
+p58
+aS'of steel'
+p59
+aS'steel'
+p60
+aa(lp61
+S'was made of styrofoam'
+p62
+aS'made of styrofoam'
+p63
+aS'of styrofoam'
+p64
+aS'styrofoam'
+p65
+aa(lp66
+S'is so short'
+p67
+aS'so short'
+p68
+aS'short'
+p69
+aa(lp70
+S'is so tall'
+p71
+aS'so tall'
+p72
+aS'tall'
+p73
+aa(lp74
+S'reached the top of the stairs'
+p75
+aS'reached the top'
+p76
+aS'the top'
+p77
+aa(lp78
+S'reached the bottom of the stairs'
+p79
+aS'reached the bottom'
+p80
+aS'the bottom'
+p81
+aa(lp82
+S'had such a good start'
+p83
+aS'a good start'
+p84
+aS'had a good'
+p85
+aa(lp86
+S'had such a bad start'
+p87
+aS'a bad start'
+p88
+aS'had a bad'
+p89
+aa(lp90
+S"wasn't anchored"
+p91
+aS'anchored'
+p92
+aa(lp93
+S"wasn't level"
+p94
+aS'level'
+p95
+aa(lp96
+S'with another one below'
+p97
+aS'one below'
+p98
+aS'below'
+p99
+aa(lp100
+S'with another one above'
+p101
+aS'one above'
+p102
+aS'above'
+p103
+aa(lp104
+S'studied so hard'
+p105
+aS'studied hard'
+p106
+aS'studied'
+p107
+aa(lp108
+g105
+ag106
+ag107
+aa(lp109
+S'were coming from so far away'
+p110
+aS'were far away'
+p111
+aS'were coming from'
+p112
+aa(lp113
+g110
+ag111
+ag112
+aa(lp114
+S'had bought'
+p115
+aa(lp116
+S'had sold'
+p117
+aa(lp118
+S'was so upset'
+p119
+aS'so upset'
+p120
+aS'upset'
+p121
+aa(lp122
+g119
+ag120
+ag121
+aa(lp123
+S'had to be moved'
+p124
+aS'had to be moved first'
+p125
+aS'moved first'
+p126
+aS'moved'
+p127
+aa(lp128
+g124
+ag125
+ag126
+ag127
+aa(lp129
+S'is very successful'
+p130
+aS'very successful'
+p131
+ag23
+aa(lp132
+g130
+ag131
+ag23
+aa(lp133
+S'were punished'
+p134
+aS'punished'
+p135
+aa(lp136
+S'were rescued'
+p137
+aS'rescued'
+p138
+aa(lp139
+S'was empty'
+p140
+aS'empty'
+p141
+aa(lp142
+S'was full'
+p143
+aS'full'
+p144
+aa(lp145
+S'is nosy'
+p146
+aS'nosy'
+p147
+aa(lp148
+S'is indiscreet'
+p149
+aS'indiscreet'
+p150
+aa(lp151
+S"couldn't convince"
+p152
+aS'convince'
+p153
+aa(lp154
+S'couldn\t understand'
+p155
+aS'understand'
+p156
+aa(lp157
+S'told'
+p158
+aa(lp159
+g158
+aa(lp160
+S'is younger'
+p161
+aa(lp162
+S'is older'
+p163
+aa(lp164
+S'is to to the right of the bookcase'
+p165
+aS'is to the right'
+p166
+aa(lp167
+S'is to the right of the house'
+p168
+ag166
+aa(lp169
+S'through'
+p170
+aa(lp171
+S'behind'
+p172
+aa(lp173
+S'has to be cleaned'
+p174
+aS'cleaned'
+p175
+aa(lp176
+S'has to be removed'
+p177
+aS'removed'
+p178
+aa(lp179
+S'was short'
+p180
+ag69
+aa(lp181
+S'was delayed'
+p182
+aS'delayed'
+p183
+aa(lp184
+S'see around'
+p185
+aa(lp186
+S'see'
+p187
+aa(lp188
+S'hear over'
+p189
+aa(lp190
+S'hear it'
+p191
+aa(lp192
+S'it continuted however'
+p193
+aS'continued'
+p194
+aa(lp195
+S'it continued'
+p196
+ag194
+aa(lp197
+S'in the trash'
+p198
+aS'trash'
+p199
+aa(lp200
+S'in the drawer'
+p201
+aS'drawer'
+p202
+aa(lp203
+S'had forgotten however'
+p204
+aS'had forgotten'
+p205
+aS'forgotten'
+p206
+aa(lp207
+g205
+ag206
+aa(lp208
+S'would be handy'
+p209
+aS'handy'
+p210
+aa(lp211
+S'would be lighter'
+p212
+aS'lighter'
+p213
+aa(lp214
+S'was too tall'
+p215
+aS'too tall'
+p216
+ag73
+aa(lp217
+S'was too high'
+p218
+aS'too high'
+p219
+aS'high'
+p220
+aa(lp221
+S'is very good'
+p222
+aS'very good'
+p223
+aS'good'
+p224
+aa(lp225
+S'is very famous'
+p226
+aS'very famous'
+p227
+aS'famous'
+p228
+aa(lp229
+S'is very generous'
+p230
+aS'very generous'
+p231
+aS'generous'
+p232
+aa(lp233
+S'is very grateful'
+p234
+aS'very grateful'
+p235
+aS'grateful'
+p236
+aa(lp237
+S'is very hurt'
+p238
+aS'very hurt'
+p239
+aS'hurt'
+p240
+aa(lp241
+S'is very ungrateful'
+p242
+aS'very ungrateful'
+p243
+aS'ungrateful'
+p244
+aa(lp245
+S'would have won'
+p246
+aS'have won'
+p247
+aS'won'
+p248
+aa(lp249
+S'would have lost'
+p250
+aS'have lost'
+p251
+aS'lost'
+p252
+aa(lp253
+S'would be gone'
+p254
+aS'be gone'
+p255
+aS'gone'
+p256
+aa(lp257
+S'would be here'
+p258
+aS'be here'
+p259
+aS'here'
+p260
+aa(lp261
+S'would have gotten a lot of money'
+p262
+aS'would have gotten'
+p263
+aS'gotten a lot'
+p264
+aS'gotten'
+p265
+aa(lp266
+S'would have lost a lot of money'
+p267
+ag250
+aS'lost a lot'
+p268
+ag252
+aa(lp269
+S'was hot'
+p270
+aS'hot'
+p271
+aa(lp272
+S'was cooler'
+p273
+aS'cooler'
+p274
+aa(lp275
+S'was too impatient'
+p276
+aS'too impatient'
+p277
+aS'impatient'
+p278
+aa(lp279
+S'was too cautious'
+p280
+aS'too cautious'
+p281
+aS'cautious'
+p282
+aa(lp283
+S'very charming woman'
+p284
+aS'charming woman'
+p285
+aS'woman'
+p286
+aa(lp287
+S'very charming baby'
+p288
+aS'charming baby'
+p289
+aS'baby'
+p290
+aa(lp291
+S'behaving so strangely'
+p292
+aS'strangely'
+p293
+aS'behaving'
+p294
+aa(lp295
+g292
+ag293
+ag294
+aa(lp296
+S'why he was'
+p297
+aa(lp298
+S'who he was'
+p299
+aa(lp300
+S'was hungry'
+p301
+aS'hungry'
+p302
+aa(lp303
+S'was tasty'
+p304
+aS'tasty'
+p305
+aa(lp306
+S'in'
+p307
+aa(lp308
+S'out'
+p309
+aa(lp310
+S'waited at the top'
+p311
+aS'waited'
+p312
+aS'at the top'
+p313
+aa(lp314
+S'waited at the bottom'
+p315
+ag312
+aS'at the bottom'
+p316
+aa(lp317
+g178
+aa(lp318
+S'repaired'
+p319
+aa(lp320
+S'was taken to the police'
+p321
+ag321
+aa(lp322
+S'was taken to the hospital'
+p323
+ag323
+aa(lp324
+S'was very annoyed'
+p325
+aS'very annoyed'
+p326
+aS'annoyed'
+p327
+aa(lp328
+S'was very annoying'
+p329
+aS'very annoying'
+p330
+aS'annoying'
+p331
+aa(lp332
+S'was very impressed'
+p333
+aS'very impressed'
+p334
+aS'impressed'
+p335
+aa(lp336
+S'was very impressive'
+p337
+aS'very impressive'
+p338
+aS'impressive'
+p339
+aa(lp340
+S'was very ill'
+p341
+aS'very ill'
+p342
+aS'ill'
+p343
+aa(lp344
+S'was very concerned'
+p345
+aS'very concerned'
+p346
+aS'concerned'
+p347
+aa(lp348
+S'are fifteen'
+p349
+aS'fifteen'
+p350
+aa(lp351
+S'are snobs'
+p352
+aS'snobs'
+p353
+aa(lp354
+S'should have been more truthful'
+p355
+aS'more truthful'
+p356
+aa(lp357
+S'should have been more skeptical'
+p358
+aS'more skeptical'
+p359
+aa(lp360
+S'moving out'
+p361
+aa(lp362
+S'moving into'
+p363
+aa(lp364
+S'are gripped'
+p365
+aS'gripped'
+p366
+aa(lp367
+S'are popular'
+p368
+aS'popular'
+p369
+aa(lp370
+S'has had'
+p371
+aa(lp372
+S'loved'
+p373
+aa(lp374
+S'stand'
+p375
+aa(lp376
+S'sing'
+p377
+aa(lp378
+S'keep it dry'
+p379
+aS'dry'
+p380
+aa(lp381
+g379
+ag380
+aa(lp382
+S'reads'
+p383
+aa(lp384
+S'writes'
+p385
+aa(lp386
+S'knocked by the tide'
+p387
+aS'by the tide'
+p388
+aa(lp389
+S'knocked by the wind'
+p390
+aS'by the wind'
+p391
+aa(lp392
+S'was disappointed'
+p393
+aS'disappointed'
+p394
+aa(lp395
+S'was out'
+p396
+ag309
+aa(lp397
+S'to come out'
+p398
+aa(lp399
+S'to come in'
+p400
+aa(lp401
+S'was eager'
+p402
+aS'eager'
+p403
+aa(lp404
+S'was known to'
+p405
+aS'was known to speak'
+p406
+aS'known to'
+p407
+aa(lp408
+S"couldn't use"
+p409
+aS'use'
+p410
+aa(lp411
+S"couldn't reach"
+p412
+aS'reach'
+p413
+aa(lp414
+g396
+ag309
+aa(lp415
+S'was gone'
+p416
+ag256
+aa(lp417
+S'was a safer place'
+p418
+aS'a safer place'
+p419
+aS'safer'
+p420
+aa(lp421
+S'was a dangerous place'
+p422
+aS'a dangerous place'
+p423
+aS'dangerous'
+p424
+aa(lp425
+S'like golfers'
+p426
+aS'looking like golfers'
+p427
+aa(lp428
+S'like dogs'
+p429
+aS'looking like dogs'
+p430
+aa(lp431
+S'could work'
+p432
+aS'work'
+p433
+aa(lp434
+S'could sleep'
+p435
+aS'sleep'
+p436
+aa(lp437
+S'were not prepared'
+p438
+aS'not prepared'
+p439
+aS'prepared'
+p440
+aa(lp441
+S'were not enough'
+p442
+aS'not enough'
+p443
+aS'enough'
+p444
+aa(lp445
+S'had been travelling'
+p446
+aS'been travelling'
+p447
+aS'travelling'
+p448
+aa(lp449
+S'had been dead'
+p450
+aS'been dead'
+p451
+aS'dead'
+p452
+aa(lp453
+S'lived two centuries later'
+p454
+aS'lived later'
+p455
+aS'later'
+p456
+aa(lp457
+S'ived two centuries earlier'
+p458
+aS'lived earlier'
+p459
+aS'earlier'
+p460
+aa(lp461
+S'is too thick'
+p462
+aS'too thick'
+p463
+aS'thick'
+p464
+aa(lp465
+g12
+ag13
+ag14
+aa(lp466
+S'killed'
+p467
+aa(lp468
+S'guarded'
+p469
+aa(lp470
+S'gotten very bold'
+p471
+aS'gotten bold'
+p472
+aS'very bold'
+p473
+aS'bold'
+p474
+aa(lp475
+S'gotten very nervous'
+p476
+aS'gotten nervous'
+p477
+aS'very nervous'
+p478
+aS'nervous'
+p479
+aa(lp480
+S'opened'
+p481
+aa(lp482
+S'lowered'
+p483
+aa(lp484
+S'was too hard to pronounce'
+p485
+aS'too hard to pronounce'
+p486
+aS'hard to pronounce'
+p487
+aS'hard'
+p488
+aa(lp489
+S'was easier to pronounce'
+p490
+aS'easier to pronounce'
+p491
+aS'easier'
+p492
+aa(lp493
+S'got up'
+p494
+aS'up'
+p495
+aa(lp496
+S'got back'
+p497
+aS'back'
+p498
+aa(lp499
+S'was turned on'
+p500
+aS'turned on'
+p501
+aS'on'
+p502
+aa(lp503
+S'was turned off'
+p504
+aS'turned off'
+p505
+aS'off'
+p506
+aa(lp507
+S'is a remarkable man'
+p508
+aS'is a remarkable'
+p509
+aS'is a'
+p510
+aS'is'
+p511
+aa(lp512
+S'was a remarkable man'
+p513
+aS'was a remarkable'
+p514
+aS'was a'
+p515
+aS'was'
+p516
+aa(lp517
+S'was twelve years old'
+p518
+aS'twelve years old'
+p519
+aS'years old'
+p520
+aa(lp521
+S'was twelve months old'
+p522
+aS' twelve months old'
+p523
+aS'months old'
+p524
+aa(lp525
+S'were defeated'
+p526
+aS'defeated'
+p527
+aa(lp528
+S'were victorious'
+p529
+aS'victorious'
+p530
+aa(lp531
+S'get away'
+p532
+aa(lp533
+g532
+aa(lp534
+S'hunted for evidence'
+p535
+aS'for evidence'
+p536
+aS'evidence'
+p537
+aa(lp538
+S'hunted for deer'
+p539
+aS'for deer'
+p540
+aS'deer'
+p541
+aa(lp542
+S'began two years ago'
+p543
+aS'began'
+p544
+aa(lp545
+S'appeared two years ago'
+p546
+aS'appeared'
+p547
+aa(lp548
+S'were very persistent'
+p549
+aS'were persistent'
+p550
+aS'persistent'
+p551
+aa(lp552
+S'were very cooperative'
+p553
+aS'were cooperative'
+p554
+aS'cooperative'
+p555
+aa(lp556
+S'stop the drug trade'
+p557
+aS'stop the drug'
+p558
+aS'trying to stop'
+p559
+aS'stop'
+p560
+aa(lp561
+S'run the drug trade'
+p562
+aS'run the drug'
+p563
+aS'trying to run'
+p564
+aS'run'
+p565
+aa(lp566
+S'has a lot of butter'
+p567
+aS'has butter'
+p568
+aS'butter'
+p569
+aa(lp570
+S'has a lot of leftovers'
+p571
+aS'has lefotevers'
+p572
+aS'leftovers'
+p573
+aa(lp574
+S'should be better'
+p575
+aS'be better'
+p576
+aS'better'
+p577
+aa(lp578
+S'should be unncessary'
+p579
+aS'be unnecessary'
+p580
+aS'unnecessary'
+p581
+aa(lp582
+S'in the minority'
+p583
+aS'minority'
+p584
+aa(lp585
+S'in the majority'
+p586
+aS'majority'
+p587
+aa(lp588
+S'more'
+p589
+aa(lp590
+S'fewer'
+p591
+aa(lp592
+g443
+aa(lp593
+S'too many'
+p594
+aa(lp595
+S'left a hole'
+p596
+aa(lp597
+S'had a hole'
+p598
+aa(lp599
+S'got full of coffee'
+p600
+aS'full of coffee'
+p601
+aS'coffee'
+p602
+aa(lp603
+S'got full of ink'
+p604
+aS'full of ink'
+p605
+aS'ink'
+p606
+aa(lp607
+S'admires him hugely'
+p608
+aS'admires him'
+p609
+aS'admires'
+p610
+aa(lp611
+S'influences him hugely'
+p612
+aS'influences him'
+p613
+aS'influences'
+p614
+aa(lp615
+S'is too wide'
+p616
+aS'too wide'
+p617
+aS'is wide'
+p618
+aS'wide'
+p619
+aa(lp620
+S'is too narrow'
+p621
+aS'too narrow'
+p622
+aS'is narrow'
+p623
+aS'narrow'
+p624
+aa(lp625
+S'looks dowdy on her'
+p626
+aS'looks dowdy'
+p627
+aS'dowdy'
+p628
+aa(lp629
+S'looks great on her'
+p630
+aS'looks great'
+p631
+aS'great'
+p632
+aa(lp633
+S'take care'
+p634
+aS'care'
+p635
+aa(lp636
+g634
+ag635
+aa(lp637
+S'left'
+p638
+aa(lp639
+g638
+aa(lp640
+S'faced in his research'
+p641
+aS'in his research'
+p642
+aS'research'
+p643
+aa(lp644
+S'faced in his childhood'
+p645
+aS'in his childhood'
+p646
+aS'childhood'
+p647
+aa(lp648
+S'education'
+p649
+aa(lp650
+S'place'
+p651
+aa(lp652
+S'did not get an answer'
+p653
+aS'did not get'
+p654
+ag34
+aa(lp655
+S'did not answer'
+p656
+aS'not answer'
+p657
+ag34
+aa(lp658
+S'received the final report'
+p659
+ag17
+aa(lp660
+S'delivered the final report'
+p661
+aS'delivered'
+p662
+aa(lp663
+S'stopped and counted to ten'
+p664
+aS'counted to ten'
+p665
+aa(lp666
+S'stopped and apologized'
+p667
+aS'apologized'
+p668
+aa(lp669
+S'empty glass'
+p670
+aS'glass'
+p671
+ag141
+aa(lp672
+S'bathroom key'
+p673
+aS'bathroom'
+p674
+aS'key'
+p675
+aa(lp676
+S'was slow'
+p677
+ag42
+aa(lp678
+S'was quicker'
+p679
+aS'quicker'
+p680
+aa(lp681
+S'moved his bishop'
+p682
+ag127
+aa(lp683
+S'took his bishop'
+p684
+aS'took'
+p685
+aa(lp686
+S'could see the landing strip'
+p687
+aS'see the landing strip'
+p688
+aS'landing strip'
+p689
+aa(lp690
+S'could see the landing gear'
+p691
+aS'see the landing gear'
+p692
+aS'landing gear'
+p693
+aa(lp694
+S"wouldn't have to drive alone"
+p695
+aS"wouldn't have to drive"
+p696
+aS'drive'
+p697
+aa(lp698
+S"wouldn't have to walk"
+p699
+ag699
+aS'walk'
+p700
+aa(lp701
+g143
+ag144
+aa(lp702
+g301
+ag302
+aa(lp703
+S'turn was over'
+p704
+aS'was over'
+p705
+aS'over'
+p706
+aa(lp707
+S'turn was next'
+p708
+aS'was next'
+p709
+aS'next'
+p710
+aa(lp711
+S'shoulders'
+p712
+aa(lp713
+S'bunk bed'
+p714
+aa(lp715
+S'stretching'
+p716
+aS'stretch'
+p717
+aa(lp718
+S'patting'
+p719
+aS'pat'
+p720
+aa(lp721
+S"wouldn't accept his toy"
+p722
+aS"wouldn't accept"
+p723
+aS'accept'
+p724
+aa(lp725
+S"wouldn't share his toy"
+p726
+aS"wouldn't share"
+p727
+aS'share'
+p728
+aa(lp729
+S'silence'
+p730
+aa(lp731
+S'concentration'
+p732
+aa(lp733
+S'sympathetic look'
+p734
+aS'sympathetic'
+p735
+aa(lp736
+S'stern look'
+p737
+aS'stern'
+p738
+aa(lp739
+S'legs ached'
+p740
+aS'ached'
+p741
+aa(lp742
+S'legs dangled'
+p743
+aS'dangled'
+p744
+aa(lp745
+S'arms'
+p746
+aa(lp747
+S'bassinet'
+p748
+aa(lp749
+S'chest'
+p750
+aa(lp751
+S'will'
+p752
+aa(lp753
+S'were furious about it'
+p754
+aS'were furious'
+p755
+aS'furious'
+p756
+aa(lp757
+S'were embarrassed about it'
+p758
+aS'were embarrassed'
+p759
+aS'embarrassed'
+p760
+aa(lp761
+S'had retired'
+p762
+aS'retired'
+p763
+aa(lp764
+S'had cancer'
+p765
+aS'cancer'
+p766
+aa(lp767
+S'is very compassionate'
+p768
+aS'very compassionate'
+p769
+aS'compassionate'
+p770
+aa(lp771
+S'is very cruel'
+p772
+aS'very cruel'
+p773
+aS'cruel'
+p774
+aa(lp775
+S'was particularly eager however'
+p776
+aS'was eager however'
+p777
+aS'eager however'
+p778
+aa(lp779
+S'was particularly eager'
+p780
+ag402
+ag403
+aa(lp781
+S'was not particularly eager'
+p782
+aS'was not eager'
+p783
+aS'not eager'
+p784
+aa(lp785
+S"wasn't hungry"
+p786
+aa(lp787
+g301
+ag302
+aa(lp788
+S'like light bulbs'
+p789
+aS'light bulbs'
+p790
+aa(lp791
+S'telephone poles'
+p792
+aS'like telephone'
+p793
+aa(lp794
+S'was refused'
+p795
+aa(lp796
+S'refused'
+p797
+aa(lp798
+S'was less popular'
+p799
+aS'less popular'
+p800
+aa(lp801
+S'was more popular'
+p802
+aS'more popular'
+p803
+aa(lp804
+S'she saw that she was open'
+p805
+aa(lp806
+S'she was open'
+p807
+aa(lp808
+S'broke'
+p809
+aa(lp810
+g809
+aa(lp811
+S"couldn't stand"
+p812
+aa(lp813
+S'slept with'
+p814
+aS'slept'
+p815
+aa(lp816
+g814
+ag815
+aa(lp817
+g812
+aa(lp818
+S'suspected'
+p819
+aa(lp820
+S'regretted'
+p821
+aa.

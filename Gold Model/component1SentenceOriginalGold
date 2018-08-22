@@ -1,0 +1,1014 @@
+(lp0
+(lp1
+S'refused'
+p2
+aS'refused a permit'
+p3
+aa(lp4
+g2
+ag3
+aa(lp5
+S"doesn't fit into"
+p6
+aS'fit into'
+p7
+aS"doesn't fit"
+p8
+aa(lp9
+g6
+ag7
+ag8
+aa(lp10
+S'made sure to thank'
+p11
+aS'thank'
+p12
+aa(lp13
+g11
+ag12
+aa(lp14
+S'tried to call'
+p15
+aS'tried'
+p16
+aS'call'
+p17
+aa(lp18
+g15
+ag16
+ag17
+aa(lp19
+S'asked a question'
+p20
+aS'asked'
+p21
+aa(lp22
+g20
+ag21
+aa(lp23
+S'zoomed by'
+p24
+aS'zoomed'
+p25
+aa(lp26
+g24
+ag25
+aa(lp27
+S'felt vindicated'
+p28
+aS'vindicated'
+p29
+aa(lp30
+S'felt crushed'
+p31
+aS'crushed'
+p32
+aa(lp33
+S"couldn't lift"
+p34
+aS'lift'
+p35
+aa(lp36
+g34
+ag35
+aa(lp37
+S'crashed right through'
+p38
+aS'crashed through'
+p39
+aS'crashed'
+p40
+aa(lp41
+g38
+ag39
+ag40
+aa(lp42
+S"couldn't see the stage"
+p43
+aS"couldn't see"
+p44
+aa(lp45
+g43
+ag44
+aa(lp46
+S'threw down to'
+p47
+aS'threw to'
+p48
+aS'threw'
+p49
+aa(lp50
+g47
+ag48
+ag49
+aa(lp51
+S'beat'
+p52
+aa(lp53
+g52
+aa(lp54
+S'rolled off'
+p55
+aS'rolled'
+p56
+aa(lp57
+g55
+ag56
+aa(lp58
+S'hung just above'
+p59
+aS'hung above'
+p60
+aS'hung'
+p61
+aa(lp62
+g59
+ag60
+ag61
+aa(lp63
+S'did a lot better than'
+p64
+aS'did better than'
+p65
+aS'better than'
+p66
+aS'did better'
+p67
+aS'better'
+p68
+aa(lp69
+S'did a lot worse than'
+p70
+aS'did worse than'
+p71
+aS'worse than'
+p72
+aS'did worse'
+p73
+aS'worse'
+p74
+aa(lp75
+S'arrived after'
+p76
+aS'after'
+p77
+aa(lp78
+S'arrived before'
+p79
+aS'before'
+p80
+aa(lp81
+S'was upset with'
+p82
+aS'upset with'
+p83
+aS'upset'
+p84
+aa(lp85
+g82
+ag83
+ag84
+aa(lp86
+S'yelled at'
+p87
+aS'yelled'
+p88
+aa(lp89
+S'comforted'
+p90
+aa(lp91
+S'placed above'
+p92
+aS'above'
+p93
+aa(lp94
+S'placed below'
+p95
+aS'below'
+p96
+aa(lp97
+S'envies'
+p98
+aa(lp99
+g98
+aa(lp100
+S'were bullying'
+p101
+aS'bullying'
+p102
+aa(lp103
+g101
+ag102
+aa(lp104
+S'into'
+p105
+aa(lp106
+g105
+aa(lp107
+S'knows all about'
+p108
+aS'knows'
+p109
+aa(lp110
+g108
+ag109
+aa(lp111
+S'explained his theory to'
+p112
+aS'explained to'
+p113
+aS'explained'
+p114
+aa(lp115
+g112
+ag113
+ag114
+aa(lp116
+S'knew that'
+p117
+aS'knew'
+p118
+aa(lp119
+g117
+ag118
+aa(lp120
+S'can still beat'
+p121
+aS'can beat'
+p122
+ag52
+aa(lp123
+g121
+ag122
+ag52
+aa(lp124
+S'shows'
+p125
+aa(lp126
+g125
+aa(lp127
+S'in the'
+p128
+aS'in'
+p129
+aa(lp130
+g128
+ag129
+aa(lp131
+S'clogged with'
+p132
+aS'clogged'
+p133
+aa(lp134
+g132
+ag133
+aa(lp135
+S'started at'
+p136
+aS'catch'
+p137
+aa(lp138
+g136
+ag137
+aa(lp139
+S'between me and'
+p140
+aS'between'
+p141
+aa(lp142
+g140
+ag141
+aa(lp143
+S'broadcast'
+p144
+aS'came into'
+p145
+aa(lp146
+g144
+ag145
+aa(lp147
+S'in the middle of'
+p148
+aS'middle of'
+p149
+aS'started falling'
+p150
+ag150
+aa(lp151
+g148
+ag149
+ag150
+ag150
+aa(lp152
+S'to clean'
+p153
+aS'clean'
+p154
+aa(lp155
+g153
+ag154
+aa(lp156
+S'asked what time'
+p157
+ag21
+aa(lp158
+g157
+ag21
+aa(lp159
+S'out of the'
+p160
+aS'out of'
+p161
+aa(lp162
+g160
+ag161
+aa(lp163
+S'on the'
+p164
+aS'on'
+p165
+aa(lp166
+g164
+ag165
+aa(lp167
+S'will show'
+p168
+aS'show'
+p169
+aa(lp170
+g168
+ag169
+aa(lp171
+S'paid for'
+p172
+aS'paid'
+p173
+aa(lp174
+g172
+ag173
+aa(lp175
+g172
+ag173
+aa(lp176
+g172
+ag173
+aa(lp177
+S'was playing cards with'
+p178
+aS'playing with'
+p179
+aS'playing cards with'
+p180
+aS'playing'
+p181
+aa(lp182
+g178
+ag179
+ag180
+ag181
+aa(lp183
+S"can't leave work until"
+p184
+aS"can't leave until"
+p185
+ag185
+aa(lp186
+g184
+ag185
+ag185
+aa(lp187
+S'succeeded in fooling'
+p188
+aS'fooling'
+p189
+aa(lp190
+g188
+ag189
+aa(lp191
+S'got up and moved to'
+p192
+aS'moved to'
+p193
+aS'moved'
+p194
+aa(lp195
+g192
+ag193
+ag194
+aa(lp196
+S'lying by the'
+p197
+aS'lying by'
+p198
+aa(lp199
+g197
+ag198
+aa(lp200
+S'gave birth to'
+p201
+aS'gave birth'
+p202
+aa(lp203
+g201
+ag202
+aa(lp204
+S'tried to stop'
+p205
+aS'stop'
+p206
+aS'chatting'
+p207
+aa(lp208
+g205
+ag206
+aS'barking'
+p209
+aa(lp210
+S'yelling at'
+p211
+aS'yelling'
+p212
+aa(lp213
+g211
+ag212
+aa(lp214
+S'ate'
+p215
+aa(lp216
+g215
+aa(lp217
+S'filled with'
+p218
+aS'filled the'
+p219
+aa(lp220
+g218
+ag219
+aa(lp221
+S'chased'
+p222
+aa(lp223
+g222
+aa(lp224
+S'fell down and crashed through'
+p225
+aS'fell down'
+p226
+ag39
+aa(lp227
+g225
+ag226
+ag39
+aa(lp228
+S'stabbed'
+p229
+aa(lp230
+g229
+aa(lp231
+S'heard'
+p232
+aa(lp233
+g232
+aa(lp234
+S'saw'
+p235
+aa(lp236
+g235
+aa(lp237
+g235
+aa(lp238
+g235
+aa(lp239
+S'passionately in love'
+p240
+aS'in love'
+p241
+aa(lp242
+g240
+ag241
+aa(lp243
+S'told many lies'
+p244
+aS'told'
+p245
+aa(lp246
+g244
+ag245
+aa(lp247
+S'sold'
+p248
+aS'bought'
+p249
+aa(lp250
+g248
+ag249
+aa(lp251
+S'start to read'
+p252
+aS'start to'
+p253
+aS'read'
+p254
+aa(lp255
+g252
+ag253
+ag254
+aa(lp256
+S'took out'
+p257
+aa(lp258
+g257
+aa(lp259
+S'pulled up'
+p260
+aa(lp261
+g260
+aa(lp262
+S'in my'
+p263
+ag129
+aa(lp264
+g263
+ag129
+aa(lp265
+S'is needed for'
+p266
+aa(lp267
+g266
+aa(lp268
+S'was built'
+p269
+aS'put a'
+p270
+aa(lp271
+g269
+ag270
+aa(lp272
+S'knocked on'
+p273
+aS'knocked'
+p274
+aa(lp275
+S'knocked onknocked'
+p276
+aa(lp277
+g276
+aa(lp278
+g276
+aa(lp279
+S'took French classes from'
+p280
+aS'took classes from'
+p281
+aa(lp282
+g280
+ag281
+aa(lp283
+S'was blocked to'
+p284
+aS'was blocked'
+p285
+aa(lp286
+g284
+ag285
+aa(lp287
+S'covered by'
+p288
+aS'covered'
+p289
+aa(lp290
+g288
+ag289
+aa(lp291
+S'where a shark had been seen'
+p292
+aS'shark had been seen at'
+p293
+aa(lp294
+g292
+ag293
+aa(lp295
+S'painted with'
+p296
+aS'with'
+p297
+aa(lp298
+g296
+ag297
+aa(lp299
+S'tucked her'
+p300
+aS'tucked'
+p301
+aa(lp302
+g300
+ag301
+aa(lp303
+S'had very warm'
+p304
+aa(lp305
+g304
+aa(lp306
+S'visited'
+p307
+aa(lp308
+g307
+aa(lp309
+S'greatly influenced by'
+p310
+aS'influenced by'
+p311
+aa(lp312
+g310
+ag311
+aa(lp313
+S"can't be cut with"
+p314
+aS"can't be cut by"
+p315
+aa(lp316
+g314
+ag315
+aa(lp317
+S'attacking'
+p318
+aa(lp319
+g318
+aa(lp320
+g318
+aa(lp321
+g318
+aa(lp322
+S'covered with'
+p323
+aa(lp324
+g323
+aa(lp325
+S'changed to'
+p326
+aS'changed'
+p327
+aa(lp328
+g326
+ag327
+aa(lp329
+S'watched TV while'
+p330
+aa(lp331
+g330
+aa(lp332
+S'watch'
+p333
+aa(lp334
+g333
+aa(lp335
+S'remembers'
+p336
+aa(lp337
+g336
+aa(lp338
+g336
+aa(lp339
+g336
+aa(lp340
+S'declared war on'
+p341
+aS'declared war'
+p342
+aa(lp343
+g341
+ag342
+aa(lp344
+S'swimming right below'
+p345
+aS'is right below'
+p346
+aa(lp347
+g345
+ag346
+aa(lp348
+S'concluded that'
+p349
+aa(lp350
+g349
+aa(lp351
+S'are studying'
+p352
+aS'studying'
+p353
+aS'studying three species'
+p354
+aa(lp355
+g352
+ag353
+ag354
+aa(lp356
+S'interviewed'
+p357
+aa(lp358
+g357
+aa(lp359
+S'arrested'
+p360
+aa(lp361
+g360
+aa(lp362
+S'put away in'
+p363
+aS'put away'
+p364
+aa(lp365
+g363
+ag364
+aa(lp366
+S'broke'
+p367
+aS'walking with'
+p368
+aa(lp369
+g367
+ag368
+aa(lp370
+S'find that the room was full of'
+p371
+aS'was full of'
+p372
+aa(lp373
+g371
+ag372
+aa(lp374
+S'were loved'
+p375
+aS'only a few people liked'
+p376
+aa(lp377
+g375
+ag376
+aa(lp378
+S'placed on'
+p379
+aS'placed'
+p380
+aa(lp381
+g379
+ag380
+aa(lp382
+S'stuck through'
+p383
+aS'stuck'
+p384
+aa(lp385
+g383
+ag384
+aa(lp386
+S'used to stir'
+p387
+aS'stir'
+p388
+aa(lp389
+g387
+ag388
+aa(lp390
+S'follows'
+p391
+aa(lp392
+g391
+aa(lp393
+S"won't fit through"
+p394
+aa(lp395
+g394
+aa(lp396
+S'traded for'
+p397
+aa(lp398
+g397
+aa(lp399
+S'hired'
+p400
+aa(lp401
+S'hired himself out to'
+p402
+aa(lp403
+S'promised'
+p404
+aa(lp405
+S'ordered'
+p406
+aa(lp407
+S'biography of'
+p408
+aa(lp409
+g408
+aa(lp410
+S'died long ago'
+p411
+aS'died'
+p412
+aa(lp413
+g411
+ag412
+aa(lp414
+g273
+ag274
+aa(lp415
+g273
+ag274
+aa(lp416
+g173
+aa(lp417
+g173
+aa(lp418
+S"didn't get angry with"
+p419
+aS'angry with'
+p420
+aS'angry'
+p421
+aa(lp422
+g419
+ag420
+ag421
+aa(lp423
+S'signaled'
+p424
+aa(lp425
+g424
+aa(lp426
+S'took the seat while'
+p427
+aS'took the seat'
+p428
+aa(lp429
+g427
+ag428
+aa(lp430
+S'said check to'
+p431
+aS'said check'
+p432
+aa(lp433
+g431
+ag432
+aa(lp434
+S'passed over'
+p435
+aS'passed'
+p436
+aa(lp437
+g435
+ag436
+aa(lp438
+S'gave a lift to'
+p439
+aS'gave'
+p440
+aa(lp441
+g439
+ag440
+aa(lp442
+g436
+aa(lp443
+g436
+aa(lp444
+g436
+aa(lp445
+g436
+aa(lp446
+S'lifted'
+p447
+aa(lp448
+g447
+aa(lp449
+S'smiled'
+p450
+aa(lp451
+g450
+aa(lp452
+S'cried because'
+p453
+aS'cried'
+p454
+aa(lp455
+g453
+ag454
+aa(lp456
+S'spoke to'
+p457
+aS'spoke'
+p458
+aa(lp459
+g457
+ag458
+aa(lp460
+S'dropped'
+p461
+aa(lp462
+g461
+aa(lp463
+S'carried'
+p464
+aa(lp465
+g464
+aa(lp466
+g464
+aa(lp467
+g464
+aa(lp468
+S'held'
+p469
+aa(lp470
+g469
+aa(lp471
+S'came home and found'
+p472
+aS'came home'
+p473
+aa(lp474
+g472
+ag473
+aa(lp475
+S'informed'
+p476
+aa(lp477
+g476
+aa(lp478
+S'had to stop'
+p479
+aa(lp480
+g479
+aa(lp481
+g440
+aS'gave them'
+p482
+aa(lp483
+g440
+ag482
+aa(lp484
+g440
+ag482
+aa(lp485
+S'gave candy to'
+p486
+ag440
+aa(lp487
+g486
+ag440
+aa(lp488
+g128
+aa(lp489
+g128
+aa(lp490
+S'asked for a favor'
+p491
+ag21
+aa(lp492
+g491
+ag21
+aa(lp493
+S'ceded the presidency to'
+p494
+aS'ceded to'
+p495
+aS'ceded'
+p496
+aa(lp497
+g494
+ag495
+ag496
+aa(lp498
+S'did not pass the ball to'
+p499
+aS'did not pass to'
+p500
+aS'did not pass'
+p501
+aS'pass'
+p502
+aa(lp503
+g499
+ag500
+ag501
+ag502
+aa(lp504
+g164
+aa(lp505
+g164
+aa(lp506
+S'fired'
+p507
+aa(lp508
+g507
+aa(lp509
+g507
+aa(lp510
+g507
+aa(lp511
+S'believed that'
+p512
+aS'believed'
+p513
+aa(lp514
+g512
+ag513
+aa.
