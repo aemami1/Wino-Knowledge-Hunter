@@ -367,11 +367,6 @@ for f in range(0, n):
         print component1Sentence[f], component2Sentence[f]
         print component1SentenceFiltered, component2SentenceFiltered
 
-
-#Few corrections 
-lexicalScheme[39]=0
-lexicalScheme[265]=1
-
 if filtered:
     discarded = 0
     for i in range(len(discardedC1)):
