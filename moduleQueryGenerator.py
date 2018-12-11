@@ -105,11 +105,10 @@ whichModel= 1
 #Winograd sentences parsed by CoreNLP, stored as XML files, loaded and sorted
 listOfXmlFiles=glob.glob('winogradXML/*xml')
 listOfXmlFiles.sort()
-listOfXmlFiles=listOfXmlFiles
+numberOfXmlFiles= len(listOfXmlFiles)
 
 allSentences=[]
 
-n = n 
 scheme=[0 for _ in range(n)]
 lexicalScheme=[0 for _ in range(n)]
 entityOneArray=['' for _ in range(n)]
