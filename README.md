@@ -32,6 +32,12 @@ Precision: 0.56
 Recall: 0.28
 F1: 0.38
 
+AGQ+F:
+Traditional Setting Performance, no class restrictions: 
+Number of Correct: 80
+Precision: 0.63
+Recall: 0.29
+F1:0.40
 
 AGQS:
 Traditional Setting Performance, no class restrictions: 
@@ -40,6 +46,12 @@ Precision: 0.57
 Recall: 0.42
 F1: 0.48
 
+AGQS+F
+Traditional Setting Performance, no class restrictions: 
+Number of Correct: 119
+Precision:0.60
+Recall:0.44
+F1:0.51
 
 MGQ:
 Traditional Setting Performance, no class restrictions: 
