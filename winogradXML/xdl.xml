@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>cat</word>
+            <lemma>cat</lemma>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>was</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>lying</word>
+            <lemma>lie</lemma>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>by</word>
+            <lemma>by</lemma>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>mouse</word>
+            <lemma>mouse</lemma>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>hole</word>
+            <lemma>hole</lemma>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>waiting</word>
+            <lemma>wait</lemma>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>for</word>
+            <lemma>for</lemma>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>mouse</word>
+            <lemma>mouse</lemma>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>but</word>
+            <lemma>but</lemma>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>it</word>
+            <lemma>it</lemma>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>was</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>too</word>
+            <lemma>too</lemma>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>cautious</word>
+            <lemma>cautious</lemma>
+            <CharacterOffsetBegin>74</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="19">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>82</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (NP (DT The) (NN cat)) (VP (VBD was) (VP (VBG lying) (PP (IN by) (NP (NP (DT the) (NN mouse) (NN hole)) (VP (VBG waiting) (PP (IN for) (NP (DT the) (NN mouse))))))))) (, ,) (CC but) (S (NP (PRP it)) (VP (VBD was) (ADJP (RB too) (JJ cautious)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">lying</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">cat</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">lying</governor>
+            <dependent idx="2">cat</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">lying</governor>
+            <dependent idx="3">was</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">hole</governor>
+            <dependent idx="5">by</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">hole</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">hole</governor>
+            <dependent idx="7">mouse</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="4">lying</governor>
+            <dependent idx="8">hole</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="8">hole</governor>
+            <dependent idx="9">waiting</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">mouse</governor>
+            <dependent idx="10">for</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">mouse</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="9">waiting</governor>
+            <dependent idx="12">mouse</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">lying</governor>
+            <dependent idx="13">,</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">lying</governor>
+            <dependent idx="14">but</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="18">cautious</governor>
+            <dependent idx="15">it</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="18">cautious</governor>
+            <dependent idx="16">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="18">cautious</governor>
+            <dependent idx="17">too</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="4">lying</governor>
+            <dependent idx="18">cautious</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">lying</governor>
+            <dependent idx="19">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">lying</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">cat</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">lying</governor>
+            <dependent idx="2">cat</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">lying</governor>
+            <dependent idx="3">was</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">hole</governor>
+            <dependent idx="5">by</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">hole</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">hole</governor>
+            <dependent idx="7">mouse</dependent>
+          </dep>
+          <dep type="nmod:by">
+            <governor idx="4">lying</governor>
+            <dependent idx="8">hole</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="8">hole</governor>
+            <dependent idx="9">waiting</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">mouse</governor>
+            <dependent idx="10">for</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">mouse</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="nmod:for">
+            <governor idx="9">waiting</governor>
+            <dependent idx="12">mouse</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">lying</governor>
+            <dependent idx="13">,</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">lying</governor>
+            <dependent idx="14">but</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="18">cautious</governor>
+            <dependent idx="15">it</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="18">cautious</governor>
+            <dependent idx="16">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="18">cautious</governor>
+            <dependent idx="17">too</dependent>
+          </dep>
+          <dep type="conj:but">
+            <governor idx="4">lying</governor>
+            <dependent idx="18">cautious</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">lying</governor>
+            <dependent idx="19">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">lying</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">cat</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">lying</governor>
+            <dependent idx="2">cat</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">lying</governor>
+            <dependent idx="3">was</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">hole</governor>
+            <dependent idx="5">by</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">hole</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">hole</governor>
+            <dependent idx="7">mouse</dependent>
+          </dep>
+          <dep type="nmod:by">
+            <governor idx="4">lying</governor>
+            <dependent idx="8">hole</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="8">hole</governor>
+            <dependent idx="9">waiting</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">mouse</governor>
+            <dependent idx="10">for</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">mouse</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="nmod:for">
+            <governor idx="9">waiting</governor>
+            <dependent idx="12">mouse</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">lying</governor>
+            <dependent idx="13">,</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">lying</governor>
+            <dependent idx="14">but</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="18">cautious</governor>
+            <dependent idx="15">it</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="18">cautious</governor>
+            <dependent idx="16">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="18">cautious</governor>
+            <dependent idx="17">too</dependent>
+          </dep>
+          <dep type="conj:but">
+            <governor idx="4">lying</governor>
+            <dependent idx="18">cautious</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">lying</governor>
+            <dependent idx="19">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">lying</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">cat</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">lying</governor>
+            <dependent idx="2">cat</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">lying</governor>
+            <dependent idx="3">was</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">hole</governor>
+            <dependent idx="5">by</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">hole</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">hole</governor>
+            <dependent idx="7">mouse</dependent>
+          </dep>
+          <dep type="nmod:by">
+            <governor idx="4">lying</governor>
+            <dependent idx="8">hole</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="8">hole</governor>
+            <dependent idx="9">waiting</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">mouse</governor>
+            <dependent idx="10">for</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">mouse</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="nmod:for">
+            <governor idx="9">waiting</governor>
+            <dependent idx="12">mouse</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">lying</governor>
+            <dependent idx="13">,</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">lying</governor>
+            <dependent idx="14">but</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="18">cautious</governor>
+            <dependent idx="15">it</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="18">cautious</governor>
+            <dependent idx="16">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="18">cautious</governor>
+            <dependent idx="17">too</dependent>
+          </dep>
+          <dep type="conj:but">
+            <governor idx="4">lying</governor>
+            <dependent idx="18">cautious</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">lying</governor>
+            <dependent idx="19">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">lying</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">cat</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="4">lying</governor>
+            <dependent idx="2">cat</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="4">lying</governor>
+            <dependent idx="3">was</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">hole</governor>
+            <dependent idx="5">by</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">hole</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">hole</governor>
+            <dependent idx="7">mouse</dependent>
+          </dep>
+          <dep type="nmod:by">
+            <governor idx="4">lying</governor>
+            <dependent idx="8">hole</dependent>
+          </dep>
+          <dep type="acl">
+            <governor idx="8">hole</governor>
+            <dependent idx="9">waiting</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">mouse</governor>
+            <dependent idx="10">for</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">mouse</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="nmod:for">
+            <governor idx="9">waiting</governor>
+            <dependent idx="12">mouse</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">lying</governor>
+            <dependent idx="13">,</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="4">lying</governor>
+            <dependent idx="14">but</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="18">cautious</governor>
+            <dependent idx="15">it</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="18">cautious</governor>
+            <dependent idx="16">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="18">cautious</governor>
+            <dependent idx="17">too</dependent>
+          </dep>
+          <dep type="conj:but">
+            <governor idx="4">lying</governor>
+            <dependent idx="18">cautious</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">lying</governor>
+            <dependent idx="19">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>6</start>
+          <end>13</end>
+          <head>8</head>
+          <text>the mouse hole waiting for the mouse</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>15</start>
+          <end>16</end>
+          <head>15</head>
+          <text>it</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

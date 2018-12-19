@@ -1,0 +1,476 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>path</word>
+            <lemma>path</lemma>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>lake</word>
+            <lemma>lake</lemma>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>was</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>blocked</word>
+            <lemma>block</lemma>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>so</word>
+            <lemma>so</lemma>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>we</word>
+            <lemma>we</lemma>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>could</word>
+            <lemma>could</lemma>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>MD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>n't</word>
+            <lemma>not</lemma>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>reach</word>
+            <lemma>reach</lemma>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>it</word>
+            <lemma>it</lemma>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (NP (NP (DT The) (NN path)) (PP (TO to) (NP (DT the) (NN lake)))) (VP (VBD was) (VP (VBN blocked)))) (, ,) (IN so) (S (NP (PRP we)) (VP (MD could) (RB n't) (VP (VB reach) (NP (PRP it))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">blocked</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">path</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="7">blocked</governor>
+            <dependent idx="2">path</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">lake</governor>
+            <dependent idx="3">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">lake</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="2">path</governor>
+            <dependent idx="5">lake</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="7">blocked</governor>
+            <dependent idx="6">was</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">blocked</governor>
+            <dependent idx="8">,</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">blocked</governor>
+            <dependent idx="9">so</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">reach</governor>
+            <dependent idx="10">we</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="13">reach</governor>
+            <dependent idx="11">could</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="13">reach</governor>
+            <dependent idx="12">n't</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="7">blocked</governor>
+            <dependent idx="13">reach</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">reach</governor>
+            <dependent idx="14">it</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">blocked</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">blocked</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">path</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="7">blocked</governor>
+            <dependent idx="2">path</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">lake</governor>
+            <dependent idx="3">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">lake</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="2">path</governor>
+            <dependent idx="5">lake</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="7">blocked</governor>
+            <dependent idx="6">was</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">blocked</governor>
+            <dependent idx="8">,</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">blocked</governor>
+            <dependent idx="9">so</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">reach</governor>
+            <dependent idx="10">we</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="13">reach</governor>
+            <dependent idx="11">could</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="13">reach</governor>
+            <dependent idx="12">n't</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="7">blocked</governor>
+            <dependent idx="13">reach</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">reach</governor>
+            <dependent idx="14">it</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">blocked</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">blocked</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">path</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="7">blocked</governor>
+            <dependent idx="2">path</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">lake</governor>
+            <dependent idx="3">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">lake</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="2">path</governor>
+            <dependent idx="5">lake</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="7">blocked</governor>
+            <dependent idx="6">was</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">blocked</governor>
+            <dependent idx="8">,</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">blocked</governor>
+            <dependent idx="9">so</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">reach</governor>
+            <dependent idx="10">we</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="13">reach</governor>
+            <dependent idx="11">could</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="13">reach</governor>
+            <dependent idx="12">n't</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="7">blocked</governor>
+            <dependent idx="13">reach</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">reach</governor>
+            <dependent idx="14">it</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">blocked</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">blocked</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">path</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="7">blocked</governor>
+            <dependent idx="2">path</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">lake</governor>
+            <dependent idx="3">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">lake</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="2">path</governor>
+            <dependent idx="5">lake</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="7">blocked</governor>
+            <dependent idx="6">was</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">blocked</governor>
+            <dependent idx="8">,</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">blocked</governor>
+            <dependent idx="9">so</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">reach</governor>
+            <dependent idx="10">we</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="13">reach</governor>
+            <dependent idx="11">could</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="13">reach</governor>
+            <dependent idx="12">n't</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="7">blocked</governor>
+            <dependent idx="13">reach</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">reach</governor>
+            <dependent idx="14">it</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">blocked</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">blocked</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">path</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="7">blocked</governor>
+            <dependent idx="2">path</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">lake</governor>
+            <dependent idx="3">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">lake</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="2">path</governor>
+            <dependent idx="5">lake</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="7">blocked</governor>
+            <dependent idx="6">was</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">blocked</governor>
+            <dependent idx="8">,</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="7">blocked</governor>
+            <dependent idx="9">so</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">reach</governor>
+            <dependent idx="10">we</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="13">reach</governor>
+            <dependent idx="11">could</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="13">reach</governor>
+            <dependent idx="12">n't</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="7">blocked</governor>
+            <dependent idx="13">reach</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">reach</governor>
+            <dependent idx="14">it</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">blocked</governor>
+            <dependent idx="15">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>1</start>
+          <end>6</end>
+          <head>2</head>
+          <text>The path to the lake</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>14</start>
+          <end>15</end>
+          <head>14</head>
+          <text>it</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

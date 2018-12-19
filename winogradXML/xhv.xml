@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>John</word>
+            <lemma>John</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>hired</word>
+            <lemma>hire</lemma>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>himself</word>
+            <lemma>himself</lemma>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>out</word>
+            <lemma>out</lemma>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>RP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>Bill</word>
+            <lemma>Bill</lemma>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>take</word>
+            <lemma>take</lemma>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>care</word>
+            <lemma>care</lemma>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>him</word>
+            <lemma>he</lemma>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP John)) (VP (VBD hired) (NP (PRP himself)) (PRT (RP out)) (PP (TO to) (NP (NNP Bill))) (S (VP (TO to) (VP (VB take) (NP (NP (NN care)) (PP (IN of) (NP (PRP him)))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">hired</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">hired</governor>
+            <dependent idx="1">John</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">hired</governor>
+            <dependent idx="3">himself</dependent>
+          </dep>
+          <dep type="compound:prt">
+            <governor idx="2">hired</governor>
+            <dependent idx="4">out</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Bill</governor>
+            <dependent idx="5">to</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="2">hired</governor>
+            <dependent idx="6">Bill</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="8">take</governor>
+            <dependent idx="7">to</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="2">hired</governor>
+            <dependent idx="8">take</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">take</governor>
+            <dependent idx="9">care</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">him</governor>
+            <dependent idx="10">of</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="9">care</governor>
+            <dependent idx="11">him</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">hired</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">hired</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">hired</governor>
+            <dependent idx="1">John</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">hired</governor>
+            <dependent idx="3">himself</dependent>
+          </dep>
+          <dep type="compound:prt">
+            <governor idx="2">hired</governor>
+            <dependent idx="4">out</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Bill</governor>
+            <dependent idx="5">to</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="2">hired</governor>
+            <dependent idx="6">Bill</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="8">take</governor>
+            <dependent idx="7">to</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="2">hired</governor>
+            <dependent idx="8">take</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">take</governor>
+            <dependent idx="9">care</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">him</governor>
+            <dependent idx="10">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="9">care</governor>
+            <dependent idx="11">him</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">hired</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">hired</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">hired</governor>
+            <dependent idx="1">John</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">hired</governor>
+            <dependent idx="3">himself</dependent>
+          </dep>
+          <dep type="compound:prt">
+            <governor idx="2">hired</governor>
+            <dependent idx="4">out</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Bill</governor>
+            <dependent idx="5">to</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="2">hired</governor>
+            <dependent idx="6">Bill</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="8">take</governor>
+            <dependent idx="7">to</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="2">hired</governor>
+            <dependent idx="8">take</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">take</governor>
+            <dependent idx="9">care</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">him</governor>
+            <dependent idx="10">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="9">care</governor>
+            <dependent idx="11">him</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">hired</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">hired</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">hired</governor>
+            <dependent idx="1">John</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">hired</governor>
+            <dependent idx="3">himself</dependent>
+          </dep>
+          <dep type="compound:prt">
+            <governor idx="2">hired</governor>
+            <dependent idx="4">out</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Bill</governor>
+            <dependent idx="5">to</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="2">hired</governor>
+            <dependent idx="6">Bill</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="8">take</governor>
+            <dependent idx="7">to</dependent>
+          </dep>
+          <dep type="advcl:to">
+            <governor idx="2">hired</governor>
+            <dependent idx="8">take</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">take</governor>
+            <dependent idx="9">care</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">him</governor>
+            <dependent idx="10">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="9">care</governor>
+            <dependent idx="11">him</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">hired</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">hired</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">hired</governor>
+            <dependent idx="1">John</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">hired</governor>
+            <dependent idx="3">himself</dependent>
+          </dep>
+          <dep type="compound:prt">
+            <governor idx="2">hired</governor>
+            <dependent idx="4">out</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Bill</governor>
+            <dependent idx="5">to</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="2">hired</governor>
+            <dependent idx="6">Bill</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="8">take</governor>
+            <dependent idx="7">to</dependent>
+          </dep>
+          <dep type="advcl:to">
+            <governor idx="2">hired</governor>
+            <dependent idx="8">take</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">take</governor>
+            <dependent idx="9">care</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">him</governor>
+            <dependent idx="10">of</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="9">care</governor>
+            <dependent idx="11">him</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">hired</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>1</start>
+          <end>2</end>
+          <head>1</head>
+          <text>John</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>3</start>
+          <end>4</end>
+          <head>3</head>
+          <text>himself</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>11</start>
+          <end>12</end>
+          <head>11</head>
+          <text>him</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

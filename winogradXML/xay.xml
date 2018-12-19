@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>sculpture</word>
+            <lemma>sculpture</lemma>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>rolled</word>
+            <lemma>roll</lemma>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>off</word>
+            <lemma>off</lemma>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>RP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>shelf</word>
+            <lemma>shelf</lemma>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>because</word>
+            <lemma>because</lemma>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>it</word>
+            <lemma>it</lemma>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>was</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>n't</word>
+            <lemma>not</lemma>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>anchored</word>
+            <lemma>anchor</lemma>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (DT The) (NN sculpture)) (VP (VBD rolled) (PRT (RP off)) (NP (DT the) (NN shelf)) (SBAR (IN because) (S (NP (PRP it)) (VP (VBD was) (RB n't) (VP (VBN anchored)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">rolled</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">sculpture</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">rolled</governor>
+            <dependent idx="2">sculpture</dependent>
+          </dep>
+          <dep type="compound:prt">
+            <governor idx="3">rolled</governor>
+            <dependent idx="4">off</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">shelf</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">rolled</governor>
+            <dependent idx="6">shelf</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="11">anchored</governor>
+            <dependent idx="7">because</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="11">anchored</governor>
+            <dependent idx="8">it</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="11">anchored</governor>
+            <dependent idx="9">was</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="11">anchored</governor>
+            <dependent idx="10">n't</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="3">rolled</governor>
+            <dependent idx="11">anchored</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">rolled</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">rolled</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">sculpture</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">rolled</governor>
+            <dependent idx="2">sculpture</dependent>
+          </dep>
+          <dep type="compound:prt">
+            <governor idx="3">rolled</governor>
+            <dependent idx="4">off</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">shelf</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">rolled</governor>
+            <dependent idx="6">shelf</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="11">anchored</governor>
+            <dependent idx="7">because</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="11">anchored</governor>
+            <dependent idx="8">it</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="11">anchored</governor>
+            <dependent idx="9">was</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="11">anchored</governor>
+            <dependent idx="10">n't</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="3">rolled</governor>
+            <dependent idx="11">anchored</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">rolled</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">rolled</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">sculpture</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">rolled</governor>
+            <dependent idx="2">sculpture</dependent>
+          </dep>
+          <dep type="compound:prt">
+            <governor idx="3">rolled</governor>
+            <dependent idx="4">off</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">shelf</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">rolled</governor>
+            <dependent idx="6">shelf</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="11">anchored</governor>
+            <dependent idx="7">because</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="11">anchored</governor>
+            <dependent idx="8">it</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="11">anchored</governor>
+            <dependent idx="9">was</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="11">anchored</governor>
+            <dependent idx="10">n't</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="3">rolled</governor>
+            <dependent idx="11">anchored</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">rolled</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">rolled</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">sculpture</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">rolled</governor>
+            <dependent idx="2">sculpture</dependent>
+          </dep>
+          <dep type="compound:prt">
+            <governor idx="3">rolled</governor>
+            <dependent idx="4">off</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">shelf</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">rolled</governor>
+            <dependent idx="6">shelf</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="11">anchored</governor>
+            <dependent idx="7">because</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="11">anchored</governor>
+            <dependent idx="8">it</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="11">anchored</governor>
+            <dependent idx="9">was</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="11">anchored</governor>
+            <dependent idx="10">n't</dependent>
+          </dep>
+          <dep type="advcl:because">
+            <governor idx="3">rolled</governor>
+            <dependent idx="11">anchored</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">rolled</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">rolled</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">sculpture</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">rolled</governor>
+            <dependent idx="2">sculpture</dependent>
+          </dep>
+          <dep type="compound:prt">
+            <governor idx="3">rolled</governor>
+            <dependent idx="4">off</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">shelf</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">rolled</governor>
+            <dependent idx="6">shelf</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="11">anchored</governor>
+            <dependent idx="7">because</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="11">anchored</governor>
+            <dependent idx="8">it</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="11">anchored</governor>
+            <dependent idx="9">was</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="11">anchored</governor>
+            <dependent idx="10">n't</dependent>
+          </dep>
+          <dep type="advcl:because">
+            <governor idx="3">rolled</governor>
+            <dependent idx="11">anchored</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">rolled</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>1</start>
+          <end>3</end>
+          <head>2</head>
+          <text>The sculpture</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>8</start>
+          <end>9</end>
+          <head>8</head>
+          <text>it</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

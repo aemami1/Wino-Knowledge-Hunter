@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>As</word>
+            <lemma>as</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Ollie</word>
+            <lemma>Ollie</lemma>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>carried</word>
+            <lemma>carry</lemma>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>Tommy</word>
+            <lemma>Tommy</lemma>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>up</word>
+            <lemma>up</lemma>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>long</word>
+            <lemma>long</lemma>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>winding</word>
+            <lemma>wind</lemma>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>steps</word>
+            <lemma>step</lemma>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>his</word>
+            <lemma>he</lemma>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>legs</word>
+            <lemma>leg</lemma>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>ached</word>
+            <lemma>ache</lemma>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>64</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (SBAR (IN As) (S (NP (NNP Ollie)) (VP (VBD carried) (NP (NNP Tommy)) (PP (IN up) (NP (DT the) (JJ long))) (S (VP (VBG winding) (NP (NNS steps))))))) (, ,) (NP (PRP$ his) (NNS legs)) (VP (VBD ached)) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="13">ached</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="3">carried</governor>
+            <dependent idx="1">As</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">carried</governor>
+            <dependent idx="2">Ollie</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="13">ached</governor>
+            <dependent idx="3">carried</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">carried</governor>
+            <dependent idx="4">Tommy</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">long</governor>
+            <dependent idx="5">up</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">long</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="3">carried</governor>
+            <dependent idx="7">long</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="3">carried</governor>
+            <dependent idx="8">winding</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">winding</governor>
+            <dependent idx="9">steps</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="13">ached</governor>
+            <dependent idx="10">,</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="12">legs</governor>
+            <dependent idx="11">his</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">ached</governor>
+            <dependent idx="12">legs</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="13">ached</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="13">ached</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="3">carried</governor>
+            <dependent idx="1">As</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">carried</governor>
+            <dependent idx="2">Ollie</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="13">ached</governor>
+            <dependent idx="3">carried</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">carried</governor>
+            <dependent idx="4">Tommy</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">long</governor>
+            <dependent idx="5">up</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">long</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="nmod:up">
+            <governor idx="3">carried</governor>
+            <dependent idx="7">long</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="3">carried</governor>
+            <dependent idx="8">winding</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">winding</governor>
+            <dependent idx="9">steps</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="13">ached</governor>
+            <dependent idx="10">,</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="12">legs</governor>
+            <dependent idx="11">his</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">ached</governor>
+            <dependent idx="12">legs</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="13">ached</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="13">ached</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="3">carried</governor>
+            <dependent idx="1">As</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">carried</governor>
+            <dependent idx="2">Ollie</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="13">ached</governor>
+            <dependent idx="3">carried</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">carried</governor>
+            <dependent idx="4">Tommy</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">long</governor>
+            <dependent idx="5">up</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">long</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="nmod:up">
+            <governor idx="3">carried</governor>
+            <dependent idx="7">long</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="3">carried</governor>
+            <dependent idx="8">winding</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">winding</governor>
+            <dependent idx="9">steps</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="13">ached</governor>
+            <dependent idx="10">,</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="12">legs</governor>
+            <dependent idx="11">his</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">ached</governor>
+            <dependent idx="12">legs</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="13">ached</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="13">ached</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="3">carried</governor>
+            <dependent idx="1">As</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">carried</governor>
+            <dependent idx="2">Ollie</dependent>
+          </dep>
+          <dep type="advcl:as">
+            <governor idx="13">ached</governor>
+            <dependent idx="3">carried</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">carried</governor>
+            <dependent idx="4">Tommy</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">long</governor>
+            <dependent idx="5">up</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">long</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="nmod:up">
+            <governor idx="3">carried</governor>
+            <dependent idx="7">long</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="3">carried</governor>
+            <dependent idx="8">winding</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">winding</governor>
+            <dependent idx="9">steps</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="13">ached</governor>
+            <dependent idx="10">,</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="12">legs</governor>
+            <dependent idx="11">his</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">ached</governor>
+            <dependent idx="12">legs</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="13">ached</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="13">ached</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="3">carried</governor>
+            <dependent idx="1">As</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">carried</governor>
+            <dependent idx="2">Ollie</dependent>
+          </dep>
+          <dep type="advcl:as">
+            <governor idx="13">ached</governor>
+            <dependent idx="3">carried</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">carried</governor>
+            <dependent idx="4">Tommy</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">long</governor>
+            <dependent idx="5">up</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">long</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="nmod:up">
+            <governor idx="3">carried</governor>
+            <dependent idx="7">long</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="3">carried</governor>
+            <dependent idx="8">winding</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">winding</governor>
+            <dependent idx="9">steps</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="13">ached</governor>
+            <dependent idx="10">,</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="12">legs</governor>
+            <dependent idx="11">his</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">ached</governor>
+            <dependent idx="12">legs</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="13">ached</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>2</start>
+          <end>3</end>
+          <head>2</head>
+          <text>Ollie</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>11</start>
+          <end>12</end>
+          <head>11</head>
+          <text>his</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

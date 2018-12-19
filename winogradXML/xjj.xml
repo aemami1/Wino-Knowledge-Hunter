@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>father</word>
+            <lemma>father</lemma>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>carried</word>
+            <lemma>carry</lemma>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>sleeping</word>
+            <lemma>sleep</lemma>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>boy</word>
+            <lemma>boy</lemma>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>his</word>
+            <lemma>he</lemma>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>bassinet</word>
+            <lemma>bassinet</lemma>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (DT The) (NN father)) (VP (VBD carried) (NP (NP (DT the) (VBG sleeping) (NN boy)) (PP (IN in) (NP (PRP$ his) (NN bassinet))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">carried</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">father</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">carried</governor>
+            <dependent idx="2">father</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">boy</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">boy</governor>
+            <dependent idx="5">sleeping</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">carried</governor>
+            <dependent idx="6">boy</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">bassinet</governor>
+            <dependent idx="7">in</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="9">bassinet</governor>
+            <dependent idx="8">his</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="6">boy</governor>
+            <dependent idx="9">bassinet</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">carried</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">carried</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">father</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">carried</governor>
+            <dependent idx="2">father</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">boy</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">boy</governor>
+            <dependent idx="5">sleeping</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">carried</governor>
+            <dependent idx="6">boy</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">bassinet</governor>
+            <dependent idx="7">in</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="9">bassinet</governor>
+            <dependent idx="8">his</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="6">boy</governor>
+            <dependent idx="9">bassinet</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">carried</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">carried</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">father</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">carried</governor>
+            <dependent idx="2">father</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">boy</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">boy</governor>
+            <dependent idx="5">sleeping</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">carried</governor>
+            <dependent idx="6">boy</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">bassinet</governor>
+            <dependent idx="7">in</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="9">bassinet</governor>
+            <dependent idx="8">his</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="6">boy</governor>
+            <dependent idx="9">bassinet</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">carried</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">carried</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">father</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">carried</governor>
+            <dependent idx="2">father</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">boy</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">boy</governor>
+            <dependent idx="5">sleeping</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">carried</governor>
+            <dependent idx="6">boy</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">bassinet</governor>
+            <dependent idx="7">in</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="9">bassinet</governor>
+            <dependent idx="8">his</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="6">boy</governor>
+            <dependent idx="9">bassinet</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">carried</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">carried</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">father</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">carried</governor>
+            <dependent idx="2">father</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">boy</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="6">boy</governor>
+            <dependent idx="5">sleeping</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="3">carried</governor>
+            <dependent idx="6">boy</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">bassinet</governor>
+            <dependent idx="7">in</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="9">bassinet</governor>
+            <dependent idx="8">his</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="6">boy</governor>
+            <dependent idx="9">bassinet</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">carried</governor>
+            <dependent idx="10">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>1</start>
+          <end>3</end>
+          <head>2</head>
+          <text>The father</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>8</start>
+          <end>9</end>
+          <head>8</head>
+          <text>his</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

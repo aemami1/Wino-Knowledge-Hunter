@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>man</word>
+            <lemma>man</lemma>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>could</word>
+            <lemma>could</lemma>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>MD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>n't</word>
+            <lemma>not</lemma>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>lift</word>
+            <lemma>lift</lemma>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>his</word>
+            <lemma>he</lemma>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>son</word>
+            <lemma>son</lemma>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>because</word>
+            <lemma>because</lemma>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>he</word>
+            <lemma>he</lemma>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>was</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>so</word>
+            <lemma>so</lemma>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>heavy</word>
+            <lemma>heavy</lemma>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (DT The) (NN man)) (VP (MD could) (RB n't) (VP (VB lift) (NP (PRP$ his) (NN son)) (SBAR (IN because) (S (NP (PRP he)) (VP (VBD was) (ADJP (RB so) (JJ heavy))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">lift</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">man</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">lift</governor>
+            <dependent idx="2">man</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">lift</governor>
+            <dependent idx="3">could</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="5">lift</governor>
+            <dependent idx="4">n't</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="7">son</governor>
+            <dependent idx="6">his</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">lift</governor>
+            <dependent idx="7">son</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="12">heavy</governor>
+            <dependent idx="8">because</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">heavy</governor>
+            <dependent idx="9">he</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="12">heavy</governor>
+            <dependent idx="10">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="12">heavy</governor>
+            <dependent idx="11">so</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="5">lift</governor>
+            <dependent idx="12">heavy</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">lift</governor>
+            <dependent idx="13">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">lift</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">man</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">lift</governor>
+            <dependent idx="2">man</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">lift</governor>
+            <dependent idx="3">could</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="5">lift</governor>
+            <dependent idx="4">n't</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="7">son</governor>
+            <dependent idx="6">his</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">lift</governor>
+            <dependent idx="7">son</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="12">heavy</governor>
+            <dependent idx="8">because</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">heavy</governor>
+            <dependent idx="9">he</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="12">heavy</governor>
+            <dependent idx="10">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="12">heavy</governor>
+            <dependent idx="11">so</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="5">lift</governor>
+            <dependent idx="12">heavy</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">lift</governor>
+            <dependent idx="13">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">lift</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">man</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">lift</governor>
+            <dependent idx="2">man</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">lift</governor>
+            <dependent idx="3">could</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="5">lift</governor>
+            <dependent idx="4">n't</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="7">son</governor>
+            <dependent idx="6">his</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">lift</governor>
+            <dependent idx="7">son</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="12">heavy</governor>
+            <dependent idx="8">because</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">heavy</governor>
+            <dependent idx="9">he</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="12">heavy</governor>
+            <dependent idx="10">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="12">heavy</governor>
+            <dependent idx="11">so</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="5">lift</governor>
+            <dependent idx="12">heavy</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">lift</governor>
+            <dependent idx="13">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">lift</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">man</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">lift</governor>
+            <dependent idx="2">man</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">lift</governor>
+            <dependent idx="3">could</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="5">lift</governor>
+            <dependent idx="4">n't</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="7">son</governor>
+            <dependent idx="6">his</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">lift</governor>
+            <dependent idx="7">son</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="12">heavy</governor>
+            <dependent idx="8">because</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">heavy</governor>
+            <dependent idx="9">he</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="12">heavy</governor>
+            <dependent idx="10">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="12">heavy</governor>
+            <dependent idx="11">so</dependent>
+          </dep>
+          <dep type="advcl:because">
+            <governor idx="5">lift</governor>
+            <dependent idx="12">heavy</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">lift</governor>
+            <dependent idx="13">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">lift</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">man</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">lift</governor>
+            <dependent idx="2">man</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">lift</governor>
+            <dependent idx="3">could</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="5">lift</governor>
+            <dependent idx="4">n't</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="7">son</governor>
+            <dependent idx="6">his</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">lift</governor>
+            <dependent idx="7">son</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="12">heavy</governor>
+            <dependent idx="8">because</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="12">heavy</governor>
+            <dependent idx="9">he</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="12">heavy</governor>
+            <dependent idx="10">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="12">heavy</governor>
+            <dependent idx="11">so</dependent>
+          </dep>
+          <dep type="advcl:because">
+            <governor idx="5">lift</governor>
+            <dependent idx="12">heavy</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">lift</governor>
+            <dependent idx="13">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>1</start>
+          <end>3</end>
+          <head>2</head>
+          <text>The man</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>6</start>
+          <end>7</end>
+          <head>6</head>
+          <text>his</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>9</start>
+          <end>10</end>
+          <head>9</head>
+          <text>he</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

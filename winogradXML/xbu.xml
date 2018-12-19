@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Sid</word>
+            <lemma>Sid</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>explained</word>
+            <lemma>explain</lemma>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>his</word>
+            <lemma>he</lemma>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>theory</word>
+            <lemma>theory</lemma>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>Mark</word>
+            <lemma>Mark</lemma>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>but</word>
+            <lemma>but</lemma>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>he</word>
+            <lemma>he</lemma>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>could</word>
+            <lemma>could</lemma>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>MD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>n't</word>
+            <lemma>not</lemma>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>convince</word>
+            <lemma>convince</lemma>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>him</word>
+            <lemma>he</lemma>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (NP (NNP Sid)) (VP (VBD explained) (NP (PRP$ his) (NN theory)) (PP (TO to) (NP (NNP Mark))))) (CC but) (S (NP (PRP he)) (VP (MD could) (RB n't) (VP (VB convince) (NP (PRP him))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">explained</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">explained</governor>
+            <dependent idx="1">Sid</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="4">theory</governor>
+            <dependent idx="3">his</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">explained</governor>
+            <dependent idx="4">theory</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Mark</governor>
+            <dependent idx="5">to</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="2">explained</governor>
+            <dependent idx="6">Mark</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="2">explained</governor>
+            <dependent idx="7">but</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">convince</governor>
+            <dependent idx="8">he</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="11">convince</governor>
+            <dependent idx="9">could</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="11">convince</governor>
+            <dependent idx="10">n't</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="2">explained</governor>
+            <dependent idx="11">convince</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">convince</governor>
+            <dependent idx="12">him</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">explained</governor>
+            <dependent idx="13">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">explained</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">explained</governor>
+            <dependent idx="1">Sid</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="4">theory</governor>
+            <dependent idx="3">his</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">explained</governor>
+            <dependent idx="4">theory</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Mark</governor>
+            <dependent idx="5">to</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="2">explained</governor>
+            <dependent idx="6">Mark</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="2">explained</governor>
+            <dependent idx="7">but</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">convince</governor>
+            <dependent idx="8">he</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="11">convince</governor>
+            <dependent idx="9">could</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="11">convince</governor>
+            <dependent idx="10">n't</dependent>
+          </dep>
+          <dep type="conj:but">
+            <governor idx="2">explained</governor>
+            <dependent idx="11">convince</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">convince</governor>
+            <dependent idx="12">him</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">explained</governor>
+            <dependent idx="13">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">explained</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">explained</governor>
+            <dependent idx="1">Sid</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="4">theory</governor>
+            <dependent idx="3">his</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">explained</governor>
+            <dependent idx="4">theory</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Mark</governor>
+            <dependent idx="5">to</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="2">explained</governor>
+            <dependent idx="6">Mark</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="2">explained</governor>
+            <dependent idx="7">but</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">convince</governor>
+            <dependent idx="8">he</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="11">convince</governor>
+            <dependent idx="9">could</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="11">convince</governor>
+            <dependent idx="10">n't</dependent>
+          </dep>
+          <dep type="conj:but">
+            <governor idx="2">explained</governor>
+            <dependent idx="11">convince</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">convince</governor>
+            <dependent idx="12">him</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">explained</governor>
+            <dependent idx="13">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">explained</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">explained</governor>
+            <dependent idx="1">Sid</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="4">theory</governor>
+            <dependent idx="3">his</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">explained</governor>
+            <dependent idx="4">theory</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Mark</governor>
+            <dependent idx="5">to</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="2">explained</governor>
+            <dependent idx="6">Mark</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="2">explained</governor>
+            <dependent idx="7">but</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">convince</governor>
+            <dependent idx="8">he</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="11">convince</governor>
+            <dependent idx="9">could</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="11">convince</governor>
+            <dependent idx="10">n't</dependent>
+          </dep>
+          <dep type="conj:but">
+            <governor idx="2">explained</governor>
+            <dependent idx="11">convince</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">convince</governor>
+            <dependent idx="12">him</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">explained</governor>
+            <dependent idx="13">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">explained</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">explained</governor>
+            <dependent idx="1">Sid</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="4">theory</governor>
+            <dependent idx="3">his</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">explained</governor>
+            <dependent idx="4">theory</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Mark</governor>
+            <dependent idx="5">to</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="2">explained</governor>
+            <dependent idx="6">Mark</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="2">explained</governor>
+            <dependent idx="7">but</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">convince</governor>
+            <dependent idx="8">he</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="11">convince</governor>
+            <dependent idx="9">could</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="11">convince</governor>
+            <dependent idx="10">n't</dependent>
+          </dep>
+          <dep type="conj:but">
+            <governor idx="2">explained</governor>
+            <dependent idx="11">convince</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="11">convince</governor>
+            <dependent idx="12">him</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">explained</governor>
+            <dependent idx="13">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>1</start>
+          <end>2</end>
+          <head>1</head>
+          <text>Sid</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>3</start>
+          <end>4</end>
+          <head>3</head>
+          <text>his</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>8</start>
+          <end>9</end>
+          <head>8</head>
+          <text>he</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>12</start>
+          <end>13</end>
+          <head>12</head>
+          <text>him</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

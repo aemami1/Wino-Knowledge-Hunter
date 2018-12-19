@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Patting</word>
+            <lemma>pat</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>her</word>
+            <lemma>she</lemma>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>back</word>
+            <lemma>back</lemma>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>woman</word>
+            <lemma>woman</lemma>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>smiled</word>
+            <lemma>smile</lemma>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>at</word>
+            <lemma>at</lemma>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>girl</word>
+            <lemma>girl</lemma>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (VP (VBG Patting) (NP (PRP$ her) (NN back)))) (, ,) (NP (DT the) (NN woman)) (VP (VBD smiled) (PP (IN at) (NP (DT the) (NN girl)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">smiled</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="7">smiled</governor>
+            <dependent idx="1">Patting</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="3">back</governor>
+            <dependent idx="2">her</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Patting</governor>
+            <dependent idx="3">back</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">smiled</governor>
+            <dependent idx="4">,</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">woman</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">smiled</governor>
+            <dependent idx="6">woman</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">girl</governor>
+            <dependent idx="8">at</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">girl</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="7">smiled</governor>
+            <dependent idx="10">girl</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">smiled</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">smiled</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="7">smiled</governor>
+            <dependent idx="1">Patting</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="3">back</governor>
+            <dependent idx="2">her</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Patting</governor>
+            <dependent idx="3">back</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">smiled</governor>
+            <dependent idx="4">,</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">woman</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">smiled</governor>
+            <dependent idx="6">woman</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">girl</governor>
+            <dependent idx="8">at</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">girl</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="7">smiled</governor>
+            <dependent idx="10">girl</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">smiled</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">smiled</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="7">smiled</governor>
+            <dependent idx="1">Patting</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="3">back</governor>
+            <dependent idx="2">her</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Patting</governor>
+            <dependent idx="3">back</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">smiled</governor>
+            <dependent idx="4">,</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">woman</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">smiled</governor>
+            <dependent idx="6">woman</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">girl</governor>
+            <dependent idx="8">at</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">girl</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="7">smiled</governor>
+            <dependent idx="10">girl</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">smiled</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">smiled</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="7">smiled</governor>
+            <dependent idx="1">Patting</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="3">back</governor>
+            <dependent idx="2">her</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Patting</governor>
+            <dependent idx="3">back</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">smiled</governor>
+            <dependent idx="4">,</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">woman</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">smiled</governor>
+            <dependent idx="6">woman</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">girl</governor>
+            <dependent idx="8">at</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">girl</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="7">smiled</governor>
+            <dependent idx="10">girl</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">smiled</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="7">smiled</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="7">smiled</governor>
+            <dependent idx="1">Patting</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="3">back</governor>
+            <dependent idx="2">her</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="1">Patting</governor>
+            <dependent idx="3">back</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">smiled</governor>
+            <dependent idx="4">,</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">woman</governor>
+            <dependent idx="5">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">smiled</governor>
+            <dependent idx="6">woman</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">girl</governor>
+            <dependent idx="8">at</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">girl</governor>
+            <dependent idx="9">the</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="7">smiled</governor>
+            <dependent idx="10">girl</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="7">smiled</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+  </document>
+</root>

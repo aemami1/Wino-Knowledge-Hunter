@@ -1,0 +1,447 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Joe</word>
+            <lemma>Joe</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>paid</word>
+            <lemma>pay</lemma>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>detective</word>
+            <lemma>detective</lemma>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>after</word>
+            <lemma>after</lemma>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>he</word>
+            <lemma>he</lemma>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>received</word>
+            <lemma>receive</lemma>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>final</word>
+            <lemma>final</lemma>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>report</word>
+            <lemma>report</lemma>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>on</word>
+            <lemma>on</lemma>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>64</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>case</word>
+            <lemma>case</lemma>
+            <CharacterOffsetBegin>65</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Joe)) (VP (VBD paid) (NP (DT the) (NN detective)) (SBAR (IN after) (S (NP (PRP he)) (VP (VBD received) (NP (DT the) (JJ final) (NN report)) (PP (IN on) (NP (DT the) (NN case))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">paid</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">paid</governor>
+            <dependent idx="1">Joe</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">detective</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">paid</governor>
+            <dependent idx="4">detective</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="7">received</governor>
+            <dependent idx="5">after</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">received</governor>
+            <dependent idx="6">he</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="2">paid</governor>
+            <dependent idx="7">received</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">report</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">report</governor>
+            <dependent idx="9">final</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">received</governor>
+            <dependent idx="10">report</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">case</governor>
+            <dependent idx="11">on</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">case</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="7">received</governor>
+            <dependent idx="13">case</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">paid</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">paid</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">paid</governor>
+            <dependent idx="1">Joe</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">detective</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">paid</governor>
+            <dependent idx="4">detective</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="7">received</governor>
+            <dependent idx="5">after</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">received</governor>
+            <dependent idx="6">he</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="2">paid</governor>
+            <dependent idx="7">received</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">report</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">report</governor>
+            <dependent idx="9">final</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">received</governor>
+            <dependent idx="10">report</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">case</governor>
+            <dependent idx="11">on</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">case</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="7">received</governor>
+            <dependent idx="13">case</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">paid</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">paid</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">paid</governor>
+            <dependent idx="1">Joe</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">detective</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">paid</governor>
+            <dependent idx="4">detective</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="7">received</governor>
+            <dependent idx="5">after</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">received</governor>
+            <dependent idx="6">he</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="2">paid</governor>
+            <dependent idx="7">received</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">report</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">report</governor>
+            <dependent idx="9">final</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">received</governor>
+            <dependent idx="10">report</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">case</governor>
+            <dependent idx="11">on</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">case</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="7">received</governor>
+            <dependent idx="13">case</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">paid</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">paid</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">paid</governor>
+            <dependent idx="1">Joe</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">detective</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">paid</governor>
+            <dependent idx="4">detective</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="7">received</governor>
+            <dependent idx="5">after</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">received</governor>
+            <dependent idx="6">he</dependent>
+          </dep>
+          <dep type="advcl:after">
+            <governor idx="2">paid</governor>
+            <dependent idx="7">received</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">report</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">report</governor>
+            <dependent idx="9">final</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">received</governor>
+            <dependent idx="10">report</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">case</governor>
+            <dependent idx="11">on</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">case</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="7">received</governor>
+            <dependent idx="13">case</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">paid</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">paid</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">paid</governor>
+            <dependent idx="1">Joe</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">detective</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">paid</governor>
+            <dependent idx="4">detective</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="7">received</governor>
+            <dependent idx="5">after</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">received</governor>
+            <dependent idx="6">he</dependent>
+          </dep>
+          <dep type="advcl:after">
+            <governor idx="2">paid</governor>
+            <dependent idx="7">received</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="10">report</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="10">report</governor>
+            <dependent idx="9">final</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">received</governor>
+            <dependent idx="10">report</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="13">case</governor>
+            <dependent idx="11">on</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">case</governor>
+            <dependent idx="12">the</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="7">received</governor>
+            <dependent idx="13">case</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">paid</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>1</start>
+          <end>2</end>
+          <head>1</head>
+          <text>Joe</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>6</start>
+          <end>7</end>
+          <head>6</head>
+          <text>he</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

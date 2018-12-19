@@ -1,0 +1,897 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>In</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>July</word>
+            <lemma>July</lemma>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>XXXX-07</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE">XXXX-07</Timex>
+          </token>
+          <token id="3">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>Kamtchatka</word>
+            <lemma>Kamtchatka</lemma>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>declared</word>
+            <lemma>declare</lemma>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>war</word>
+            <lemma>war</lemma>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>on</word>
+            <lemma>on</lemma>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>Yakutsk</word>
+            <lemma>Yakutsk</lemma>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (PP (IN In) (NP (NNP July))) (, ,) (NP (NNP Kamtchatka)) (VP (VBD declared) (NP (NN war)) (PP (IN on) (NP (NNP Yakutsk)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">declared</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="2">July</governor>
+            <dependent idx="1">In</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="5">declared</governor>
+            <dependent idx="2">July</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">declared</governor>
+            <dependent idx="3">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">declared</governor>
+            <dependent idx="4">Kamtchatka</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">declared</governor>
+            <dependent idx="6">war</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">Yakutsk</governor>
+            <dependent idx="7">on</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="5">declared</governor>
+            <dependent idx="8">Yakutsk</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">declared</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">declared</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="2">July</governor>
+            <dependent idx="1">In</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="5">declared</governor>
+            <dependent idx="2">July</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">declared</governor>
+            <dependent idx="3">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">declared</governor>
+            <dependent idx="4">Kamtchatka</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">declared</governor>
+            <dependent idx="6">war</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">Yakutsk</governor>
+            <dependent idx="7">on</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="5">declared</governor>
+            <dependent idx="8">Yakutsk</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">declared</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">declared</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="2">July</governor>
+            <dependent idx="1">In</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="5">declared</governor>
+            <dependent idx="2">July</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">declared</governor>
+            <dependent idx="3">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">declared</governor>
+            <dependent idx="4">Kamtchatka</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">declared</governor>
+            <dependent idx="6">war</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">Yakutsk</governor>
+            <dependent idx="7">on</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="5">declared</governor>
+            <dependent idx="8">Yakutsk</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">declared</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">declared</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="2">July</governor>
+            <dependent idx="1">In</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="5">declared</governor>
+            <dependent idx="2">July</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">declared</governor>
+            <dependent idx="3">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">declared</governor>
+            <dependent idx="4">Kamtchatka</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">declared</governor>
+            <dependent idx="6">war</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">Yakutsk</governor>
+            <dependent idx="7">on</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="5">declared</governor>
+            <dependent idx="8">Yakutsk</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">declared</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">declared</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="2">July</governor>
+            <dependent idx="1">In</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="5">declared</governor>
+            <dependent idx="2">July</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">declared</governor>
+            <dependent idx="3">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">declared</governor>
+            <dependent idx="4">Kamtchatka</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">declared</governor>
+            <dependent idx="6">war</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">Yakutsk</governor>
+            <dependent idx="7">on</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="5">declared</governor>
+            <dependent idx="8">Yakutsk</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">declared</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>Since</word>
+            <lemma>since</lemma>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Yakutsk</word>
+            <lemma>Yakutsk</lemma>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>'s</word>
+            <lemma>'s</lemma>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>POS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>army</word>
+            <lemma>army</lemma>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>was</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>much</word>
+            <lemma>much</lemma>
+            <CharacterOffsetBegin>70</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>better</word>
+            <lemma>better</lemma>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>81</CharacterOffsetEnd>
+            <POS>JJR</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>equipped</word>
+            <lemma>equipped</lemma>
+            <CharacterOffsetBegin>82</CharacterOffsetBegin>
+            <CharacterOffsetEnd>90</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>91</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>ten</word>
+            <lemma>ten</lemma>
+            <CharacterOffsetBegin>95</CharacterOffsetBegin>
+            <CharacterOffsetEnd>98</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>NUMBER</NER>
+            <NormalizedNER>10.0</NormalizedNER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>times</word>
+            <lemma>time</lemma>
+            <CharacterOffsetBegin>99</CharacterOffsetBegin>
+            <CharacterOffsetEnd>104</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>larger</word>
+            <lemma>larger</lemma>
+            <CharacterOffsetBegin>105</CharacterOffsetBegin>
+            <CharacterOffsetEnd>111</CharacterOffsetEnd>
+            <POS>JJR</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>111</CharacterOffsetBegin>
+            <CharacterOffsetEnd>112</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>they</word>
+            <lemma>they</lemma>
+            <CharacterOffsetBegin>113</CharacterOffsetBegin>
+            <CharacterOffsetEnd>117</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>were</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>118</CharacterOffsetBegin>
+            <CharacterOffsetEnd>122</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>defeated</word>
+            <lemma>defeat</lemma>
+            <CharacterOffsetBegin>123</CharacterOffsetBegin>
+            <CharacterOffsetEnd>131</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>within</word>
+            <lemma>within</lemma>
+            <CharacterOffsetBegin>132</CharacterOffsetBegin>
+            <CharacterOffsetEnd>138</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>weeks</word>
+            <lemma>week</lemma>
+            <CharacterOffsetBegin>139</CharacterOffsetBegin>
+            <CharacterOffsetEnd>144</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>DURATION</NER>
+            <NormalizedNER>PXW</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t2" type="DURATION">PXW</Timex>
+          </token>
+          <token id="19">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>144</CharacterOffsetBegin>
+            <CharacterOffsetEnd>145</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (SBAR (IN Since) (S (NP (NP (NNP Yakutsk) (POS 's)) (NN army)) (VP (VBD was) (ADJP (ADJP (ADVP (RB much) (JJR better)) (JJ equipped)) (CC and) (ADJP (NP (CD ten) (NNS times)) (JJR larger)))))) (, ,) (NP (PRP they)) (VP (VBD were) (VP (VBN defeated) (PP (IN within) (NP (NNS weeks))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="16">defeated</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="8">equipped</governor>
+            <dependent idx="1">Since</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="4">army</governor>
+            <dependent idx="2">Yakutsk</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="2">Yakutsk</governor>
+            <dependent idx="3">'s</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">equipped</governor>
+            <dependent idx="4">army</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="8">equipped</governor>
+            <dependent idx="5">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">better</governor>
+            <dependent idx="6">much</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">equipped</governor>
+            <dependent idx="7">better</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="16">defeated</governor>
+            <dependent idx="8">equipped</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="8">equipped</governor>
+            <dependent idx="9">and</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="11">times</governor>
+            <dependent idx="10">ten</dependent>
+          </dep>
+          <dep type="nmod:npmod">
+            <governor idx="12">larger</governor>
+            <dependent idx="11">times</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="8">equipped</governor>
+            <dependent idx="12">larger</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="16">defeated</governor>
+            <dependent idx="13">,</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="16">defeated</governor>
+            <dependent idx="14">they</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="16">defeated</governor>
+            <dependent idx="15">were</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="18">weeks</governor>
+            <dependent idx="17">within</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="16">defeated</governor>
+            <dependent idx="18">weeks</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="16">defeated</governor>
+            <dependent idx="19">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="16">defeated</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="8">equipped</governor>
+            <dependent idx="1">Since</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="4">army</governor>
+            <dependent idx="2">Yakutsk</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="2">Yakutsk</governor>
+            <dependent idx="3">'s</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">equipped</governor>
+            <dependent idx="4">army</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="8">equipped</governor>
+            <dependent idx="5">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">better</governor>
+            <dependent idx="6">much</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">equipped</governor>
+            <dependent idx="7">better</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="16">defeated</governor>
+            <dependent idx="8">equipped</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="8">equipped</governor>
+            <dependent idx="9">and</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="11">times</governor>
+            <dependent idx="10">ten</dependent>
+          </dep>
+          <dep type="nmod:npmod">
+            <governor idx="12">larger</governor>
+            <dependent idx="11">times</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="8">equipped</governor>
+            <dependent idx="12">larger</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="16">defeated</governor>
+            <dependent idx="13">,</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="16">defeated</governor>
+            <dependent idx="14">they</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="16">defeated</governor>
+            <dependent idx="15">were</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="18">weeks</governor>
+            <dependent idx="17">within</dependent>
+          </dep>
+          <dep type="nmod:within">
+            <governor idx="16">defeated</governor>
+            <dependent idx="18">weeks</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="16">defeated</governor>
+            <dependent idx="19">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="16">defeated</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="8">equipped</governor>
+            <dependent idx="1">Since</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="4">army</governor>
+            <dependent idx="2">Yakutsk</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="2">Yakutsk</governor>
+            <dependent idx="3">'s</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">equipped</governor>
+            <dependent idx="4">army</dependent>
+          </dep>
+          <dep type="nsubj" extra="true">
+            <governor idx="12">larger</governor>
+            <dependent idx="4">army</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="8">equipped</governor>
+            <dependent idx="5">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">better</governor>
+            <dependent idx="6">much</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">equipped</governor>
+            <dependent idx="7">better</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="16">defeated</governor>
+            <dependent idx="8">equipped</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="8">equipped</governor>
+            <dependent idx="9">and</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="11">times</governor>
+            <dependent idx="10">ten</dependent>
+          </dep>
+          <dep type="nmod:npmod">
+            <governor idx="12">larger</governor>
+            <dependent idx="11">times</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="8">equipped</governor>
+            <dependent idx="12">larger</dependent>
+          </dep>
+          <dep type="advcl" extra="true">
+            <governor idx="16">defeated</governor>
+            <dependent idx="12">larger</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="16">defeated</governor>
+            <dependent idx="13">,</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="16">defeated</governor>
+            <dependent idx="14">they</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="16">defeated</governor>
+            <dependent idx="15">were</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="18">weeks</governor>
+            <dependent idx="17">within</dependent>
+          </dep>
+          <dep type="nmod:within">
+            <governor idx="16">defeated</governor>
+            <dependent idx="18">weeks</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="16">defeated</governor>
+            <dependent idx="19">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="16">defeated</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="8">equipped</governor>
+            <dependent idx="1">Since</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="4">army</governor>
+            <dependent idx="2">Yakutsk</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="2">Yakutsk</governor>
+            <dependent idx="3">'s</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">equipped</governor>
+            <dependent idx="4">army</dependent>
+          </dep>
+          <dep type="nsubj" extra="true">
+            <governor idx="12">larger</governor>
+            <dependent idx="4">army</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="8">equipped</governor>
+            <dependent idx="5">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">better</governor>
+            <dependent idx="6">much</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">equipped</governor>
+            <dependent idx="7">better</dependent>
+          </dep>
+          <dep type="advcl:since">
+            <governor idx="16">defeated</governor>
+            <dependent idx="8">equipped</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="8">equipped</governor>
+            <dependent idx="9">and</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="11">times</governor>
+            <dependent idx="10">ten</dependent>
+          </dep>
+          <dep type="nmod:npmod">
+            <governor idx="12">larger</governor>
+            <dependent idx="11">times</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="8">equipped</governor>
+            <dependent idx="12">larger</dependent>
+          </dep>
+          <dep type="advcl:since" extra="true">
+            <governor idx="16">defeated</governor>
+            <dependent idx="12">larger</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="16">defeated</governor>
+            <dependent idx="13">,</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="16">defeated</governor>
+            <dependent idx="14">they</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="16">defeated</governor>
+            <dependent idx="15">were</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="18">weeks</governor>
+            <dependent idx="17">within</dependent>
+          </dep>
+          <dep type="nmod:within">
+            <governor idx="16">defeated</governor>
+            <dependent idx="18">weeks</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="16">defeated</governor>
+            <dependent idx="19">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="16">defeated</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="8">equipped</governor>
+            <dependent idx="1">Since</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="4">army</governor>
+            <dependent idx="2">Yakutsk</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="2">Yakutsk</governor>
+            <dependent idx="3">'s</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">equipped</governor>
+            <dependent idx="4">army</dependent>
+          </dep>
+          <dep type="nsubj" extra="true">
+            <governor idx="12">larger</governor>
+            <dependent idx="4">army</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="8">equipped</governor>
+            <dependent idx="5">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">better</governor>
+            <dependent idx="6">much</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="8">equipped</governor>
+            <dependent idx="7">better</dependent>
+          </dep>
+          <dep type="advcl:since">
+            <governor idx="16">defeated</governor>
+            <dependent idx="8">equipped</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="8">equipped</governor>
+            <dependent idx="9">and</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="11">times</governor>
+            <dependent idx="10">ten</dependent>
+          </dep>
+          <dep type="nmod:npmod">
+            <governor idx="12">larger</governor>
+            <dependent idx="11">times</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="8">equipped</governor>
+            <dependent idx="12">larger</dependent>
+          </dep>
+          <dep type="advcl:since" extra="true">
+            <governor idx="16">defeated</governor>
+            <dependent idx="12">larger</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="16">defeated</governor>
+            <dependent idx="13">,</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="16">defeated</governor>
+            <dependent idx="14">they</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="16">defeated</governor>
+            <dependent idx="15">were</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="18">weeks</governor>
+            <dependent idx="17">within</dependent>
+          </dep>
+          <dep type="nmod:within">
+            <governor idx="16">defeated</governor>
+            <dependent idx="18">weeks</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="16">defeated</governor>
+            <dependent idx="19">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>8</start>
+          <end>9</end>
+          <head>8</head>
+          <text>Yakutsk</text>
+        </mention>
+        <mention>
+          <sentence>2</sentence>
+          <start>2</start>
+          <end>4</end>
+          <head>2</head>
+          <text>Yakutsk 's</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

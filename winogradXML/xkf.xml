@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>I</word>
+            <lemma>I</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>1</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>put</word>
+            <lemma>put</lemma>
+            <CharacterOffsetBegin>2</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>butterfly</word>
+            <lemma>butterfly</lemma>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>wing</word>
+            <lemma>wing</lemma>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>on</word>
+            <lemma>on</lemma>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>table</word>
+            <lemma>table</lemma>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>it</word>
+            <lemma>it</lemma>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>broke</word>
+            <lemma>break</lemma>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (NP (PRP I)) (VP (VBD put) (NP (DT the) (NN butterfly) (NN wing)) (PP (IN on) (NP (DT the) (NN table))))) (CC and) (S (NP (PRP it)) (VP (VBD broke))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">put</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">put</governor>
+            <dependent idx="1">I</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">wing</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">wing</governor>
+            <dependent idx="4">butterfly</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">put</governor>
+            <dependent idx="5">wing</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">table</governor>
+            <dependent idx="6">on</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">table</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="2">put</governor>
+            <dependent idx="8">table</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="2">put</governor>
+            <dependent idx="9">and</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">broke</governor>
+            <dependent idx="10">it</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="2">put</governor>
+            <dependent idx="11">broke</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">put</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">put</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">put</governor>
+            <dependent idx="1">I</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">wing</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">wing</governor>
+            <dependent idx="4">butterfly</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">put</governor>
+            <dependent idx="5">wing</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">table</governor>
+            <dependent idx="6">on</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">table</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="2">put</governor>
+            <dependent idx="8">table</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="2">put</governor>
+            <dependent idx="9">and</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">broke</governor>
+            <dependent idx="10">it</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="2">put</governor>
+            <dependent idx="11">broke</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">put</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">put</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">put</governor>
+            <dependent idx="1">I</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">wing</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">wing</governor>
+            <dependent idx="4">butterfly</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">put</governor>
+            <dependent idx="5">wing</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">table</governor>
+            <dependent idx="6">on</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">table</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="2">put</governor>
+            <dependent idx="8">table</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="2">put</governor>
+            <dependent idx="9">and</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">broke</governor>
+            <dependent idx="10">it</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="2">put</governor>
+            <dependent idx="11">broke</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">put</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">put</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">put</governor>
+            <dependent idx="1">I</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">wing</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">wing</governor>
+            <dependent idx="4">butterfly</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">put</governor>
+            <dependent idx="5">wing</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">table</governor>
+            <dependent idx="6">on</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">table</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="2">put</governor>
+            <dependent idx="8">table</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="2">put</governor>
+            <dependent idx="9">and</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">broke</governor>
+            <dependent idx="10">it</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="2">put</governor>
+            <dependent idx="11">broke</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">put</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">put</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">put</governor>
+            <dependent idx="1">I</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">wing</governor>
+            <dependent idx="3">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="5">wing</governor>
+            <dependent idx="4">butterfly</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">put</governor>
+            <dependent idx="5">wing</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">table</governor>
+            <dependent idx="6">on</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">table</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="2">put</governor>
+            <dependent idx="8">table</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="2">put</governor>
+            <dependent idx="9">and</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="11">broke</governor>
+            <dependent idx="10">it</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="2">put</governor>
+            <dependent idx="11">broke</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">put</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>3</start>
+          <end>6</end>
+          <head>5</head>
+          <text>the butterfly wing</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>10</start>
+          <end>11</end>
+          <head>10</head>
+          <text>it</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

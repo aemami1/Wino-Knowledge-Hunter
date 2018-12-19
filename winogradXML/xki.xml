@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Madonna</word>
+            <lemma>Madonna</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>fired</word>
+            <lemma>fire</lemma>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>her</word>
+            <lemma>she</lemma>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>trainer</word>
+            <lemma>trainer</lemma>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>because</word>
+            <lemma>because</lemma>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>she</word>
+            <lemma>she</lemma>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>slept</word>
+            <lemma>sleep</lemma>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>with</word>
+            <lemma>with</lemma>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>her</word>
+            <lemma>she</lemma>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>boyfriend</word>
+            <lemma>boyfriend</lemma>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>63</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Madonna)) (VP (VBD fired) (NP (PRP$ her) (NN trainer)) (SBAR (IN because) (S (NP (PRP she)) (VP (VBD slept) (PP (IN with) (NP (PRP$ her) (NN boyfriend))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">fired</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">fired</governor>
+            <dependent idx="1">Madonna</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="4">trainer</governor>
+            <dependent idx="3">her</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">fired</governor>
+            <dependent idx="4">trainer</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="7">slept</governor>
+            <dependent idx="5">because</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">slept</governor>
+            <dependent idx="6">she</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="2">fired</governor>
+            <dependent idx="7">slept</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">boyfriend</governor>
+            <dependent idx="8">with</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="10">boyfriend</governor>
+            <dependent idx="9">her</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="7">slept</governor>
+            <dependent idx="10">boyfriend</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">fired</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">fired</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">fired</governor>
+            <dependent idx="1">Madonna</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="4">trainer</governor>
+            <dependent idx="3">her</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">fired</governor>
+            <dependent idx="4">trainer</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="7">slept</governor>
+            <dependent idx="5">because</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">slept</governor>
+            <dependent idx="6">she</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="2">fired</governor>
+            <dependent idx="7">slept</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">boyfriend</governor>
+            <dependent idx="8">with</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="10">boyfriend</governor>
+            <dependent idx="9">her</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="7">slept</governor>
+            <dependent idx="10">boyfriend</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">fired</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">fired</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">fired</governor>
+            <dependent idx="1">Madonna</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="4">trainer</governor>
+            <dependent idx="3">her</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">fired</governor>
+            <dependent idx="4">trainer</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="7">slept</governor>
+            <dependent idx="5">because</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">slept</governor>
+            <dependent idx="6">she</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="2">fired</governor>
+            <dependent idx="7">slept</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">boyfriend</governor>
+            <dependent idx="8">with</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="10">boyfriend</governor>
+            <dependent idx="9">her</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="7">slept</governor>
+            <dependent idx="10">boyfriend</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">fired</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">fired</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">fired</governor>
+            <dependent idx="1">Madonna</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="4">trainer</governor>
+            <dependent idx="3">her</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">fired</governor>
+            <dependent idx="4">trainer</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="7">slept</governor>
+            <dependent idx="5">because</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">slept</governor>
+            <dependent idx="6">she</dependent>
+          </dep>
+          <dep type="advcl:because">
+            <governor idx="2">fired</governor>
+            <dependent idx="7">slept</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">boyfriend</governor>
+            <dependent idx="8">with</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="10">boyfriend</governor>
+            <dependent idx="9">her</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="7">slept</governor>
+            <dependent idx="10">boyfriend</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">fired</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">fired</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">fired</governor>
+            <dependent idx="1">Madonna</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="4">trainer</governor>
+            <dependent idx="3">her</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">fired</governor>
+            <dependent idx="4">trainer</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="7">slept</governor>
+            <dependent idx="5">because</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">slept</governor>
+            <dependent idx="6">she</dependent>
+          </dep>
+          <dep type="advcl:because">
+            <governor idx="2">fired</governor>
+            <dependent idx="7">slept</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="10">boyfriend</governor>
+            <dependent idx="8">with</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="10">boyfriend</governor>
+            <dependent idx="9">her</dependent>
+          </dep>
+          <dep type="nmod:with">
+            <governor idx="7">slept</governor>
+            <dependent idx="10">boyfriend</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">fired</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>1</start>
+          <end>2</end>
+          <head>1</head>
+          <text>Madonna</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>3</start>
+          <end>4</end>
+          <head>3</head>
+          <text>her</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>6</start>
+          <end>7</end>
+          <head>6</head>
+          <text>she</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>9</start>
+          <end>10</end>
+          <head>9</head>
+          <text>her</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

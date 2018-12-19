@@ -1,0 +1,960 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>This</word>
+            <lemma>this</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>THIS MO</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE"/>
+          </token>
+          <token id="2">
+            <word>morning</word>
+            <lemma>morning</lemma>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>THIS MO</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE"/>
+          </token>
+          <token id="3">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>Joey</word>
+            <lemma>Joey</lemma>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>built</word>
+            <lemma>build</lemma>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>24</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>25</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>sand</word>
+            <lemma>sand</lemma>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>castle</word>
+            <lemma>castle</lemma>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>on</word>
+            <lemma>on</lemma>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>45</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>beach</word>
+            <lemma>beach</lemma>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>put</word>
+            <lemma>put</lemma>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>60</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>61</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>toy</word>
+            <lemma>toy</lemma>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>flag</word>
+            <lemma>flag</lemma>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="19">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>75</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="20">
+            <word>highest</word>
+            <lemma>highest</lemma>
+            <CharacterOffsetBegin>79</CharacterOffsetBegin>
+            <CharacterOffsetEnd>86</CharacterOffsetEnd>
+            <POS>JJS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="21">
+            <word>tower</word>
+            <lemma>tower</lemma>
+            <CharacterOffsetBegin>87</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="22">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>92</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="23">
+            <word>but</word>
+            <lemma>but</lemma>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>97</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="24">
+            <word>this</word>
+            <lemma>this</lemma>
+            <CharacterOffsetBegin>98</CharacterOffsetBegin>
+            <CharacterOffsetEnd>102</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>THIS AF</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t2" type="DATE"/>
+          </token>
+          <token id="25">
+            <word>afternoon</word>
+            <lemma>afternoon</lemma>
+            <CharacterOffsetBegin>103</CharacterOffsetBegin>
+            <CharacterOffsetEnd>112</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>THIS AF</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t2" type="DATE"/>
+          </token>
+          <token id="26">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>113</CharacterOffsetBegin>
+            <CharacterOffsetEnd>116</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="27">
+            <word>tide</word>
+            <lemma>tide</lemma>
+            <CharacterOffsetBegin>117</CharacterOffsetBegin>
+            <CharacterOffsetEnd>121</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="28">
+            <word>knocked</word>
+            <lemma>knock</lemma>
+            <CharacterOffsetBegin>122</CharacterOffsetBegin>
+            <CharacterOffsetEnd>129</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="29">
+            <word>it</word>
+            <lemma>it</lemma>
+            <CharacterOffsetBegin>130</CharacterOffsetBegin>
+            <CharacterOffsetEnd>132</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="30">
+            <word>down</word>
+            <lemma>down</lemma>
+            <CharacterOffsetBegin>133</CharacterOffsetBegin>
+            <CharacterOffsetEnd>137</CharacterOffsetEnd>
+            <POS>RP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="31">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>137</CharacterOffsetBegin>
+            <CharacterOffsetEnd>138</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (NP-TMP (DT This) (NN morning)) (, ,) (NP (NNP Joey)) (VP (VP (VBD built) (NP (DT a) (NN sand) (NN castle)) (PP (IN on) (NP (DT the) (NN beach)))) (, ,) (CC and) (VP (VBD put) (NP (DT a) (NN toy) (NN flag)) (PP (IN in) (NP (DT the) (JJS highest) (NN tower)))))) (, ,) (CC but) (S (NP-TMP (DT this) (NN afternoon)) (NP (DT the) (NN tide)) (VP (VBD knocked) (NP (PRP it)) (PRT (RP down)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">built</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">morning</governor>
+            <dependent idx="1">This</dependent>
+          </dep>
+          <dep type="nmod:tmod">
+            <governor idx="5">built</governor>
+            <dependent idx="2">morning</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">built</governor>
+            <dependent idx="3">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">built</governor>
+            <dependent idx="4">Joey</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">castle</governor>
+            <dependent idx="6">a</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">castle</governor>
+            <dependent idx="7">sand</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">built</governor>
+            <dependent idx="8">castle</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">beach</governor>
+            <dependent idx="9">on</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">beach</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="5">built</governor>
+            <dependent idx="11">beach</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">built</governor>
+            <dependent idx="12">,</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="5">built</governor>
+            <dependent idx="13">and</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="5">built</governor>
+            <dependent idx="14">put</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">flag</governor>
+            <dependent idx="15">a</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">flag</governor>
+            <dependent idx="16">toy</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="14">put</governor>
+            <dependent idx="17">flag</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="21">tower</governor>
+            <dependent idx="18">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="21">tower</governor>
+            <dependent idx="19">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="21">tower</governor>
+            <dependent idx="20">highest</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="14">put</governor>
+            <dependent idx="21">tower</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">built</governor>
+            <dependent idx="22">,</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="5">built</governor>
+            <dependent idx="23">but</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="25">afternoon</governor>
+            <dependent idx="24">this</dependent>
+          </dep>
+          <dep type="nmod:tmod">
+            <governor idx="28">knocked</governor>
+            <dependent idx="25">afternoon</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="27">tide</governor>
+            <dependent idx="26">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="28">knocked</governor>
+            <dependent idx="27">tide</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="5">built</governor>
+            <dependent idx="28">knocked</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="28">knocked</governor>
+            <dependent idx="29">it</dependent>
+          </dep>
+          <dep type="compound:prt">
+            <governor idx="28">knocked</governor>
+            <dependent idx="30">down</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">built</governor>
+            <dependent idx="31">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">built</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">morning</governor>
+            <dependent idx="1">This</dependent>
+          </dep>
+          <dep type="nmod:tmod">
+            <governor idx="5">built</governor>
+            <dependent idx="2">morning</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">built</governor>
+            <dependent idx="3">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">built</governor>
+            <dependent idx="4">Joey</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">castle</governor>
+            <dependent idx="6">a</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">castle</governor>
+            <dependent idx="7">sand</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">built</governor>
+            <dependent idx="8">castle</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">beach</governor>
+            <dependent idx="9">on</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">beach</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="5">built</governor>
+            <dependent idx="11">beach</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">built</governor>
+            <dependent idx="12">,</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="5">built</governor>
+            <dependent idx="13">and</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="5">built</governor>
+            <dependent idx="14">put</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">flag</governor>
+            <dependent idx="15">a</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">flag</governor>
+            <dependent idx="16">toy</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="14">put</governor>
+            <dependent idx="17">flag</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="21">tower</governor>
+            <dependent idx="18">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="21">tower</governor>
+            <dependent idx="19">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="21">tower</governor>
+            <dependent idx="20">highest</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="14">put</governor>
+            <dependent idx="21">tower</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">built</governor>
+            <dependent idx="22">,</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="5">built</governor>
+            <dependent idx="23">but</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="25">afternoon</governor>
+            <dependent idx="24">this</dependent>
+          </dep>
+          <dep type="nmod:tmod">
+            <governor idx="28">knocked</governor>
+            <dependent idx="25">afternoon</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="27">tide</governor>
+            <dependent idx="26">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="28">knocked</governor>
+            <dependent idx="27">tide</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="5">built</governor>
+            <dependent idx="28">knocked</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="28">knocked</governor>
+            <dependent idx="29">it</dependent>
+          </dep>
+          <dep type="compound:prt">
+            <governor idx="28">knocked</governor>
+            <dependent idx="30">down</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">built</governor>
+            <dependent idx="31">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">built</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">morning</governor>
+            <dependent idx="1">This</dependent>
+          </dep>
+          <dep type="nmod:tmod">
+            <governor idx="5">built</governor>
+            <dependent idx="2">morning</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">built</governor>
+            <dependent idx="3">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">built</governor>
+            <dependent idx="4">Joey</dependent>
+          </dep>
+          <dep type="nsubj" extra="true">
+            <governor idx="14">put</governor>
+            <dependent idx="4">Joey</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">castle</governor>
+            <dependent idx="6">a</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">castle</governor>
+            <dependent idx="7">sand</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">built</governor>
+            <dependent idx="8">castle</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">beach</governor>
+            <dependent idx="9">on</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">beach</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="5">built</governor>
+            <dependent idx="11">beach</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">built</governor>
+            <dependent idx="12">,</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="5">built</governor>
+            <dependent idx="13">and</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="5">built</governor>
+            <dependent idx="14">put</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">flag</governor>
+            <dependent idx="15">a</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">flag</governor>
+            <dependent idx="16">toy</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="14">put</governor>
+            <dependent idx="17">flag</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="21">tower</governor>
+            <dependent idx="18">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="21">tower</governor>
+            <dependent idx="19">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="21">tower</governor>
+            <dependent idx="20">highest</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="14">put</governor>
+            <dependent idx="21">tower</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">built</governor>
+            <dependent idx="22">,</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="5">built</governor>
+            <dependent idx="23">but</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="25">afternoon</governor>
+            <dependent idx="24">this</dependent>
+          </dep>
+          <dep type="nmod:tmod">
+            <governor idx="28">knocked</governor>
+            <dependent idx="25">afternoon</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="27">tide</governor>
+            <dependent idx="26">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="28">knocked</governor>
+            <dependent idx="27">tide</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="5">built</governor>
+            <dependent idx="28">knocked</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="28">knocked</governor>
+            <dependent idx="29">it</dependent>
+          </dep>
+          <dep type="compound:prt">
+            <governor idx="28">knocked</governor>
+            <dependent idx="30">down</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">built</governor>
+            <dependent idx="31">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">built</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">morning</governor>
+            <dependent idx="1">This</dependent>
+          </dep>
+          <dep type="nmod:tmod">
+            <governor idx="5">built</governor>
+            <dependent idx="2">morning</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">built</governor>
+            <dependent idx="3">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">built</governor>
+            <dependent idx="4">Joey</dependent>
+          </dep>
+          <dep type="nsubj" extra="true">
+            <governor idx="14">put</governor>
+            <dependent idx="4">Joey</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">castle</governor>
+            <dependent idx="6">a</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">castle</governor>
+            <dependent idx="7">sand</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">built</governor>
+            <dependent idx="8">castle</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">beach</governor>
+            <dependent idx="9">on</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">beach</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="5">built</governor>
+            <dependent idx="11">beach</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">built</governor>
+            <dependent idx="12">,</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="5">built</governor>
+            <dependent idx="13">and</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="5">built</governor>
+            <dependent idx="14">put</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">flag</governor>
+            <dependent idx="15">a</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">flag</governor>
+            <dependent idx="16">toy</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="14">put</governor>
+            <dependent idx="17">flag</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="21">tower</governor>
+            <dependent idx="18">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="21">tower</governor>
+            <dependent idx="19">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="21">tower</governor>
+            <dependent idx="20">highest</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="14">put</governor>
+            <dependent idx="21">tower</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">built</governor>
+            <dependent idx="22">,</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="5">built</governor>
+            <dependent idx="23">but</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="25">afternoon</governor>
+            <dependent idx="24">this</dependent>
+          </dep>
+          <dep type="nmod:tmod">
+            <governor idx="28">knocked</governor>
+            <dependent idx="25">afternoon</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="27">tide</governor>
+            <dependent idx="26">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="28">knocked</governor>
+            <dependent idx="27">tide</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="5">built</governor>
+            <dependent idx="28">knocked</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="28">knocked</governor>
+            <dependent idx="29">it</dependent>
+          </dep>
+          <dep type="compound:prt">
+            <governor idx="28">knocked</governor>
+            <dependent idx="30">down</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">built</governor>
+            <dependent idx="31">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">built</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">morning</governor>
+            <dependent idx="1">This</dependent>
+          </dep>
+          <dep type="nmod:tmod">
+            <governor idx="5">built</governor>
+            <dependent idx="2">morning</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">built</governor>
+            <dependent idx="3">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">built</governor>
+            <dependent idx="4">Joey</dependent>
+          </dep>
+          <dep type="nsubj" extra="true">
+            <governor idx="14">put</governor>
+            <dependent idx="4">Joey</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">castle</governor>
+            <dependent idx="6">a</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="8">castle</governor>
+            <dependent idx="7">sand</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="5">built</governor>
+            <dependent idx="8">castle</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="11">beach</governor>
+            <dependent idx="9">on</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">beach</governor>
+            <dependent idx="10">the</dependent>
+          </dep>
+          <dep type="nmod:on">
+            <governor idx="5">built</governor>
+            <dependent idx="11">beach</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">built</governor>
+            <dependent idx="12">,</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="5">built</governor>
+            <dependent idx="13">and</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="5">built</governor>
+            <dependent idx="14">put</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="17">flag</governor>
+            <dependent idx="15">a</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="17">flag</governor>
+            <dependent idx="16">toy</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="14">put</governor>
+            <dependent idx="17">flag</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="21">tower</governor>
+            <dependent idx="18">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="21">tower</governor>
+            <dependent idx="19">the</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="21">tower</governor>
+            <dependent idx="20">highest</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="14">put</governor>
+            <dependent idx="21">tower</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">built</governor>
+            <dependent idx="22">,</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="5">built</governor>
+            <dependent idx="23">but</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="25">afternoon</governor>
+            <dependent idx="24">this</dependent>
+          </dep>
+          <dep type="nmod:tmod">
+            <governor idx="28">knocked</governor>
+            <dependent idx="25">afternoon</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="27">tide</governor>
+            <dependent idx="26">the</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="28">knocked</governor>
+            <dependent idx="27">tide</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="5">built</governor>
+            <dependent idx="28">knocked</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="28">knocked</governor>
+            <dependent idx="29">it</dependent>
+          </dep>
+          <dep type="compound:prt">
+            <governor idx="28">knocked</governor>
+            <dependent idx="30">down</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">built</governor>
+            <dependent idx="31">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>24</start>
+          <end>26</end>
+          <head>25</head>
+          <text>this afternoon</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>29</start>
+          <end>30</end>
+          <head>29</head>
+          <text>it</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

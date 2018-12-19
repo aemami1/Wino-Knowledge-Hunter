@@ -1,0 +1,574 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Joe</word>
+            <lemma>Joe</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>'s</word>
+            <lemma>'s</lemma>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>POS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>uncle</word>
+            <lemma>uncle</lemma>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>can</word>
+            <lemma>can</lemma>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>MD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>still</word>
+            <lemma>still</lemma>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>beat</word>
+            <lemma>beat</lemma>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>him</word>
+            <lemma>he</lemma>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>at</word>
+            <lemma>at</lemma>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>tennis</word>
+            <lemma>tennis</lemma>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>even</word>
+            <lemma>even</lemma>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>though</word>
+            <lemma>though</lemma>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>he</word>
+            <lemma>he</lemma>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>is</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>30</word>
+            <lemma>30</lemma>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>DURATION</NER>
+            <NormalizedNER>P30Y</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DURATION">P30Y</Timex>
+          </token>
+          <token id="16">
+            <word>years</word>
+            <lemma>year</lemma>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>68</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>DURATION</NER>
+            <NormalizedNER>P30Y</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DURATION">P30Y</Timex>
+          </token>
+          <token id="17">
+            <word>older</word>
+            <lemma>older</lemma>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>74</CharacterOffsetEnd>
+            <POS>JJR</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>74</CharacterOffsetBegin>
+            <CharacterOffsetEnd>75</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (NNP Joe) (POS 's)) (NN uncle)) (VP (MD can) (ADVP (RB still)) (VP (VB beat) (NP (PRP him)) (PP (IN at) (NP (NN tennis))) (, ,) (SBAR (RB even) (IN though) (S (NP (PRP he)) (VP (VBZ is) (ADJP (NP (CD 30) (NNS years)) (JJR older))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">beat</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="3">uncle</governor>
+            <dependent idx="1">Joe</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="1">Joe</governor>
+            <dependent idx="2">'s</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">beat</governor>
+            <dependent idx="3">uncle</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">beat</governor>
+            <dependent idx="4">can</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">beat</governor>
+            <dependent idx="5">still</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">beat</governor>
+            <dependent idx="7">him</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">tennis</governor>
+            <dependent idx="8">at</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="6">beat</governor>
+            <dependent idx="9">tennis</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">beat</governor>
+            <dependent idx="10">,</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="17">older</governor>
+            <dependent idx="11">even</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="17">older</governor>
+            <dependent idx="12">though</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="17">older</governor>
+            <dependent idx="13">he</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="17">older</governor>
+            <dependent idx="14">is</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="16">years</governor>
+            <dependent idx="15">30</dependent>
+          </dep>
+          <dep type="nmod:npmod">
+            <governor idx="17">older</governor>
+            <dependent idx="16">years</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="6">beat</governor>
+            <dependent idx="17">older</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">beat</governor>
+            <dependent idx="18">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">beat</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="3">uncle</governor>
+            <dependent idx="1">Joe</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="1">Joe</governor>
+            <dependent idx="2">'s</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">beat</governor>
+            <dependent idx="3">uncle</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">beat</governor>
+            <dependent idx="4">can</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">beat</governor>
+            <dependent idx="5">still</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">beat</governor>
+            <dependent idx="7">him</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">tennis</governor>
+            <dependent idx="8">at</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="6">beat</governor>
+            <dependent idx="9">tennis</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">beat</governor>
+            <dependent idx="10">,</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="17">older</governor>
+            <dependent idx="11">even</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="17">older</governor>
+            <dependent idx="12">though</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="17">older</governor>
+            <dependent idx="13">he</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="17">older</governor>
+            <dependent idx="14">is</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="16">years</governor>
+            <dependent idx="15">30</dependent>
+          </dep>
+          <dep type="nmod:npmod">
+            <governor idx="17">older</governor>
+            <dependent idx="16">years</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="6">beat</governor>
+            <dependent idx="17">older</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">beat</governor>
+            <dependent idx="18">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">beat</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="3">uncle</governor>
+            <dependent idx="1">Joe</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="1">Joe</governor>
+            <dependent idx="2">'s</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">beat</governor>
+            <dependent idx="3">uncle</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">beat</governor>
+            <dependent idx="4">can</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">beat</governor>
+            <dependent idx="5">still</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">beat</governor>
+            <dependent idx="7">him</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">tennis</governor>
+            <dependent idx="8">at</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="6">beat</governor>
+            <dependent idx="9">tennis</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">beat</governor>
+            <dependent idx="10">,</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="17">older</governor>
+            <dependent idx="11">even</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="17">older</governor>
+            <dependent idx="12">though</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="17">older</governor>
+            <dependent idx="13">he</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="17">older</governor>
+            <dependent idx="14">is</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="16">years</governor>
+            <dependent idx="15">30</dependent>
+          </dep>
+          <dep type="nmod:npmod">
+            <governor idx="17">older</governor>
+            <dependent idx="16">years</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="6">beat</governor>
+            <dependent idx="17">older</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">beat</governor>
+            <dependent idx="18">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">beat</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="3">uncle</governor>
+            <dependent idx="1">Joe</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="1">Joe</governor>
+            <dependent idx="2">'s</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">beat</governor>
+            <dependent idx="3">uncle</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">beat</governor>
+            <dependent idx="4">can</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">beat</governor>
+            <dependent idx="5">still</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">beat</governor>
+            <dependent idx="7">him</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">tennis</governor>
+            <dependent idx="8">at</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="6">beat</governor>
+            <dependent idx="9">tennis</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">beat</governor>
+            <dependent idx="10">,</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="17">older</governor>
+            <dependent idx="11">even</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="17">older</governor>
+            <dependent idx="12">though</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="17">older</governor>
+            <dependent idx="13">he</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="17">older</governor>
+            <dependent idx="14">is</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="16">years</governor>
+            <dependent idx="15">30</dependent>
+          </dep>
+          <dep type="nmod:npmod">
+            <governor idx="17">older</governor>
+            <dependent idx="16">years</dependent>
+          </dep>
+          <dep type="advcl:though">
+            <governor idx="6">beat</governor>
+            <dependent idx="17">older</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">beat</governor>
+            <dependent idx="18">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="6">beat</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="3">uncle</governor>
+            <dependent idx="1">Joe</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="1">Joe</governor>
+            <dependent idx="2">'s</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="6">beat</governor>
+            <dependent idx="3">uncle</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="6">beat</governor>
+            <dependent idx="4">can</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="6">beat</governor>
+            <dependent idx="5">still</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">beat</governor>
+            <dependent idx="7">him</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="9">tennis</governor>
+            <dependent idx="8">at</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="6">beat</governor>
+            <dependent idx="9">tennis</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">beat</governor>
+            <dependent idx="10">,</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="17">older</governor>
+            <dependent idx="11">even</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="17">older</governor>
+            <dependent idx="12">though</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="17">older</governor>
+            <dependent idx="13">he</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="17">older</governor>
+            <dependent idx="14">is</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="16">years</governor>
+            <dependent idx="15">30</dependent>
+          </dep>
+          <dep type="nmod:npmod">
+            <governor idx="17">older</governor>
+            <dependent idx="16">years</dependent>
+          </dep>
+          <dep type="advcl:though">
+            <governor idx="6">beat</governor>
+            <dependent idx="17">older</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="6">beat</governor>
+            <dependent idx="18">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>1</start>
+          <end>4</end>
+          <head>3</head>
+          <text>Joe 's uncle</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>7</start>
+          <end>8</end>
+          <head>7</head>
+          <text>him</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>13</start>
+          <end>14</end>
+          <head>13</head>
+          <text>he</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

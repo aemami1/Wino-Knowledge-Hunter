@@ -1,0 +1,453 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Jackson</word>
+            <lemma>Jackson</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>7</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>was</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>8</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>greatly</word>
+            <lemma>greatly</lemma>
+            <CharacterOffsetBegin>12</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>influenced</word>
+            <lemma>influence</lemma>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>by</word>
+            <lemma>by</lemma>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>Arnold</word>
+            <lemma>Arnold</lemma>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>41</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>though</word>
+            <lemma>though</lemma>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>he</word>
+            <lemma>he</lemma>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>lived</word>
+            <lemma>live</lemma>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>two</word>
+            <lemma>two</lemma>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>OFFSET P200Y</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE"/>
+          </token>
+          <token id="12">
+            <word>centuries</word>
+            <lemma>century</lemma>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>71</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>OFFSET P200Y</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE"/>
+          </token>
+          <token id="13">
+            <word>later</word>
+            <lemma>later</lemma>
+            <CharacterOffsetBegin>72</CharacterOffsetBegin>
+            <CharacterOffsetEnd>77</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>DATE</NER>
+            <NormalizedNER>OFFSET P200Y</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="DATE"/>
+          </token>
+          <token id="14">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Jackson)) (VP (VBD was) (VP (ADVP (RB greatly)) (VBN influenced) (PP (IN by) (NP (NNP Arnold))) (, ,) (SBAR (IN though) (S (NP (PRP he)) (VP (VBD lived) (ADVP (NP (CD two) (NNS centuries)) (RB later))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">influenced</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="4">influenced</governor>
+            <dependent idx="1">Jackson</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="4">influenced</governor>
+            <dependent idx="2">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">influenced</governor>
+            <dependent idx="3">greatly</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Arnold</governor>
+            <dependent idx="5">by</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="4">influenced</governor>
+            <dependent idx="6">Arnold</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">influenced</governor>
+            <dependent idx="7">,</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="10">lived</governor>
+            <dependent idx="8">though</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">lived</governor>
+            <dependent idx="9">he</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="4">influenced</governor>
+            <dependent idx="10">lived</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="12">centuries</governor>
+            <dependent idx="11">two</dependent>
+          </dep>
+          <dep type="nmod:npmod">
+            <governor idx="13">later</governor>
+            <dependent idx="12">centuries</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="10">lived</governor>
+            <dependent idx="13">later</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">influenced</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">influenced</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="4">influenced</governor>
+            <dependent idx="1">Jackson</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="4">influenced</governor>
+            <dependent idx="2">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">influenced</governor>
+            <dependent idx="3">greatly</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Arnold</governor>
+            <dependent idx="5">by</dependent>
+          </dep>
+          <dep type="nmod:agent">
+            <governor idx="4">influenced</governor>
+            <dependent idx="6">Arnold</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">influenced</governor>
+            <dependent idx="7">,</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="10">lived</governor>
+            <dependent idx="8">though</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">lived</governor>
+            <dependent idx="9">he</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="4">influenced</governor>
+            <dependent idx="10">lived</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="12">centuries</governor>
+            <dependent idx="11">two</dependent>
+          </dep>
+          <dep type="nmod:npmod">
+            <governor idx="13">later</governor>
+            <dependent idx="12">centuries</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="10">lived</governor>
+            <dependent idx="13">later</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">influenced</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">influenced</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="4">influenced</governor>
+            <dependent idx="1">Jackson</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="4">influenced</governor>
+            <dependent idx="2">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">influenced</governor>
+            <dependent idx="3">greatly</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Arnold</governor>
+            <dependent idx="5">by</dependent>
+          </dep>
+          <dep type="nmod:agent">
+            <governor idx="4">influenced</governor>
+            <dependent idx="6">Arnold</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">influenced</governor>
+            <dependent idx="7">,</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="10">lived</governor>
+            <dependent idx="8">though</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">lived</governor>
+            <dependent idx="9">he</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="4">influenced</governor>
+            <dependent idx="10">lived</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="12">centuries</governor>
+            <dependent idx="11">two</dependent>
+          </dep>
+          <dep type="nmod:npmod">
+            <governor idx="13">later</governor>
+            <dependent idx="12">centuries</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="10">lived</governor>
+            <dependent idx="13">later</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">influenced</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">influenced</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="4">influenced</governor>
+            <dependent idx="1">Jackson</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="4">influenced</governor>
+            <dependent idx="2">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">influenced</governor>
+            <dependent idx="3">greatly</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Arnold</governor>
+            <dependent idx="5">by</dependent>
+          </dep>
+          <dep type="nmod:agent">
+            <governor idx="4">influenced</governor>
+            <dependent idx="6">Arnold</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">influenced</governor>
+            <dependent idx="7">,</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="10">lived</governor>
+            <dependent idx="8">though</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">lived</governor>
+            <dependent idx="9">he</dependent>
+          </dep>
+          <dep type="advcl:though">
+            <governor idx="4">influenced</governor>
+            <dependent idx="10">lived</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="12">centuries</governor>
+            <dependent idx="11">two</dependent>
+          </dep>
+          <dep type="nmod:npmod">
+            <governor idx="13">later</governor>
+            <dependent idx="12">centuries</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="10">lived</governor>
+            <dependent idx="13">later</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">influenced</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="4">influenced</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="4">influenced</governor>
+            <dependent idx="1">Jackson</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="4">influenced</governor>
+            <dependent idx="2">was</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="4">influenced</governor>
+            <dependent idx="3">greatly</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">Arnold</governor>
+            <dependent idx="5">by</dependent>
+          </dep>
+          <dep type="nmod:agent">
+            <governor idx="4">influenced</governor>
+            <dependent idx="6">Arnold</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">influenced</governor>
+            <dependent idx="7">,</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="10">lived</governor>
+            <dependent idx="8">though</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">lived</governor>
+            <dependent idx="9">he</dependent>
+          </dep>
+          <dep type="advcl:though">
+            <governor idx="4">influenced</governor>
+            <dependent idx="10">lived</dependent>
+          </dep>
+          <dep type="nummod">
+            <governor idx="12">centuries</governor>
+            <dependent idx="11">two</dependent>
+          </dep>
+          <dep type="nmod:npmod">
+            <governor idx="13">later</governor>
+            <dependent idx="12">centuries</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="10">lived</governor>
+            <dependent idx="13">later</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="4">influenced</governor>
+            <dependent idx="14">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>1</start>
+          <end>2</end>
+          <head>1</head>
+          <text>Jackson</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>9</start>
+          <end>10</end>
+          <head>9</head>
+          <text>he</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

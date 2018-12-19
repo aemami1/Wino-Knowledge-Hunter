@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>There</word>
+            <lemma>there</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>5</CharacterOffsetEnd>
+            <POS>EX</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>is</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>6</CharacterOffsetBegin>
+            <CharacterOffsetEnd>8</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>9</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>pillar</word>
+            <lemma>pillar</lemma>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>between</word>
+            <lemma>between</lemma>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>25</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>me</word>
+            <lemma>I</lemma>
+            <CharacterOffsetBegin>26</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>stage</word>
+            <lemma>stage</lemma>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>42</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>I</word>
+            <lemma>I</lemma>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>ca</word>
+            <lemma>can</lemma>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>MD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>n't</word>
+            <lemma>not</lemma>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>55</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>see</word>
+            <lemma>see</lemma>
+            <CharacterOffsetBegin>56</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>around</word>
+            <lemma>around</lemma>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>it</word>
+            <lemma>it</lemma>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>69</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>69</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (NP (EX There)) (VP (VBZ is) (NP (NP (DT a) (NN pillar)) (PP (IN between) (NP (NP (PRP me)) (CC and) (NP (DT the) (NN stage))))))) (, ,) (CC and) (S (NP (PRP I)) (VP (MD ca) (RB n't) (VP (VB see) (PP (IN around) (NP (PRP it)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">is</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="2">is</governor>
+            <dependent idx="1">There</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">pillar</governor>
+            <dependent idx="3">a</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">is</governor>
+            <dependent idx="4">pillar</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">me</governor>
+            <dependent idx="5">between</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="4">pillar</governor>
+            <dependent idx="6">me</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="6">me</governor>
+            <dependent idx="7">and</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">stage</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="6">me</governor>
+            <dependent idx="9">stage</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">is</governor>
+            <dependent idx="10">,</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="2">is</governor>
+            <dependent idx="11">and</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="15">see</governor>
+            <dependent idx="12">I</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="15">see</governor>
+            <dependent idx="13">ca</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="15">see</governor>
+            <dependent idx="14">n't</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="2">is</governor>
+            <dependent idx="15">see</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="17">it</governor>
+            <dependent idx="16">around</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="15">see</governor>
+            <dependent idx="17">it</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">is</governor>
+            <dependent idx="18">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">is</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="2">is</governor>
+            <dependent idx="1">There</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">pillar</governor>
+            <dependent idx="3">a</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">is</governor>
+            <dependent idx="4">pillar</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">me</governor>
+            <dependent idx="5">between</dependent>
+          </dep>
+          <dep type="nmod:between">
+            <governor idx="4">pillar</governor>
+            <dependent idx="6">me</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="6">me</governor>
+            <dependent idx="7">and</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">stage</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="6">me</governor>
+            <dependent idx="9">stage</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">is</governor>
+            <dependent idx="10">,</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="2">is</governor>
+            <dependent idx="11">and</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="15">see</governor>
+            <dependent idx="12">I</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="15">see</governor>
+            <dependent idx="13">ca</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="15">see</governor>
+            <dependent idx="14">n't</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="2">is</governor>
+            <dependent idx="15">see</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="17">it</governor>
+            <dependent idx="16">around</dependent>
+          </dep>
+          <dep type="nmod:around">
+            <governor idx="15">see</governor>
+            <dependent idx="17">it</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">is</governor>
+            <dependent idx="18">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">is</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="2">is</governor>
+            <dependent idx="1">There</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">pillar</governor>
+            <dependent idx="3">a</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">is</governor>
+            <dependent idx="4">pillar</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">me</governor>
+            <dependent idx="5">between</dependent>
+          </dep>
+          <dep type="nmod:between">
+            <governor idx="4">pillar</governor>
+            <dependent idx="6">me</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="6">me</governor>
+            <dependent idx="7">and</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">stage</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="nmod:between" extra="true">
+            <governor idx="4">pillar</governor>
+            <dependent idx="9">stage</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="6">me</governor>
+            <dependent idx="9">stage</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">is</governor>
+            <dependent idx="10">,</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="2">is</governor>
+            <dependent idx="11">and</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="15">see</governor>
+            <dependent idx="12">I</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="15">see</governor>
+            <dependent idx="13">ca</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="15">see</governor>
+            <dependent idx="14">n't</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="2">is</governor>
+            <dependent idx="15">see</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="17">it</governor>
+            <dependent idx="16">around</dependent>
+          </dep>
+          <dep type="nmod:around">
+            <governor idx="15">see</governor>
+            <dependent idx="17">it</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">is</governor>
+            <dependent idx="18">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">is</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="2">is</governor>
+            <dependent idx="1">There</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">pillar</governor>
+            <dependent idx="3">a</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">is</governor>
+            <dependent idx="4">pillar</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">me</governor>
+            <dependent idx="5">between</dependent>
+          </dep>
+          <dep type="nmod:between">
+            <governor idx="4">pillar</governor>
+            <dependent idx="6">me</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="6">me</governor>
+            <dependent idx="7">and</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">stage</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="nmod:between" extra="true">
+            <governor idx="4">pillar</governor>
+            <dependent idx="9">stage</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="6">me</governor>
+            <dependent idx="9">stage</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">is</governor>
+            <dependent idx="10">,</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="2">is</governor>
+            <dependent idx="11">and</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="15">see</governor>
+            <dependent idx="12">I</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="15">see</governor>
+            <dependent idx="13">ca</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="15">see</governor>
+            <dependent idx="14">n't</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="2">is</governor>
+            <dependent idx="15">see</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="17">it</governor>
+            <dependent idx="16">around</dependent>
+          </dep>
+          <dep type="nmod:around">
+            <governor idx="15">see</governor>
+            <dependent idx="17">it</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">is</governor>
+            <dependent idx="18">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">is</dependent>
+          </dep>
+          <dep type="expl">
+            <governor idx="2">is</governor>
+            <dependent idx="1">There</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">pillar</governor>
+            <dependent idx="3">a</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">is</governor>
+            <dependent idx="4">pillar</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">me</governor>
+            <dependent idx="5">between</dependent>
+          </dep>
+          <dep type="nmod:between">
+            <governor idx="4">pillar</governor>
+            <dependent idx="6">me</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="6">me</governor>
+            <dependent idx="7">and</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="9">stage</governor>
+            <dependent idx="8">the</dependent>
+          </dep>
+          <dep type="nmod:between" extra="true">
+            <governor idx="4">pillar</governor>
+            <dependent idx="9">stage</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="6">me</governor>
+            <dependent idx="9">stage</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">is</governor>
+            <dependent idx="10">,</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="2">is</governor>
+            <dependent idx="11">and</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="15">see</governor>
+            <dependent idx="12">I</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="15">see</governor>
+            <dependent idx="13">ca</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="15">see</governor>
+            <dependent idx="14">n't</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="2">is</governor>
+            <dependent idx="15">see</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="17">it</governor>
+            <dependent idx="16">around</dependent>
+          </dep>
+          <dep type="nmod:around">
+            <governor idx="15">see</governor>
+            <dependent idx="17">it</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">is</governor>
+            <dependent idx="18">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>3</start>
+          <end>10</end>
+          <head>4</head>
+          <text>a pillar between me and the stage</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>17</start>
+          <end>18</end>
+          <head>17</head>
+          <text>it</text>
+        </mention>
+      </coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>6</start>
+          <end>7</end>
+          <head>6</head>
+          <text>me</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>12</start>
+          <end>13</end>
+          <head>12</head>
+          <text>I</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

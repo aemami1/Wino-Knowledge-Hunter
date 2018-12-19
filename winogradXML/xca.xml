@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>The</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>painting</word>
+            <lemma>painting</lemma>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>15</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>Mark</word>
+            <lemma>Mark</lemma>
+            <CharacterOffsetBegin>16</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>'s</word>
+            <lemma>'s</lemma>
+            <CharacterOffsetBegin>20</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>POS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>living</word>
+            <lemma>living</lemma>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>room</word>
+            <lemma>room</lemma>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>34</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>shows</word>
+            <lemma>show</lemma>
+            <CharacterOffsetBegin>35</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>an</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>43</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>oak</word>
+            <lemma>oak</lemma>
+            <CharacterOffsetBegin>44</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>tree</word>
+            <lemma>tree</lemma>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>53</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NP (DT The) (NN painting)) (PP (IN in) (NP (NP (NNP Mark) (POS 's)) (NN living) (NN room)))) (VP (VBZ shows) (NP (DT an) (NN oak) (NN tree))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">shows</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">painting</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">shows</governor>
+            <dependent idx="2">painting</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">room</governor>
+            <dependent idx="3">in</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="7">room</governor>
+            <dependent idx="4">Mark</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">Mark</governor>
+            <dependent idx="5">'s</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">room</governor>
+            <dependent idx="6">living</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="2">painting</governor>
+            <dependent idx="7">room</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">tree</governor>
+            <dependent idx="9">an</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">tree</governor>
+            <dependent idx="10">oak</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">shows</governor>
+            <dependent idx="11">tree</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">shows</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">shows</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">painting</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">shows</governor>
+            <dependent idx="2">painting</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">room</governor>
+            <dependent idx="3">in</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="7">room</governor>
+            <dependent idx="4">Mark</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">Mark</governor>
+            <dependent idx="5">'s</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">room</governor>
+            <dependent idx="6">living</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="2">painting</governor>
+            <dependent idx="7">room</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">tree</governor>
+            <dependent idx="9">an</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">tree</governor>
+            <dependent idx="10">oak</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">shows</governor>
+            <dependent idx="11">tree</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">shows</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">shows</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">painting</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">shows</governor>
+            <dependent idx="2">painting</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">room</governor>
+            <dependent idx="3">in</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="7">room</governor>
+            <dependent idx="4">Mark</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">Mark</governor>
+            <dependent idx="5">'s</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">room</governor>
+            <dependent idx="6">living</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="2">painting</governor>
+            <dependent idx="7">room</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">tree</governor>
+            <dependent idx="9">an</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">tree</governor>
+            <dependent idx="10">oak</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">shows</governor>
+            <dependent idx="11">tree</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">shows</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">shows</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">painting</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">shows</governor>
+            <dependent idx="2">painting</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">room</governor>
+            <dependent idx="3">in</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="7">room</governor>
+            <dependent idx="4">Mark</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">Mark</governor>
+            <dependent idx="5">'s</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">room</governor>
+            <dependent idx="6">living</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="2">painting</governor>
+            <dependent idx="7">room</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">tree</governor>
+            <dependent idx="9">an</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">tree</governor>
+            <dependent idx="10">oak</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">shows</governor>
+            <dependent idx="11">tree</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">shows</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="8">shows</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="2">painting</governor>
+            <dependent idx="1">The</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">shows</governor>
+            <dependent idx="2">painting</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">room</governor>
+            <dependent idx="3">in</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="7">room</governor>
+            <dependent idx="4">Mark</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">Mark</governor>
+            <dependent idx="5">'s</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="7">room</governor>
+            <dependent idx="6">living</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="2">painting</governor>
+            <dependent idx="7">room</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="11">tree</governor>
+            <dependent idx="9">an</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="11">tree</governor>
+            <dependent idx="10">oak</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="8">shows</governor>
+            <dependent idx="11">tree</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="8">shows</governor>
+            <dependent idx="12">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>It</word>
+            <lemma>it</lemma>
+            <CharacterOffsetBegin>54</CharacterOffsetBegin>
+            <CharacterOffsetEnd>56</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>is</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>57</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>62</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>63</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>right</word>
+            <lemma>right</lemma>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>75</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>76</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>bookcase</word>
+            <lemma>bookcase</lemma>
+            <CharacterOffsetBegin>80</CharacterOffsetBegin>
+            <CharacterOffsetEnd>88</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>88</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (PRP It)) (VP (VBZ is) (PP (TO to) (NP (NP (DT the) (NN right)) (PP (IN of) (NP (DT the) (NN bookcase)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">right</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">right</governor>
+            <dependent idx="1">It</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">right</governor>
+            <dependent idx="2">is</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">right</governor>
+            <dependent idx="3">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">right</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">bookcase</governor>
+            <dependent idx="6">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">bookcase</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="5">right</governor>
+            <dependent idx="8">bookcase</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">right</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">right</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">right</governor>
+            <dependent idx="1">It</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">right</governor>
+            <dependent idx="2">is</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">right</governor>
+            <dependent idx="3">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">right</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">bookcase</governor>
+            <dependent idx="6">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">bookcase</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="5">right</governor>
+            <dependent idx="8">bookcase</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">right</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">right</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">right</governor>
+            <dependent idx="1">It</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">right</governor>
+            <dependent idx="2">is</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">right</governor>
+            <dependent idx="3">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">right</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">bookcase</governor>
+            <dependent idx="6">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">bookcase</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="5">right</governor>
+            <dependent idx="8">bookcase</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">right</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">right</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">right</governor>
+            <dependent idx="1">It</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">right</governor>
+            <dependent idx="2">is</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">right</governor>
+            <dependent idx="3">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">right</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">bookcase</governor>
+            <dependent idx="6">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">bookcase</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="5">right</governor>
+            <dependent idx="8">bookcase</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">right</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">right</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">right</governor>
+            <dependent idx="1">It</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">right</governor>
+            <dependent idx="2">is</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">right</governor>
+            <dependent idx="3">to</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="5">right</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="8">bookcase</governor>
+            <dependent idx="6">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">bookcase</governor>
+            <dependent idx="7">the</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="5">right</governor>
+            <dependent idx="8">bookcase</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">right</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>1</start>
+          <end>8</end>
+          <head>2</head>
+          <text>The painting in Mark 's living room</text>
+        </mention>
+        <mention>
+          <sentence>2</sentence>
+          <start>1</start>
+          <end>2</end>
+          <head>1</head>
+          <text>It</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

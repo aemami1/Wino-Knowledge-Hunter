@@ -1,0 +1,1041 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>My</word>
+            <lemma>my</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>meeting</word>
+            <lemma>meeting</lemma>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>started</word>
+            <lemma>start</lemma>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>18</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>at</word>
+            <lemma>at</lemma>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>4:00</word>
+            <lemma>4:00</lemma>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>TIME</NER>
+            <NormalizedNER>T04:00</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t1" type="TIME">T04:00</Timex>
+          </token>
+          <token id="6">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>I</word>
+            <lemma>I</lemma>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>needed</word>
+            <lemma>need</lemma>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>39</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>40</CharacterOffsetBegin>
+            <CharacterOffsetEnd>42</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>catch</word>
+            <lemma>catch</lemma>
+            <CharacterOffsetBegin>43</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>49</CharacterOffsetBegin>
+            <CharacterOffsetEnd>52</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>train</word>
+            <lemma>train</lemma>
+            <CharacterOffsetBegin>53</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>at</word>
+            <lemma>at</lemma>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>4:30</word>
+            <lemma>4:30</lemma>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>CD</POS>
+            <NER>TIME</NER>
+            <NormalizedNER>T04:30</NormalizedNER>
+            <Speaker>PER0</Speaker>
+            <Timex tid="t2" type="TIME">T04:30</Timex>
+          </token>
+          <token id="15">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>so</word>
+            <lemma>so</lemma>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>there</word>
+            <lemma>there</lemma>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>76</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>was</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>77</CharacterOffsetBegin>
+            <CharacterOffsetEnd>80</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="19">
+            <word>n't</word>
+            <lemma>not</lemma>
+            <CharacterOffsetBegin>80</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="20">
+            <word>much</word>
+            <lemma>much</lemma>
+            <CharacterOffsetBegin>84</CharacterOffsetBegin>
+            <CharacterOffsetEnd>88</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="21">
+            <word>time</word>
+            <lemma>time</lemma>
+            <CharacterOffsetBegin>89</CharacterOffsetBegin>
+            <CharacterOffsetEnd>93</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="22">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (NP (PRP$ My) (NN meeting)) (VP (VBD started) (PP (IN at) (NP (CD 4:00))))) (CC and) (S (NP (PRP I)) (VP (VBD needed) (S (VP (TO to) (VP (VB catch) (NP (DT the) (NN train)) (PP (IN at) (NP (CD 4:30)))))))) (, ,) (RB so) (S (NP (RB there)) (VP (VBD was) (RB n't) (NP (JJ much) (NN time)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">started</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="2">meeting</governor>
+            <dependent idx="1">My</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">started</governor>
+            <dependent idx="2">meeting</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">4:00</governor>
+            <dependent idx="4">at</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="3">started</governor>
+            <dependent idx="5">4:00</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="3">started</governor>
+            <dependent idx="6">and</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">needed</governor>
+            <dependent idx="7">I</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="3">started</governor>
+            <dependent idx="8">needed</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="10">catch</governor>
+            <dependent idx="9">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="8">needed</governor>
+            <dependent idx="10">catch</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">train</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">catch</governor>
+            <dependent idx="12">train</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">4:30</governor>
+            <dependent idx="13">at</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="10">catch</governor>
+            <dependent idx="14">4:30</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">started</governor>
+            <dependent idx="15">,</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">started</governor>
+            <dependent idx="16">so</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="21">time</governor>
+            <dependent idx="17">there</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="21">time</governor>
+            <dependent idx="18">was</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="21">time</governor>
+            <dependent idx="19">n't</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="21">time</governor>
+            <dependent idx="20">much</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="3">started</governor>
+            <dependent idx="21">time</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">started</governor>
+            <dependent idx="22">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">started</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="2">meeting</governor>
+            <dependent idx="1">My</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">started</governor>
+            <dependent idx="2">meeting</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">4:00</governor>
+            <dependent idx="4">at</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="3">started</governor>
+            <dependent idx="5">4:00</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="3">started</governor>
+            <dependent idx="6">and</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">needed</governor>
+            <dependent idx="7">I</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="3">started</governor>
+            <dependent idx="8">needed</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="10">catch</governor>
+            <dependent idx="9">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="8">needed</governor>
+            <dependent idx="10">catch</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">train</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">catch</governor>
+            <dependent idx="12">train</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">4:30</governor>
+            <dependent idx="13">at</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="10">catch</governor>
+            <dependent idx="14">4:30</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">started</governor>
+            <dependent idx="15">,</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">started</governor>
+            <dependent idx="16">so</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="21">time</governor>
+            <dependent idx="17">there</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="21">time</governor>
+            <dependent idx="18">was</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="21">time</governor>
+            <dependent idx="19">n't</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="21">time</governor>
+            <dependent idx="20">much</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="3">started</governor>
+            <dependent idx="21">time</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">started</governor>
+            <dependent idx="22">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">started</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="2">meeting</governor>
+            <dependent idx="1">My</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">started</governor>
+            <dependent idx="2">meeting</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">4:00</governor>
+            <dependent idx="4">at</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="3">started</governor>
+            <dependent idx="5">4:00</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="3">started</governor>
+            <dependent idx="6">and</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">needed</governor>
+            <dependent idx="7">I</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="3">started</governor>
+            <dependent idx="8">needed</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="10">catch</governor>
+            <dependent idx="9">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="8">needed</governor>
+            <dependent idx="10">catch</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">train</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">catch</governor>
+            <dependent idx="12">train</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">4:30</governor>
+            <dependent idx="13">at</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="10">catch</governor>
+            <dependent idx="14">4:30</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">started</governor>
+            <dependent idx="15">,</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">started</governor>
+            <dependent idx="16">so</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="21">time</governor>
+            <dependent idx="17">there</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="21">time</governor>
+            <dependent idx="18">was</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="21">time</governor>
+            <dependent idx="19">n't</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="21">time</governor>
+            <dependent idx="20">much</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="3">started</governor>
+            <dependent idx="21">time</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">started</governor>
+            <dependent idx="22">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">started</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="2">meeting</governor>
+            <dependent idx="1">My</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">started</governor>
+            <dependent idx="2">meeting</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">4:00</governor>
+            <dependent idx="4">at</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="3">started</governor>
+            <dependent idx="5">4:00</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="3">started</governor>
+            <dependent idx="6">and</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">needed</governor>
+            <dependent idx="7">I</dependent>
+          </dep>
+          <dep type="nsubj:xsubj" extra="true">
+            <governor idx="10">catch</governor>
+            <dependent idx="7">I</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="3">started</governor>
+            <dependent idx="8">needed</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="10">catch</governor>
+            <dependent idx="9">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="8">needed</governor>
+            <dependent idx="10">catch</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">train</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">catch</governor>
+            <dependent idx="12">train</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">4:30</governor>
+            <dependent idx="13">at</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="10">catch</governor>
+            <dependent idx="14">4:30</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">started</governor>
+            <dependent idx="15">,</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">started</governor>
+            <dependent idx="16">so</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="21">time</governor>
+            <dependent idx="17">there</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="21">time</governor>
+            <dependent idx="18">was</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="21">time</governor>
+            <dependent idx="19">n't</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="21">time</governor>
+            <dependent idx="20">much</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="3">started</governor>
+            <dependent idx="21">time</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">started</governor>
+            <dependent idx="22">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="3">started</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="2">meeting</governor>
+            <dependent idx="1">My</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="3">started</governor>
+            <dependent idx="2">meeting</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="5">4:00</governor>
+            <dependent idx="4">at</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="3">started</governor>
+            <dependent idx="5">4:00</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="3">started</governor>
+            <dependent idx="6">and</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="8">needed</governor>
+            <dependent idx="7">I</dependent>
+          </dep>
+          <dep type="nsubj:xsubj" extra="true">
+            <governor idx="10">catch</governor>
+            <dependent idx="7">I</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="3">started</governor>
+            <dependent idx="8">needed</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="10">catch</governor>
+            <dependent idx="9">to</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="8">needed</governor>
+            <dependent idx="10">catch</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">train</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">catch</governor>
+            <dependent idx="12">train</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="14">4:30</governor>
+            <dependent idx="13">at</dependent>
+          </dep>
+          <dep type="nmod:at">
+            <governor idx="10">catch</governor>
+            <dependent idx="14">4:30</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">started</governor>
+            <dependent idx="15">,</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="3">started</governor>
+            <dependent idx="16">so</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="21">time</governor>
+            <dependent idx="17">there</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="21">time</governor>
+            <dependent idx="18">was</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="21">time</governor>
+            <dependent idx="19">n't</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="21">time</governor>
+            <dependent idx="20">much</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="3">started</governor>
+            <dependent idx="21">time</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="3">started</governor>
+            <dependent idx="22">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+      <sentence id="2">
+        <tokens>
+          <token id="1">
+            <word>Luckily</word>
+            <lemma>luckily</lemma>
+            <CharacterOffsetBegin>95</CharacterOffsetBegin>
+            <CharacterOffsetEnd>102</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>102</CharacterOffsetBegin>
+            <CharacterOffsetEnd>103</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>it</word>
+            <lemma>it</lemma>
+            <CharacterOffsetBegin>104</CharacterOffsetBegin>
+            <CharacterOffsetEnd>106</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>was</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>107</CharacterOffsetBegin>
+            <CharacterOffsetEnd>110</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>short</word>
+            <lemma>short</lemma>
+            <CharacterOffsetBegin>111</CharacterOffsetBegin>
+            <CharacterOffsetEnd>116</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>116</CharacterOffsetBegin>
+            <CharacterOffsetEnd>117</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>so</word>
+            <lemma>so</lemma>
+            <CharacterOffsetBegin>118</CharacterOffsetBegin>
+            <CharacterOffsetEnd>120</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>it</word>
+            <lemma>it</lemma>
+            <CharacterOffsetBegin>121</CharacterOffsetBegin>
+            <CharacterOffsetEnd>123</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>worked</word>
+            <lemma>work</lemma>
+            <CharacterOffsetBegin>124</CharacterOffsetBegin>
+            <CharacterOffsetEnd>130</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>out</word>
+            <lemma>out</lemma>
+            <CharacterOffsetBegin>131</CharacterOffsetBegin>
+            <CharacterOffsetEnd>134</CharacterOffsetEnd>
+            <POS>RP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>134</CharacterOffsetBegin>
+            <CharacterOffsetEnd>135</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (ADVP (RB Luckily)) (, ,) (NP (PRP it)) (VP (VBD was) (ADJP (JJ short)) (, ,) (SBAR (IN so) (S (NP (PRP it)) (VP (VBD worked) (PRT (RP out)))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">short</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">short</governor>
+            <dependent idx="1">Luckily</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">short</governor>
+            <dependent idx="2">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">short</governor>
+            <dependent idx="3">it</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">short</governor>
+            <dependent idx="4">was</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">short</governor>
+            <dependent idx="6">,</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="9">worked</governor>
+            <dependent idx="7">so</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">worked</governor>
+            <dependent idx="8">it</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="5">short</governor>
+            <dependent idx="9">worked</dependent>
+          </dep>
+          <dep type="compound:prt">
+            <governor idx="9">worked</governor>
+            <dependent idx="10">out</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">short</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">short</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">short</governor>
+            <dependent idx="1">Luckily</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">short</governor>
+            <dependent idx="2">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">short</governor>
+            <dependent idx="3">it</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">short</governor>
+            <dependent idx="4">was</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">short</governor>
+            <dependent idx="6">,</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="9">worked</governor>
+            <dependent idx="7">so</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">worked</governor>
+            <dependent idx="8">it</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="5">short</governor>
+            <dependent idx="9">worked</dependent>
+          </dep>
+          <dep type="compound:prt">
+            <governor idx="9">worked</governor>
+            <dependent idx="10">out</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">short</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">short</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">short</governor>
+            <dependent idx="1">Luckily</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">short</governor>
+            <dependent idx="2">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">short</governor>
+            <dependent idx="3">it</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">short</governor>
+            <dependent idx="4">was</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">short</governor>
+            <dependent idx="6">,</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="9">worked</governor>
+            <dependent idx="7">so</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">worked</governor>
+            <dependent idx="8">it</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="5">short</governor>
+            <dependent idx="9">worked</dependent>
+          </dep>
+          <dep type="compound:prt">
+            <governor idx="9">worked</governor>
+            <dependent idx="10">out</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">short</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">short</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">short</governor>
+            <dependent idx="1">Luckily</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">short</governor>
+            <dependent idx="2">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">short</governor>
+            <dependent idx="3">it</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">short</governor>
+            <dependent idx="4">was</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">short</governor>
+            <dependent idx="6">,</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="9">worked</governor>
+            <dependent idx="7">so</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">worked</governor>
+            <dependent idx="8">it</dependent>
+          </dep>
+          <dep type="advcl:so">
+            <governor idx="5">short</governor>
+            <dependent idx="9">worked</dependent>
+          </dep>
+          <dep type="compound:prt">
+            <governor idx="9">worked</governor>
+            <dependent idx="10">out</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">short</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">short</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">short</governor>
+            <dependent idx="1">Luckily</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">short</governor>
+            <dependent idx="2">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">short</governor>
+            <dependent idx="3">it</dependent>
+          </dep>
+          <dep type="cop">
+            <governor idx="5">short</governor>
+            <dependent idx="4">was</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">short</governor>
+            <dependent idx="6">,</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="9">worked</governor>
+            <dependent idx="7">so</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">worked</governor>
+            <dependent idx="8">it</dependent>
+          </dep>
+          <dep type="advcl:so">
+            <governor idx="5">short</governor>
+            <dependent idx="9">worked</dependent>
+          </dep>
+          <dep type="compound:prt">
+            <governor idx="9">worked</governor>
+            <dependent idx="10">out</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">short</governor>
+            <dependent idx="11">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>1</start>
+          <end>3</end>
+          <head>2</head>
+          <text>My meeting</text>
+        </mention>
+        <mention>
+          <sentence>2</sentence>
+          <start>8</start>
+          <end>9</end>
+          <head>8</head>
+          <text>it</text>
+        </mention>
+      </coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>1</start>
+          <end>2</end>
+          <head>1</head>
+          <text>My</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>7</start>
+          <end>8</end>
+          <head>7</head>
+          <text>I</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

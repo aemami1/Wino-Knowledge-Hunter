@@ -1,0 +1,650 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Emma</word>
+            <lemma>Emma</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>'s</word>
+            <lemma>'s</lemma>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>6</CharacterOffsetEnd>
+            <POS>POS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>mother</word>
+            <lemma>mother</lemma>
+            <CharacterOffsetBegin>7</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>had</word>
+            <lemma>have</lemma>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>died</word>
+            <lemma>die</lemma>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>22</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>long</word>
+            <lemma>long</lemma>
+            <CharacterOffsetBegin>23</CharacterOffsetBegin>
+            <CharacterOffsetEnd>27</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>ago</word>
+            <lemma>ago</lemma>
+            <CharacterOffsetBegin>28</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>32</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>33</CharacterOffsetBegin>
+            <CharacterOffsetEnd>36</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>her</word>
+            <lemma>she</lemma>
+            <CharacterOffsetBegin>37</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>education</word>
+            <lemma>education</lemma>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>50</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>had</word>
+            <lemma>have</lemma>
+            <CharacterOffsetBegin>51</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>been</word>
+            <lemma>be</lemma>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>59</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>managed</word>
+            <lemma>manage</lemma>
+            <CharacterOffsetBegin>60</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>VBN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>by</word>
+            <lemma>by</lemma>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>an</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>excellent</word>
+            <lemma>excellent</lemma>
+            <CharacterOffsetBegin>74</CharacterOffsetBegin>
+            <CharacterOffsetEnd>83</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>woman</word>
+            <lemma>woman</lemma>
+            <CharacterOffsetBegin>84</CharacterOffsetBegin>
+            <CharacterOffsetEnd>89</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="19">
+            <word>as</word>
+            <lemma>as</lemma>
+            <CharacterOffsetBegin>90</CharacterOffsetBegin>
+            <CharacterOffsetEnd>92</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="20">
+            <word>governess</word>
+            <lemma>governess</lemma>
+            <CharacterOffsetBegin>93</CharacterOffsetBegin>
+            <CharacterOffsetEnd>102</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="21">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>102</CharacterOffsetBegin>
+            <CharacterOffsetEnd>103</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (NP (NP (NNP Emma) (POS 's)) (NN mother)) (VP (VBD had) (VP (VBN died) (ADVP (RB long) (RB ago))))) (, ,) (CC and) (S (NP (PRP$ her) (NN education)) (VP (VBD had) (VP (VBN been) (VP (VBN managed) (PP (IN by) (NP (NP (DT an) (JJ excellent) (NN woman)) (PP (IN as) (NP (NN governess))))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">died</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="3">mother</governor>
+            <dependent idx="1">Emma</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="1">Emma</governor>
+            <dependent idx="2">'s</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">died</governor>
+            <dependent idx="3">mother</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">died</governor>
+            <dependent idx="4">had</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">ago</governor>
+            <dependent idx="6">long</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">died</governor>
+            <dependent idx="7">ago</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">died</governor>
+            <dependent idx="8">,</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="5">died</governor>
+            <dependent idx="9">and</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="11">education</governor>
+            <dependent idx="10">her</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="14">managed</governor>
+            <dependent idx="11">education</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="14">managed</governor>
+            <dependent idx="12">had</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="14">managed</governor>
+            <dependent idx="13">been</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="5">died</governor>
+            <dependent idx="14">managed</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="18">woman</governor>
+            <dependent idx="15">by</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">woman</governor>
+            <dependent idx="16">an</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="18">woman</governor>
+            <dependent idx="17">excellent</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="14">managed</governor>
+            <dependent idx="18">woman</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="20">governess</governor>
+            <dependent idx="19">as</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="18">woman</governor>
+            <dependent idx="20">governess</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">died</governor>
+            <dependent idx="21">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">died</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="3">mother</governor>
+            <dependent idx="1">Emma</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="1">Emma</governor>
+            <dependent idx="2">'s</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">died</governor>
+            <dependent idx="3">mother</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">died</governor>
+            <dependent idx="4">had</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">ago</governor>
+            <dependent idx="6">long</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">died</governor>
+            <dependent idx="7">ago</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">died</governor>
+            <dependent idx="8">,</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="5">died</governor>
+            <dependent idx="9">and</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="11">education</governor>
+            <dependent idx="10">her</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="14">managed</governor>
+            <dependent idx="11">education</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="14">managed</governor>
+            <dependent idx="12">had</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="14">managed</governor>
+            <dependent idx="13">been</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="5">died</governor>
+            <dependent idx="14">managed</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="18">woman</governor>
+            <dependent idx="15">by</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">woman</governor>
+            <dependent idx="16">an</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="18">woman</governor>
+            <dependent idx="17">excellent</dependent>
+          </dep>
+          <dep type="nmod:agent">
+            <governor idx="14">managed</governor>
+            <dependent idx="18">woman</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="20">governess</governor>
+            <dependent idx="19">as</dependent>
+          </dep>
+          <dep type="nmod:as">
+            <governor idx="18">woman</governor>
+            <dependent idx="20">governess</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">died</governor>
+            <dependent idx="21">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">died</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="3">mother</governor>
+            <dependent idx="1">Emma</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="1">Emma</governor>
+            <dependent idx="2">'s</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">died</governor>
+            <dependent idx="3">mother</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">died</governor>
+            <dependent idx="4">had</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">ago</governor>
+            <dependent idx="6">long</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">died</governor>
+            <dependent idx="7">ago</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">died</governor>
+            <dependent idx="8">,</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="5">died</governor>
+            <dependent idx="9">and</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="11">education</governor>
+            <dependent idx="10">her</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="14">managed</governor>
+            <dependent idx="11">education</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="14">managed</governor>
+            <dependent idx="12">had</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="14">managed</governor>
+            <dependent idx="13">been</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="5">died</governor>
+            <dependent idx="14">managed</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="18">woman</governor>
+            <dependent idx="15">by</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">woman</governor>
+            <dependent idx="16">an</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="18">woman</governor>
+            <dependent idx="17">excellent</dependent>
+          </dep>
+          <dep type="nmod:agent">
+            <governor idx="14">managed</governor>
+            <dependent idx="18">woman</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="20">governess</governor>
+            <dependent idx="19">as</dependent>
+          </dep>
+          <dep type="nmod:as">
+            <governor idx="18">woman</governor>
+            <dependent idx="20">governess</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">died</governor>
+            <dependent idx="21">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">died</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="3">mother</governor>
+            <dependent idx="1">Emma</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="1">Emma</governor>
+            <dependent idx="2">'s</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">died</governor>
+            <dependent idx="3">mother</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">died</governor>
+            <dependent idx="4">had</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">ago</governor>
+            <dependent idx="6">long</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">died</governor>
+            <dependent idx="7">ago</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">died</governor>
+            <dependent idx="8">,</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="5">died</governor>
+            <dependent idx="9">and</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="11">education</governor>
+            <dependent idx="10">her</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="14">managed</governor>
+            <dependent idx="11">education</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="14">managed</governor>
+            <dependent idx="12">had</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="14">managed</governor>
+            <dependent idx="13">been</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="5">died</governor>
+            <dependent idx="14">managed</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="18">woman</governor>
+            <dependent idx="15">by</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">woman</governor>
+            <dependent idx="16">an</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="18">woman</governor>
+            <dependent idx="17">excellent</dependent>
+          </dep>
+          <dep type="nmod:agent">
+            <governor idx="14">managed</governor>
+            <dependent idx="18">woman</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="20">governess</governor>
+            <dependent idx="19">as</dependent>
+          </dep>
+          <dep type="nmod:as">
+            <governor idx="18">woman</governor>
+            <dependent idx="20">governess</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">died</governor>
+            <dependent idx="21">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="5">died</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="3">mother</governor>
+            <dependent idx="1">Emma</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="1">Emma</governor>
+            <dependent idx="2">'s</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="5">died</governor>
+            <dependent idx="3">mother</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="5">died</governor>
+            <dependent idx="4">had</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="7">ago</governor>
+            <dependent idx="6">long</dependent>
+          </dep>
+          <dep type="advmod">
+            <governor idx="5">died</governor>
+            <dependent idx="7">ago</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">died</governor>
+            <dependent idx="8">,</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="5">died</governor>
+            <dependent idx="9">and</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="11">education</governor>
+            <dependent idx="10">her</dependent>
+          </dep>
+          <dep type="nsubjpass">
+            <governor idx="14">managed</governor>
+            <dependent idx="11">education</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="14">managed</governor>
+            <dependent idx="12">had</dependent>
+          </dep>
+          <dep type="auxpass">
+            <governor idx="14">managed</governor>
+            <dependent idx="13">been</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="5">died</governor>
+            <dependent idx="14">managed</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="18">woman</governor>
+            <dependent idx="15">by</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="18">woman</governor>
+            <dependent idx="16">an</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="18">woman</governor>
+            <dependent idx="17">excellent</dependent>
+          </dep>
+          <dep type="nmod:agent">
+            <governor idx="14">managed</governor>
+            <dependent idx="18">woman</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="20">governess</governor>
+            <dependent idx="19">as</dependent>
+          </dep>
+          <dep type="nmod:as">
+            <governor idx="18">woman</governor>
+            <dependent idx="20">governess</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="5">died</governor>
+            <dependent idx="21">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>1</start>
+          <end>4</end>
+          <head>3</head>
+          <text>Emma 's mother</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>10</start>
+          <end>11</end>
+          <head>10</head>
+          <text>her</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

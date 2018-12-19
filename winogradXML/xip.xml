@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>As</word>
+            <lemma>as</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>2</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Andrea</word>
+            <lemma>Andrea</lemma>
+            <CharacterOffsetBegin>3</CharacterOffsetBegin>
+            <CharacterOffsetEnd>9</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>10</CharacterOffsetBegin>
+            <CharacterOffsetEnd>12</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>13</CharacterOffsetBegin>
+            <CharacterOffsetEnd>16</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>crop</word>
+            <lemma>crop</lemma>
+            <CharacterOffsetBegin>17</CharacterOffsetBegin>
+            <CharacterOffsetEnd>21</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>duster</word>
+            <lemma>duster</lemma>
+            <CharacterOffsetBegin>22</CharacterOffsetBegin>
+            <CharacterOffsetEnd>28</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>passed</word>
+            <lemma>pass</lemma>
+            <CharacterOffsetBegin>29</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>over</word>
+            <lemma>over</lemma>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>40</CharacterOffsetEnd>
+            <POS>RP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>Susan</word>
+            <lemma>Susan</lemma>
+            <CharacterOffsetBegin>41</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>46</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>she</word>
+            <lemma>she</lemma>
+            <CharacterOffsetBegin>48</CharacterOffsetBegin>
+            <CharacterOffsetEnd>51</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>could</word>
+            <lemma>could</lemma>
+            <CharacterOffsetBegin>52</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>MD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>see</word>
+            <lemma>see</lemma>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>61</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>62</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>landing</word>
+            <lemma>landing</lemma>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>gear</word>
+            <lemma>gear</lemma>
+            <CharacterOffsetBegin>74</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>78</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (SBAR (IN As) (S (NP (NP (NNP Andrea)) (PP (IN in) (NP (DT the) (NN crop) (NN duster)))) (VP (VBD passed) (PRT (RP over)) (NP (NNP Susan))))) (, ,) (NP (PRP she)) (VP (MD could) (VP (VB see) (NP (DT the) (NN landing) (NN gear)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="13">see</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="7">passed</governor>
+            <dependent idx="1">As</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">passed</governor>
+            <dependent idx="2">Andrea</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">duster</governor>
+            <dependent idx="3">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">duster</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">duster</governor>
+            <dependent idx="5">crop</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="2">Andrea</governor>
+            <dependent idx="6">duster</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="13">see</governor>
+            <dependent idx="7">passed</dependent>
+          </dep>
+          <dep type="compound:prt">
+            <governor idx="7">passed</governor>
+            <dependent idx="8">over</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">passed</governor>
+            <dependent idx="9">Susan</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="13">see</governor>
+            <dependent idx="10">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">see</governor>
+            <dependent idx="11">she</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="13">see</governor>
+            <dependent idx="12">could</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">gear</governor>
+            <dependent idx="14">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">gear</governor>
+            <dependent idx="15">landing</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">see</governor>
+            <dependent idx="16">gear</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="13">see</governor>
+            <dependent idx="17">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="13">see</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="7">passed</governor>
+            <dependent idx="1">As</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">passed</governor>
+            <dependent idx="2">Andrea</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">duster</governor>
+            <dependent idx="3">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">duster</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">duster</governor>
+            <dependent idx="5">crop</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="2">Andrea</governor>
+            <dependent idx="6">duster</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="13">see</governor>
+            <dependent idx="7">passed</dependent>
+          </dep>
+          <dep type="compound:prt">
+            <governor idx="7">passed</governor>
+            <dependent idx="8">over</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">passed</governor>
+            <dependent idx="9">Susan</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="13">see</governor>
+            <dependent idx="10">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">see</governor>
+            <dependent idx="11">she</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="13">see</governor>
+            <dependent idx="12">could</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">gear</governor>
+            <dependent idx="14">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">gear</governor>
+            <dependent idx="15">landing</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">see</governor>
+            <dependent idx="16">gear</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="13">see</governor>
+            <dependent idx="17">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="13">see</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="7">passed</governor>
+            <dependent idx="1">As</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">passed</governor>
+            <dependent idx="2">Andrea</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">duster</governor>
+            <dependent idx="3">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">duster</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">duster</governor>
+            <dependent idx="5">crop</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="2">Andrea</governor>
+            <dependent idx="6">duster</dependent>
+          </dep>
+          <dep type="advcl">
+            <governor idx="13">see</governor>
+            <dependent idx="7">passed</dependent>
+          </dep>
+          <dep type="compound:prt">
+            <governor idx="7">passed</governor>
+            <dependent idx="8">over</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">passed</governor>
+            <dependent idx="9">Susan</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="13">see</governor>
+            <dependent idx="10">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">see</governor>
+            <dependent idx="11">she</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="13">see</governor>
+            <dependent idx="12">could</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">gear</governor>
+            <dependent idx="14">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">gear</governor>
+            <dependent idx="15">landing</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">see</governor>
+            <dependent idx="16">gear</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="13">see</governor>
+            <dependent idx="17">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="13">see</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="7">passed</governor>
+            <dependent idx="1">As</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">passed</governor>
+            <dependent idx="2">Andrea</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">duster</governor>
+            <dependent idx="3">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">duster</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">duster</governor>
+            <dependent idx="5">crop</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="2">Andrea</governor>
+            <dependent idx="6">duster</dependent>
+          </dep>
+          <dep type="advcl:as">
+            <governor idx="13">see</governor>
+            <dependent idx="7">passed</dependent>
+          </dep>
+          <dep type="compound:prt">
+            <governor idx="7">passed</governor>
+            <dependent idx="8">over</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">passed</governor>
+            <dependent idx="9">Susan</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="13">see</governor>
+            <dependent idx="10">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">see</governor>
+            <dependent idx="11">she</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="13">see</governor>
+            <dependent idx="12">could</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">gear</governor>
+            <dependent idx="14">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">gear</governor>
+            <dependent idx="15">landing</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">see</governor>
+            <dependent idx="16">gear</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="13">see</governor>
+            <dependent idx="17">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="13">see</dependent>
+          </dep>
+          <dep type="mark">
+            <governor idx="7">passed</governor>
+            <dependent idx="1">As</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="7">passed</governor>
+            <dependent idx="2">Andrea</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="6">duster</governor>
+            <dependent idx="3">in</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="6">duster</governor>
+            <dependent idx="4">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="6">duster</governor>
+            <dependent idx="5">crop</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="2">Andrea</governor>
+            <dependent idx="6">duster</dependent>
+          </dep>
+          <dep type="advcl:as">
+            <governor idx="13">see</governor>
+            <dependent idx="7">passed</dependent>
+          </dep>
+          <dep type="compound:prt">
+            <governor idx="7">passed</governor>
+            <dependent idx="8">over</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="7">passed</governor>
+            <dependent idx="9">Susan</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="13">see</governor>
+            <dependent idx="10">,</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="13">see</governor>
+            <dependent idx="11">she</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="13">see</governor>
+            <dependent idx="12">could</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">gear</governor>
+            <dependent idx="14">the</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="16">gear</governor>
+            <dependent idx="15">landing</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="13">see</governor>
+            <dependent idx="16">gear</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="13">see</governor>
+            <dependent idx="17">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>2</start>
+          <end>7</end>
+          <head>2</head>
+          <text>Andrea in the crop duster</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>11</start>
+          <end>12</end>
+          <head>11</head>
+          <text>she</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

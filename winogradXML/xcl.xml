@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>They</word>
+            <lemma>they</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>broadcast</word>
+            <lemma>broadcast</lemma>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>14</CharacterOffsetEnd>
+            <POS>VBP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>an</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>15</CharacterOffsetBegin>
+            <CharacterOffsetEnd>17</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>announcement</word>
+            <lemma>announcement</lemma>
+            <CharacterOffsetBegin>18</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>31</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>but</word>
+            <lemma>but</lemma>
+            <CharacterOffsetBegin>32</CharacterOffsetBegin>
+            <CharacterOffsetEnd>35</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>36</CharacterOffsetBegin>
+            <CharacterOffsetEnd>37</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>subway</word>
+            <lemma>subway</lemma>
+            <CharacterOffsetBegin>38</CharacterOffsetBegin>
+            <CharacterOffsetEnd>44</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>came</word>
+            <lemma>come</lemma>
+            <CharacterOffsetBegin>45</CharacterOffsetBegin>
+            <CharacterOffsetEnd>49</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>into</word>
+            <lemma>into</lemma>
+            <CharacterOffsetBegin>50</CharacterOffsetBegin>
+            <CharacterOffsetEnd>54</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>55</CharacterOffsetBegin>
+            <CharacterOffsetEnd>58</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>station</word>
+            <lemma>station</lemma>
+            <CharacterOffsetBegin>59</CharacterOffsetBegin>
+            <CharacterOffsetEnd>66</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>and</word>
+            <lemma>and</lemma>
+            <CharacterOffsetBegin>67</CharacterOffsetBegin>
+            <CharacterOffsetEnd>70</CharacterOffsetEnd>
+            <POS>CC</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>I</word>
+            <lemma>I</lemma>
+            <CharacterOffsetBegin>71</CharacterOffsetBegin>
+            <CharacterOffsetEnd>72</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>could</word>
+            <lemma>could</lemma>
+            <CharacterOffsetBegin>73</CharacterOffsetBegin>
+            <CharacterOffsetEnd>78</CharacterOffsetEnd>
+            <POS>MD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>n't</word>
+            <lemma>not</lemma>
+            <CharacterOffsetBegin>78</CharacterOffsetBegin>
+            <CharacterOffsetEnd>81</CharacterOffsetEnd>
+            <POS>RB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>hear</word>
+            <lemma>hear</lemma>
+            <CharacterOffsetBegin>82</CharacterOffsetBegin>
+            <CharacterOffsetEnd>86</CharacterOffsetEnd>
+            <POS>VB</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>over</word>
+            <lemma>over</lemma>
+            <CharacterOffsetBegin>87</CharacterOffsetBegin>
+            <CharacterOffsetEnd>91</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="19">
+            <word>it</word>
+            <lemma>it</lemma>
+            <CharacterOffsetBegin>92</CharacterOffsetBegin>
+            <CharacterOffsetEnd>94</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="20">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>94</CharacterOffsetBegin>
+            <CharacterOffsetEnd>95</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (NP (PRP They)) (VP (VBP broadcast) (NP (DT an) (NN announcement)))) (, ,) (CC but) (S (S (NP (DT a) (NN subway)) (VP (VBD came) (PP (IN into) (NP (DT the) (NN station))))) (CC and) (S (NP (PRP I)) (VP (MD could) (RB n't) (VP (VB hear) (PP (IN over) (NP (PRP it))))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">broadcast</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">broadcast</governor>
+            <dependent idx="1">They</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">announcement</governor>
+            <dependent idx="3">an</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">broadcast</governor>
+            <dependent idx="4">announcement</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">broadcast</governor>
+            <dependent idx="5">,</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="2">broadcast</governor>
+            <dependent idx="6">but</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">subway</governor>
+            <dependent idx="7">a</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">came</governor>
+            <dependent idx="8">subway</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="2">broadcast</governor>
+            <dependent idx="9">came</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">station</governor>
+            <dependent idx="10">into</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">station</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="9">came</governor>
+            <dependent idx="12">station</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="9">came</governor>
+            <dependent idx="13">and</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="17">hear</governor>
+            <dependent idx="14">I</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="17">hear</governor>
+            <dependent idx="15">could</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="17">hear</governor>
+            <dependent idx="16">n't</dependent>
+          </dep>
+          <dep type="conj">
+            <governor idx="9">came</governor>
+            <dependent idx="17">hear</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="19">it</governor>
+            <dependent idx="18">over</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="17">hear</governor>
+            <dependent idx="19">it</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">broadcast</governor>
+            <dependent idx="20">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">broadcast</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">broadcast</governor>
+            <dependent idx="1">They</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">announcement</governor>
+            <dependent idx="3">an</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">broadcast</governor>
+            <dependent idx="4">announcement</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">broadcast</governor>
+            <dependent idx="5">,</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="2">broadcast</governor>
+            <dependent idx="6">but</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">subway</governor>
+            <dependent idx="7">a</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">came</governor>
+            <dependent idx="8">subway</dependent>
+          </dep>
+          <dep type="conj:but">
+            <governor idx="2">broadcast</governor>
+            <dependent idx="9">came</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">station</governor>
+            <dependent idx="10">into</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">station</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="nmod:into">
+            <governor idx="9">came</governor>
+            <dependent idx="12">station</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="9">came</governor>
+            <dependent idx="13">and</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="17">hear</governor>
+            <dependent idx="14">I</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="17">hear</governor>
+            <dependent idx="15">could</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="17">hear</governor>
+            <dependent idx="16">n't</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="9">came</governor>
+            <dependent idx="17">hear</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="19">it</governor>
+            <dependent idx="18">over</dependent>
+          </dep>
+          <dep type="nmod:over">
+            <governor idx="17">hear</governor>
+            <dependent idx="19">it</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">broadcast</governor>
+            <dependent idx="20">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">broadcast</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">broadcast</governor>
+            <dependent idx="1">They</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">announcement</governor>
+            <dependent idx="3">an</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">broadcast</governor>
+            <dependent idx="4">announcement</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">broadcast</governor>
+            <dependent idx="5">,</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="2">broadcast</governor>
+            <dependent idx="6">but</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">subway</governor>
+            <dependent idx="7">a</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">came</governor>
+            <dependent idx="8">subway</dependent>
+          </dep>
+          <dep type="conj:but">
+            <governor idx="2">broadcast</governor>
+            <dependent idx="9">came</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">station</governor>
+            <dependent idx="10">into</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">station</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="nmod:into">
+            <governor idx="9">came</governor>
+            <dependent idx="12">station</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="9">came</governor>
+            <dependent idx="13">and</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="17">hear</governor>
+            <dependent idx="14">I</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="17">hear</governor>
+            <dependent idx="15">could</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="17">hear</governor>
+            <dependent idx="16">n't</dependent>
+          </dep>
+          <dep type="conj:but" extra="true">
+            <governor idx="2">broadcast</governor>
+            <dependent idx="17">hear</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="9">came</governor>
+            <dependent idx="17">hear</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="19">it</governor>
+            <dependent idx="18">over</dependent>
+          </dep>
+          <dep type="nmod:over">
+            <governor idx="17">hear</governor>
+            <dependent idx="19">it</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">broadcast</governor>
+            <dependent idx="20">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">broadcast</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">broadcast</governor>
+            <dependent idx="1">They</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">announcement</governor>
+            <dependent idx="3">an</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">broadcast</governor>
+            <dependent idx="4">announcement</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">broadcast</governor>
+            <dependent idx="5">,</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="2">broadcast</governor>
+            <dependent idx="6">but</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">subway</governor>
+            <dependent idx="7">a</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">came</governor>
+            <dependent idx="8">subway</dependent>
+          </dep>
+          <dep type="conj:but">
+            <governor idx="2">broadcast</governor>
+            <dependent idx="9">came</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">station</governor>
+            <dependent idx="10">into</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">station</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="nmod:into">
+            <governor idx="9">came</governor>
+            <dependent idx="12">station</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="9">came</governor>
+            <dependent idx="13">and</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="17">hear</governor>
+            <dependent idx="14">I</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="17">hear</governor>
+            <dependent idx="15">could</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="17">hear</governor>
+            <dependent idx="16">n't</dependent>
+          </dep>
+          <dep type="conj:but" extra="true">
+            <governor idx="2">broadcast</governor>
+            <dependent idx="17">hear</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="9">came</governor>
+            <dependent idx="17">hear</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="19">it</governor>
+            <dependent idx="18">over</dependent>
+          </dep>
+          <dep type="nmod:over">
+            <governor idx="17">hear</governor>
+            <dependent idx="19">it</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">broadcast</governor>
+            <dependent idx="20">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">broadcast</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">broadcast</governor>
+            <dependent idx="1">They</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="4">announcement</governor>
+            <dependent idx="3">an</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="2">broadcast</governor>
+            <dependent idx="4">announcement</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">broadcast</governor>
+            <dependent idx="5">,</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="2">broadcast</governor>
+            <dependent idx="6">but</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="8">subway</governor>
+            <dependent idx="7">a</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="9">came</governor>
+            <dependent idx="8">subway</dependent>
+          </dep>
+          <dep type="conj:but">
+            <governor idx="2">broadcast</governor>
+            <dependent idx="9">came</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="12">station</governor>
+            <dependent idx="10">into</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="12">station</governor>
+            <dependent idx="11">the</dependent>
+          </dep>
+          <dep type="nmod:into">
+            <governor idx="9">came</governor>
+            <dependent idx="12">station</dependent>
+          </dep>
+          <dep type="cc">
+            <governor idx="9">came</governor>
+            <dependent idx="13">and</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="17">hear</governor>
+            <dependent idx="14">I</dependent>
+          </dep>
+          <dep type="aux">
+            <governor idx="17">hear</governor>
+            <dependent idx="15">could</dependent>
+          </dep>
+          <dep type="neg">
+            <governor idx="17">hear</governor>
+            <dependent idx="16">n't</dependent>
+          </dep>
+          <dep type="conj:but" extra="true">
+            <governor idx="2">broadcast</governor>
+            <dependent idx="17">hear</dependent>
+          </dep>
+          <dep type="conj:and">
+            <governor idx="9">came</governor>
+            <dependent idx="17">hear</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="19">it</governor>
+            <dependent idx="18">over</dependent>
+          </dep>
+          <dep type="nmod:over">
+            <governor idx="17">hear</governor>
+            <dependent idx="19">it</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">broadcast</governor>
+            <dependent idx="20">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>7</start>
+          <end>9</end>
+          <head>8</head>
+          <text>a subway</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>19</start>
+          <end>20</end>
+          <head>19</head>
+          <text>it</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Lily</word>
+            <lemma>Lily</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>4</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>spoke</word>
+            <lemma>speak</lemma>
+            <CharacterOffsetBegin>5</CharacterOffsetBegin>
+            <CharacterOffsetEnd>10</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>to</word>
+            <lemma>to</lemma>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>TO</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>Donna</word>
+            <lemma>Donna</lemma>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>19</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>,</word>
+            <lemma>,</lemma>
+            <CharacterOffsetBegin>19</CharacterOffsetBegin>
+            <CharacterOffsetEnd>20</CharacterOffsetEnd>
+            <POS>,</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>breaking</word>
+            <lemma>break</lemma>
+            <CharacterOffsetBegin>21</CharacterOffsetBegin>
+            <CharacterOffsetEnd>29</CharacterOffsetEnd>
+            <POS>VBG</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>her</word>
+            <lemma>she</lemma>
+            <CharacterOffsetBegin>30</CharacterOffsetBegin>
+            <CharacterOffsetEnd>33</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>concentration</word>
+            <lemma>concentration</lemma>
+            <CharacterOffsetBegin>34</CharacterOffsetBegin>
+            <CharacterOffsetEnd>47</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>48</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (NP (NNP Lily)) (VP (VBD spoke) (PP (TO to) (NP (NNP Donna))) (, ,) (S (VP (VBG breaking) (NP (PRP$ her) (NN concentration))))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">spoke</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">spoke</governor>
+            <dependent idx="1">Lily</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">Donna</governor>
+            <dependent idx="3">to</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="2">spoke</governor>
+            <dependent idx="4">Donna</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">spoke</governor>
+            <dependent idx="5">,</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="2">spoke</governor>
+            <dependent idx="6">breaking</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="8">concentration</governor>
+            <dependent idx="7">her</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">breaking</governor>
+            <dependent idx="8">concentration</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">spoke</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">spoke</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">spoke</governor>
+            <dependent idx="1">Lily</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">Donna</governor>
+            <dependent idx="3">to</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="2">spoke</governor>
+            <dependent idx="4">Donna</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">spoke</governor>
+            <dependent idx="5">,</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="2">spoke</governor>
+            <dependent idx="6">breaking</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="8">concentration</governor>
+            <dependent idx="7">her</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">breaking</governor>
+            <dependent idx="8">concentration</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">spoke</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">spoke</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">spoke</governor>
+            <dependent idx="1">Lily</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">Donna</governor>
+            <dependent idx="3">to</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="2">spoke</governor>
+            <dependent idx="4">Donna</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">spoke</governor>
+            <dependent idx="5">,</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="2">spoke</governor>
+            <dependent idx="6">breaking</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="8">concentration</governor>
+            <dependent idx="7">her</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">breaking</governor>
+            <dependent idx="8">concentration</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">spoke</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">spoke</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">spoke</governor>
+            <dependent idx="1">Lily</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">Donna</governor>
+            <dependent idx="3">to</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="2">spoke</governor>
+            <dependent idx="4">Donna</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">spoke</governor>
+            <dependent idx="5">,</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="2">spoke</governor>
+            <dependent idx="6">breaking</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="8">concentration</governor>
+            <dependent idx="7">her</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">breaking</governor>
+            <dependent idx="8">concentration</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">spoke</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="2">spoke</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="2">spoke</governor>
+            <dependent idx="1">Lily</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="4">Donna</governor>
+            <dependent idx="3">to</dependent>
+          </dep>
+          <dep type="nmod:to">
+            <governor idx="2">spoke</governor>
+            <dependent idx="4">Donna</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">spoke</governor>
+            <dependent idx="5">,</dependent>
+          </dep>
+          <dep type="xcomp">
+            <governor idx="2">spoke</governor>
+            <dependent idx="6">breaking</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="8">concentration</governor>
+            <dependent idx="7">her</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="6">breaking</governor>
+            <dependent idx="8">concentration</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="2">spoke</governor>
+            <dependent idx="9">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>1</start>
+          <end>2</end>
+          <head>1</head>
+          <text>Lily</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>7</start>
+          <end>8</end>
+          <head>7</head>
+          <text>her</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>

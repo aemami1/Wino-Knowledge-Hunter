@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="CoreNLP-to-HTML.xsl" type="text/xsl"?>
+<root>
+  <document>
+    <sentences>
+      <sentence id="1">
+        <tokens>
+          <token id="1">
+            <word>Sam</word>
+            <lemma>Sam</lemma>
+            <CharacterOffsetBegin>0</CharacterOffsetBegin>
+            <CharacterOffsetEnd>3</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="2">
+            <word>Goodman</word>
+            <lemma>Goodman</lemma>
+            <CharacterOffsetBegin>4</CharacterOffsetBegin>
+            <CharacterOffsetEnd>11</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>PERSON</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="3">
+            <word>'s</word>
+            <lemma>'s</lemma>
+            <CharacterOffsetBegin>11</CharacterOffsetBegin>
+            <CharacterOffsetEnd>13</CharacterOffsetEnd>
+            <POS>POS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="4">
+            <word>biography</word>
+            <lemma>biography</lemma>
+            <CharacterOffsetBegin>14</CharacterOffsetBegin>
+            <CharacterOffsetEnd>23</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="5">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>24</CharacterOffsetBegin>
+            <CharacterOffsetEnd>26</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="6">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>27</CharacterOffsetBegin>
+            <CharacterOffsetEnd>30</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="7">
+            <word>Spartan</word>
+            <lemma>Spartan</lemma>
+            <CharacterOffsetBegin>31</CharacterOffsetBegin>
+            <CharacterOffsetEnd>38</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>MISC</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="8">
+            <word>general</word>
+            <lemma>general</lemma>
+            <CharacterOffsetBegin>39</CharacterOffsetBegin>
+            <CharacterOffsetEnd>46</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="9">
+            <word>Xenophanes</word>
+            <lemma>Xenophanes</lemma>
+            <CharacterOffsetBegin>47</CharacterOffsetBegin>
+            <CharacterOffsetEnd>57</CharacterOffsetEnd>
+            <POS>NNP</POS>
+            <NER>LOCATION</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="10">
+            <word>conveys</word>
+            <lemma>convey</lemma>
+            <CharacterOffsetBegin>58</CharacterOffsetBegin>
+            <CharacterOffsetEnd>65</CharacterOffsetEnd>
+            <POS>VBZ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="11">
+            <word>a</word>
+            <lemma>a</lemma>
+            <CharacterOffsetBegin>66</CharacterOffsetBegin>
+            <CharacterOffsetEnd>67</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="12">
+            <word>vivid</word>
+            <lemma>vivid</lemma>
+            <CharacterOffsetBegin>68</CharacterOffsetBegin>
+            <CharacterOffsetEnd>73</CharacterOffsetEnd>
+            <POS>JJ</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="13">
+            <word>sense</word>
+            <lemma>sense</lemma>
+            <CharacterOffsetBegin>74</CharacterOffsetBegin>
+            <CharacterOffsetEnd>79</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="14">
+            <word>of</word>
+            <lemma>of</lemma>
+            <CharacterOffsetBegin>80</CharacterOffsetBegin>
+            <CharacterOffsetEnd>82</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="15">
+            <word>the</word>
+            <lemma>the</lemma>
+            <CharacterOffsetBegin>83</CharacterOffsetBegin>
+            <CharacterOffsetEnd>86</CharacterOffsetEnd>
+            <POS>DT</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="16">
+            <word>difficulties</word>
+            <lemma>difficulty</lemma>
+            <CharacterOffsetBegin>87</CharacterOffsetBegin>
+            <CharacterOffsetEnd>99</CharacterOffsetEnd>
+            <POS>NNS</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="17">
+            <word>he</word>
+            <lemma>he</lemma>
+            <CharacterOffsetBegin>100</CharacterOffsetBegin>
+            <CharacterOffsetEnd>102</CharacterOffsetEnd>
+            <POS>PRP</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="18">
+            <word>faced</word>
+            <lemma>face</lemma>
+            <CharacterOffsetBegin>103</CharacterOffsetBegin>
+            <CharacterOffsetEnd>108</CharacterOffsetEnd>
+            <POS>VBD</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="19">
+            <word>in</word>
+            <lemma>in</lemma>
+            <CharacterOffsetBegin>109</CharacterOffsetBegin>
+            <CharacterOffsetEnd>111</CharacterOffsetEnd>
+            <POS>IN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="20">
+            <word>his</word>
+            <lemma>he</lemma>
+            <CharacterOffsetBegin>112</CharacterOffsetBegin>
+            <CharacterOffsetEnd>115</CharacterOffsetEnd>
+            <POS>PRP$</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="21">
+            <word>research</word>
+            <lemma>research</lemma>
+            <CharacterOffsetBegin>116</CharacterOffsetBegin>
+            <CharacterOffsetEnd>124</CharacterOffsetEnd>
+            <POS>NN</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+          <token id="22">
+            <word>.</word>
+            <lemma>.</lemma>
+            <CharacterOffsetBegin>124</CharacterOffsetBegin>
+            <CharacterOffsetEnd>125</CharacterOffsetEnd>
+            <POS>.</POS>
+            <NER>O</NER>
+            <Speaker>PER0</Speaker>
+          </token>
+        </tokens>
+        <parse>(ROOT (S (S (NP (NP (NP (NNP Sam) (NNP Goodman) (POS 's)) (NN biography)) (PP (IN of) (NP (DT the) (NNP Spartan)))) (ADJP (JJ general))) (PRN (NP (NNP Xenophanes)) (VP (VBZ conveys) (NP (NP (DT a) (JJ vivid) (NN sense)) (PP (IN of) (NP (DT the) (NNS difficulties)))))) (NP (PRP he)) (VP (VBD faced) (PP (IN in) (NP (PRP$ his) (NN research)))) (. .))) </parse>
+        <dependencies type="basic-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="18">faced</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Goodman</governor>
+            <dependent idx="1">Sam</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="4">biography</governor>
+            <dependent idx="2">Goodman</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="2">Goodman</governor>
+            <dependent idx="3">'s</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="8">general</governor>
+            <dependent idx="4">biography</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">Spartan</governor>
+            <dependent idx="5">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">Spartan</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="4">biography</governor>
+            <dependent idx="7">Spartan</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="18">faced</governor>
+            <dependent idx="8">general</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">conveys</governor>
+            <dependent idx="9">Xenophanes</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="18">faced</governor>
+            <dependent idx="10">conveys</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">sense</governor>
+            <dependent idx="11">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">sense</governor>
+            <dependent idx="12">vivid</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">conveys</governor>
+            <dependent idx="13">sense</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="16">difficulties</governor>
+            <dependent idx="14">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">difficulties</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="13">sense</governor>
+            <dependent idx="16">difficulties</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="18">faced</governor>
+            <dependent idx="17">he</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="21">research</governor>
+            <dependent idx="19">in</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="21">research</governor>
+            <dependent idx="20">his</dependent>
+          </dep>
+          <dep type="nmod">
+            <governor idx="18">faced</governor>
+            <dependent idx="21">research</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="18">faced</governor>
+            <dependent idx="22">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="18">faced</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Goodman</governor>
+            <dependent idx="1">Sam</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="4">biography</governor>
+            <dependent idx="2">Goodman</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="2">Goodman</governor>
+            <dependent idx="3">'s</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="8">general</governor>
+            <dependent idx="4">biography</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">Spartan</governor>
+            <dependent idx="5">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">Spartan</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="4">biography</governor>
+            <dependent idx="7">Spartan</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="18">faced</governor>
+            <dependent idx="8">general</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">conveys</governor>
+            <dependent idx="9">Xenophanes</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="18">faced</governor>
+            <dependent idx="10">conveys</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">sense</governor>
+            <dependent idx="11">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">sense</governor>
+            <dependent idx="12">vivid</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">conveys</governor>
+            <dependent idx="13">sense</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="16">difficulties</governor>
+            <dependent idx="14">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">difficulties</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="13">sense</governor>
+            <dependent idx="16">difficulties</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="18">faced</governor>
+            <dependent idx="17">he</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="21">research</governor>
+            <dependent idx="19">in</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="21">research</governor>
+            <dependent idx="20">his</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="18">faced</governor>
+            <dependent idx="21">research</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="18">faced</governor>
+            <dependent idx="22">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="collapsed-ccprocessed-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="18">faced</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Goodman</governor>
+            <dependent idx="1">Sam</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="4">biography</governor>
+            <dependent idx="2">Goodman</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="2">Goodman</governor>
+            <dependent idx="3">'s</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="8">general</governor>
+            <dependent idx="4">biography</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">Spartan</governor>
+            <dependent idx="5">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">Spartan</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="4">biography</governor>
+            <dependent idx="7">Spartan</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="18">faced</governor>
+            <dependent idx="8">general</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">conveys</governor>
+            <dependent idx="9">Xenophanes</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="18">faced</governor>
+            <dependent idx="10">conveys</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">sense</governor>
+            <dependent idx="11">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">sense</governor>
+            <dependent idx="12">vivid</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">conveys</governor>
+            <dependent idx="13">sense</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="16">difficulties</governor>
+            <dependent idx="14">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">difficulties</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="13">sense</governor>
+            <dependent idx="16">difficulties</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="18">faced</governor>
+            <dependent idx="17">he</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="21">research</governor>
+            <dependent idx="19">in</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="21">research</governor>
+            <dependent idx="20">his</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="18">faced</governor>
+            <dependent idx="21">research</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="18">faced</governor>
+            <dependent idx="22">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="18">faced</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Goodman</governor>
+            <dependent idx="1">Sam</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="4">biography</governor>
+            <dependent idx="2">Goodman</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="2">Goodman</governor>
+            <dependent idx="3">'s</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="8">general</governor>
+            <dependent idx="4">biography</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">Spartan</governor>
+            <dependent idx="5">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">Spartan</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="4">biography</governor>
+            <dependent idx="7">Spartan</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="18">faced</governor>
+            <dependent idx="8">general</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">conveys</governor>
+            <dependent idx="9">Xenophanes</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="18">faced</governor>
+            <dependent idx="10">conveys</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">sense</governor>
+            <dependent idx="11">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">sense</governor>
+            <dependent idx="12">vivid</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">conveys</governor>
+            <dependent idx="13">sense</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="16">difficulties</governor>
+            <dependent idx="14">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">difficulties</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="13">sense</governor>
+            <dependent idx="16">difficulties</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="18">faced</governor>
+            <dependent idx="17">he</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="21">research</governor>
+            <dependent idx="19">in</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="21">research</governor>
+            <dependent idx="20">his</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="18">faced</governor>
+            <dependent idx="21">research</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="18">faced</governor>
+            <dependent idx="22">.</dependent>
+          </dep>
+        </dependencies>
+        <dependencies type="enhanced-plus-plus-dependencies">
+          <dep type="root">
+            <governor idx="0">ROOT</governor>
+            <dependent idx="18">faced</dependent>
+          </dep>
+          <dep type="compound">
+            <governor idx="2">Goodman</governor>
+            <dependent idx="1">Sam</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="4">biography</governor>
+            <dependent idx="2">Goodman</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="2">Goodman</governor>
+            <dependent idx="3">'s</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="8">general</governor>
+            <dependent idx="4">biography</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="7">Spartan</governor>
+            <dependent idx="5">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="7">Spartan</governor>
+            <dependent idx="6">the</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="4">biography</governor>
+            <dependent idx="7">Spartan</dependent>
+          </dep>
+          <dep type="dep">
+            <governor idx="18">faced</governor>
+            <dependent idx="8">general</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="10">conveys</governor>
+            <dependent idx="9">Xenophanes</dependent>
+          </dep>
+          <dep type="parataxis">
+            <governor idx="18">faced</governor>
+            <dependent idx="10">conveys</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="13">sense</governor>
+            <dependent idx="11">a</dependent>
+          </dep>
+          <dep type="amod">
+            <governor idx="13">sense</governor>
+            <dependent idx="12">vivid</dependent>
+          </dep>
+          <dep type="dobj">
+            <governor idx="10">conveys</governor>
+            <dependent idx="13">sense</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="16">difficulties</governor>
+            <dependent idx="14">of</dependent>
+          </dep>
+          <dep type="det">
+            <governor idx="16">difficulties</governor>
+            <dependent idx="15">the</dependent>
+          </dep>
+          <dep type="nmod:of">
+            <governor idx="13">sense</governor>
+            <dependent idx="16">difficulties</dependent>
+          </dep>
+          <dep type="nsubj">
+            <governor idx="18">faced</governor>
+            <dependent idx="17">he</dependent>
+          </dep>
+          <dep type="case">
+            <governor idx="21">research</governor>
+            <dependent idx="19">in</dependent>
+          </dep>
+          <dep type="nmod:poss">
+            <governor idx="21">research</governor>
+            <dependent idx="20">his</dependent>
+          </dep>
+          <dep type="nmod:in">
+            <governor idx="18">faced</governor>
+            <dependent idx="21">research</dependent>
+          </dep>
+          <dep type="punct">
+            <governor idx="18">faced</governor>
+            <dependent idx="22">.</dependent>
+          </dep>
+        </dependencies>
+      </sentence>
+    </sentences>
+    <coreference>
+      <coreference>
+        <mention representative="true">
+          <sentence>1</sentence>
+          <start>1</start>
+          <end>4</end>
+          <head>2</head>
+          <text>Sam Goodman 's</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>17</start>
+          <end>18</end>
+          <head>17</head>
+          <text>he</text>
+        </mention>
+        <mention>
+          <sentence>1</sentence>
+          <start>20</start>
+          <end>21</end>
+          <head>20</head>
+          <text>his</text>
+        </mention>
+      </coreference>
+    </coreference>
+  </document>
+</root>
